@@ -1,4 +1,13 @@
+/* navbar styles */
+.navbar-nav a {
+    font-family: "RumeiHouse";
+    font-size: 2rem;
+    color: black;
+  }
 
+.navbar-nav a:hover {
+    color: #8067d8;
+  }
 
     font-family: "Montserrat";
 
