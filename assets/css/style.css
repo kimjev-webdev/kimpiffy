@@ -20,7 +20,16 @@ footer {
   }
 
 .footer a {
-    text-decoration: non
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right; 
+    color: white; 
+    font-size: 15px; 
+    padding: 0px 0px 0px 0px; 
+    display: block; 
+      
   }
   
 .footer a:hover {
