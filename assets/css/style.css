@@ -75,16 +75,22 @@ color: #8067d8;
 }
 
 @media (max-width: 768px) {
-    .footer .footer-links {
+    .footer .row {
         display: flex;
-        flex-direction: row; 
-        gap: 20px;  
-        justify-content: center;
+        flex-direction: column;
+        align-items: center; 
       }
-   
-   
-   
-   
+    
+      .footer .form-group {
+        display: none;
+           }
+          
+    
+    
+    
+    
+    
+    
 }
 
 @media (max-width: 991px) {
