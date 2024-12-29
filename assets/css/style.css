@@ -14,10 +14,10 @@
 footer {
     background-color: black;
     color: white;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .footer h5 {
@@ -45,8 +45,8 @@ footer {
 
 .footer .btn:hover,
 .btn:focus {
-background-color: transparent; 
-color: #8067d8;                 
+    background-color: transparent;
+    color: #8067d8;
 }
 
 .footer a {
@@ -61,46 +61,66 @@ color: #8067d8;
     display: block;
 }
 
-.footer a:hover, a:focus {
+.footer a:hover,
+a:focus {
     color: #8067d8;
 }
 
 .instagram-container {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  justify-content: center; 
-  text-align: center;     
-  height: 100%;          
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
+
+    .footer {
+        max-width: 768px;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
     .footer .row {
         display: flex;
         flex-direction: column;
-        align-items: center; 
-      }
-    
-      .footer .form-group {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .form-group {
         display: none;
-           }
-          
-    
-    
-    
-    
-    
+    }
+
+    .footer h5 {
+        display: none;
+    }
+
+    .footer .footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .footer .footer-links a {
+        font-size: 0.8rem;
+    }
     
 }
 
 @media (max-width: 991px) {
-.navbar-collapse {
-    text-align: right;
-}
+    .navbar-collapse {
+        text-align: right;
+    }
 
-.navbar-nav a {
-    font-size: 1.5rem;
-    margin: 0; 
-    padding: 0;
-}
+    .navbar-nav a {
+        font-size: 1.5rem;
+        margin: 5;
+        padding: 5;
+    }
 }
