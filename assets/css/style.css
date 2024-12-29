@@ -60,7 +60,7 @@ color: #8067d8;
     display: block;
 }
 
-.footer a:hover {
+.footer a:hover, a:focus {
     color: #8067d8;
 }
 
