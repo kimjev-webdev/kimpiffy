@@ -9,6 +9,12 @@
     color: #8067d8;
 }
 
+/* carousel / hero styles */
+.carousel-item {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+  }
 
 /* footer styles */
 footer {
