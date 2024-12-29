@@ -24,7 +24,13 @@ footer {
     font-size: 2rem;
     text-align: left;
     }
-    
+
+.footer input[type="email"] {
+    width: 100%;  
+    font-family: "Montserrat";  
+    text-align: center;
+    }
+
 .footer a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
