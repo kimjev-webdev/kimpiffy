@@ -42,6 +42,12 @@ footer {
     width: 105%;
 }
 
+.footer .btn:hover,
+.btn:focus {
+background-color: transparent; 
+color: #8067d8;                 
+}
+
 .footer a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
