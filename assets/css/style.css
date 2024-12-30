@@ -186,8 +186,8 @@ footer .text-light {
            font-size: 4vw;
     }
 
-    .slogan a {
-        font-size: 4vw;
+    .slogan .slogan-button {
+        font-size: 5vw;
         padding: 0.4em 0.8em;
     }
 
@@ -250,43 +250,8 @@ footer .text-light {
         margin-bottom: 8px;
     }
 
-    .slogan a {
-        font-size: 3vw;
+    .slogan .slogan-button {
+        font-size: 6vw;
         padding: 8px 16px;
-    }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
-
-    @keyframes fadeInSlogan {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
     }
 }
