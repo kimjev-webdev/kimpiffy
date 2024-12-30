@@ -254,39 +254,4 @@ footer .text-light {
         font-size: 3vw;
         padding: 8px 16px;
     }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
-
-    @keyframes fadeInSlogan {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
-}
+  }
