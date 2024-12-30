@@ -28,44 +28,46 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #7f67d8a4; 
-    opacity: 0; 
-    transition: opacity 0.7s ease;
-  }
-
-  .slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: #7f67d8a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: white;
     z-index: 2;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-  }
-  
-  .slogan h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    font-family: "Montserrat", sans-serif
-  }
-  
-  .slogan a {
-    font-size: 2rem;
-    padding: 10px 20px;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+}
+
+.slogan {
+    max-width: 90%;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.slogan h2 {
+    font-size: 4vw; /* Responsive font size */
+    margin-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
+    word-wrap: break-word;
+}
+
+.slogan a {
+    font-family: RumeiHouse;
+    font-size: 3vw; 
+    padding: 0.5em 1em;
     color: white;
     background-color: transparent;
-    border: 0px;
+    border: none;
     text-decoration: none;
-    font-family: RumeiHouse;
-  }
-  
-  .slogan a:hover {
-    background-color: transparent;
-    color: rgb(22, 211, 69)
-  }
-  
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.slogan a:hover {
+    color: #08ff2d;
+}
+
   .carousel-item:hover .carousel-overlay {
     opacity: 1;
   }
@@ -149,7 +151,44 @@ footer .text-light {
     font-style: normal;
   }
 
+  @media (max-width: 480px) {
+    .slogan h2 {
+        font-size: 6vw;
+    }
+
+    .slogan a {
+        font-size: 5vw;
+        padding: 0.3em 0.6em;
+    }
+}
+
+
 @media (max-width: 768px) {
+   .navbar-brand {
+        font-size: 2.5rem; 
+    }
+
+    .navbar-nav a {
+        font-size: 2rem;
+    }
+
+    .navbar-toggler {
+        font-size: 2.5rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 3em; 
+        height: 3em;
+    } 
+
+    .slogan h2 {
+           font-size: 5vw;
+    }
+
+    .slogan a {
+        font-size: 4vw;
+        padding: 0.4em 0.8em;
+    }
 
     .footer {
         max-width: 768px;
@@ -203,5 +242,50 @@ footer .text-light {
         font-size: 1.5rem;
         margin: 0;
         padding: 0;
+    }
+
+    .slogan h2 {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+
+    .slogan a {
+        font-size: 1.3rem;
+        padding: 8px 16px;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+    @keyframes fadeInSlogan {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 }
