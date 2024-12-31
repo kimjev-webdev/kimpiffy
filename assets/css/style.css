@@ -1,5 +1,10 @@
-/* contact form */
 
+body {
+    font-family: "Montserrat" sans-serif;
+    text-transform: uppercase;
+}
+
+/* contact form */
 input::placeholder, 
 textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
