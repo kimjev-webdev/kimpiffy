@@ -15,8 +15,9 @@ form.addEventListener('submit', function (event) {
     event.preventDefault(); 
 
     submitButton.textContent = 'THANKS!';
-        
-emailInput.value = '';
+
+    emailInput.value = ''; 
+    emailInput.placeholder = 'ALL DONE...';
 });
 
 

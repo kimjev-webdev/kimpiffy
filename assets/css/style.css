@@ -123,8 +123,8 @@ footer {
     font-style: normal;
     width: 100%;
     padding: 0;
+    margin-top: 10px;
 }
-
 
 #submitButton:hover {
     background-color: transparent;
@@ -134,10 +134,8 @@ footer {
 
 #submitButton:focus,
 #submitButton:active {
-    background-color: transparent;
-     !important;
-    border-color: transparent;
-     !important;
+    background-color: transparent; 
+    border-color: transparent; 
     box-shadow: none;
     color: #8067d8;
 }
