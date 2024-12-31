@@ -12,17 +12,17 @@
 /* carousel / hero styles */
 .carousel-item {
     position: relative;
-    height: 100vh; 
+    height: 100vh;
     overflow: hidden;
-  }
+}
 
-  .carousel-item img {
+.carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  .carousel-overlay {
+.carousel-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -46,7 +46,7 @@
 }
 
 .slogan h2 {
-    font-size: 3vw; 
+    font-size: 3vw;
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-family: "Montserrat", sans-serif;
@@ -55,7 +55,7 @@
 
 .slogan a {
     font-family: "RumeiHouse";
-    font-size: 2vw; 
+    font-size: 2vw;
     padding: 1em 1em;
     color: white;
     background-color: transparent;
@@ -69,14 +69,14 @@
     color: #08ff2d;
 }
 
-  .carousel-item:hover .carousel-overlay {
+.carousel-item:hover .carousel-overlay {
     opacity: 1;
-  }
-  
-  .carousel-item:hover .slogan {
+}
+
+.carousel-item:hover .slogan {
     opacity: 1;
-  }
- 
+}
+
 /* footer styles */
 footer {
     background-color: black;
@@ -94,16 +94,12 @@ footer {
 }
 
 
-
-
-
-
 #emailForm {
     max-width: 100%;
-    font-family: "Montserrat"'  
-  }
-  
-  #submitWrapper {
+    font-family: "Montserrat", san-serif;
+}
+
+#submitWrapper {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -115,9 +111,9 @@ footer {
     font-weight: 400;
     font-style: normal;
     width: 100%;
-  }
+}
 
-#submitWrapper .btn {
+#submitButton {
     background-color: transparent;
     border: none;
     outline: none;
@@ -126,12 +122,23 @@ footer {
     font-weight: 400;
     font-style: normal;
     width: 100%;
+    padding: 0;
 }
 
 
-#submitWrapper .btn:hover,
-.btn:focus {
+#submitButton:hover {
     background-color: transparent;
+    border-color: transparent;
+    color: #8067d8;
+}
+
+#submitButton:focus,
+#submitButton:active {
+    background-color: transparent;
+     !important;
+    border-color: transparent;
+     !important;
+    box-shadow: none;
     color: #8067d8;
 }
 
@@ -162,31 +169,16 @@ a:focus {
 }
 
 footer .text-light {
-    font-size: xx-small; 
-    text-align: center; 
-    margin: 0; 
+    font-size: xx-small;
+    text-align: center;
+    margin: 0;
     padding: 0;
     font-family: "Montserrat", san-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
- 
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .slogan h2 {
         font-size: 6vw;
     }
@@ -199,8 +191,8 @@ footer .text-light {
 
 
 @media (max-width: 768px) {
-   .navbar-brand {
-        font-size: 2.5rem; 
+    .navbar-brand {
+        font-size: 2.5rem;
     }
 
     .navbar-nav a {
@@ -212,12 +204,12 @@ footer .text-light {
     }
 
     .navbar-toggler-icon {
-        width: 3em; 
+        width: 3em;
         height: 3em;
-    } 
+    }
 
     .slogan h2 {
-           font-size: 4vw;
+        font-size: 4vw;
     }
 
     .slogan .slogan-button {
@@ -228,7 +220,7 @@ footer .text-light {
     .footer {
         max-width: 768px;
         align-items: center;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
 
     .footer .row {
@@ -238,18 +230,10 @@ footer .text-light {
         justify-content: center;
     }
 
-    .footer .form-group {
-        display: none;
-    }
-
-    .footer h5 {
-        display: none;
-    }
-
     .footer .footer-links {
         display: flex;
         flex-direction: row;
-        justify-content: center; 
+        justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
@@ -258,7 +242,7 @@ footer .text-light {
     .footer .footer-links a {
         font-size: 0.8rem;
     }
-    
+
     .footer img[src="assets/images/PortfolioFooterLogo.png"] {
         display: none;
     }
@@ -289,5 +273,3 @@ footer .text-light {
         padding: 8px 16px;
     }
 }
-
-

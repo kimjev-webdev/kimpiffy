@@ -1,9 +1,8 @@
 const emailInput = document.getElementById('emailInput');
 const submitButton = document.getElementById('submitButton');
-const thankYouMessage = document.getElementById('thankYouMessage');
 const form = document.getElementById('emailForm');
 
-// Enable the submit button when a valid email is entered
+
 emailInput.addEventListener('input', function () {
     if (emailInput.validity.valid) {
         submitButton.disabled = false;
@@ -12,7 +11,6 @@ emailInput.addEventListener('input', function () {
     }
 });
 
-// Handle form submission
 form.addEventListener('submit', function (event) {
     event.preventDefault(); 
 
