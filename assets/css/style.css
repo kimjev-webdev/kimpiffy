@@ -13,15 +13,14 @@ input::placeholder,
 textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    color: black;
+    color: black !important;
     font-size: 0.8rem;
-
 }
 
 input[type="text"], input[type="email"], textarea {
     font-family: "Montserrat" sans-serif;
     text-transform: uppercase;
-    color: black;
+    color: black !important;
     font-size: 0.8rem;
 }
 
