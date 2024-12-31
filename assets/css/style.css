@@ -1,7 +1,13 @@
  .contactHeader {
     display: flex;
     justify-content: center;
-font-family: "RumeiHouse";
+    text-align: center;
+ }
+
+ .contactHeader h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: "RumeiHouse";
  }
 
 /* navbar styles */
