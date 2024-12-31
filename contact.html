@@ -50,42 +50,59 @@
 
     <!-- contact form -->
 
-    <div class="container-fluid">
-        <form class="row g-3">
-            <div class="contactHeader">
-                <h1>GET IN TOUCH.</h1>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-3">
-                  <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+   <!-- contact form -->
+       <div class="container-fluid">
+           <form class="contactForm">
+               <div class="contactHeader">
+                   <h1>GET IN TOUCH.</h1>
+               </div>
+
+               <div class="row">
+                <!-- First Column: Name, Email, and Query -->
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email" id="inputEmail4">
+                    </div>
+
+                    <div class="mb-3">
+                        <select id="query" class="form-select">
+                            <option selected>Query related to...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
                 </div>
-            <div class="col-12 col-md-3">
-              <input type="email" class="form-control" placeholder="Email" id="inputEmail4">
+
+                <!-- Second Column: Message Field -->
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="Write your message here..." aria-label="Message" rows="6"></textarea>
+                    </div>
+                </div>
             </div>
 
-
-           
-            <div class="col-md-6">
-            <div class="col-md-4">
-              <select id="query" class="form-select">
-                <option selected>Query related to...</option>
-                <option>...</option>
-              </select>
-
+            <!-- Newsletter checkbox -->
             <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Sign up for my newsletter?
-                </label>
-              </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Sign up for my newsletter?
+                    </label>
+                </div>
             </div>
+
+            <!-- Submit button -->
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary" id="contactButton">SUBMIT</button>
             </div>
-          </form>
-          </div>
-        </div>
+        </form>
+    </div>
+
+
+          
 
     <!-- footer -->
     <footer class="footer">

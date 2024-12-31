@@ -1,8 +1,14 @@
- .body {
-    font-family: "Montserrat", sans-serif;
+/* contact form */
+
+input::placeholder, 
+textarea::placeholder {
     text-transform: capitalize;
- }
- 
+    font-family: "Montserrat", sans-serif;
+}
+
+label {
+    text-transform: capitalize;
+}
  /* navbar styles */
 .navbar-nav a {
     font-family: "RumeiHouse";
