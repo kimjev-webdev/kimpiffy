@@ -14,12 +14,15 @@ textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     color: black;
+    font-size: 0.8rem;
+
 }
 
 input[type="text"], input[type="email"], textarea {
     font-family: "Montserrat" sans-serif;
     text-transform: uppercase;
     color: black;
+    font-size: 0.8rem;
 }
 
 #contactButton {
@@ -38,11 +41,17 @@ input[type="text"], input[type="email"], textarea {
     outline: none;
 }
 
-#form-select .option {
+#query {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
+    color: black;
+    font-size: 0.8rem;
 }
 
+input[type="checkbox"]:checked {
+    background-color:#8067d8; 
+    border-color:#8067d8;  
+}
 
 
  /* navbar styles */
@@ -132,11 +141,13 @@ input[type="text"], input[type="email"], textarea {
 .contactHeader {
     display: flex;
     justify-content: center;
-    text-align: justify;
+    align-items: center;
+
  }
  .contactHeader h1 {
     margin-top: 5rem;
     font-family: "RumeiHouse";
+    font-size: 10vw;
  }
 
  
@@ -349,7 +360,7 @@ footer .text-light {
 
 @media (min-width:767px) {
     .contactHeader h1 {
-        font-size: 9.5rem;
+        width: 100%;
     }
 }
 
