@@ -4,6 +4,10 @@ body {
     text-transform: uppercase;
 }
 
+body .btn {
+    font-family: "RumeiHouse";
+}
+
 /* contact form */
 input::placeholder, 
 textarea::placeholder, .form-select, .form-check-label {
@@ -16,9 +20,20 @@ input[type="text"], input[type="email"], textarea {
     text-transform: uppercase;
 }
 
+#contactButton {
+    display: flex;
+    background-color: transparent;
+    outline: none;
+    font-size: 2rem;
+    color: black;
+ }
 
 
-
+#contactButton:hover {
+    color: #8067d8;
+    background-color: transparent;
+    outline: none;
+}
 
 
 
