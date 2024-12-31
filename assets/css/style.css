@@ -1,14 +1,17 @@
 /* contact form */
 
 input::placeholder, 
-textarea::placeholder {
-    text-transform: capitalize;
+textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
 }
 
-label {
-    text-transform: capitalize;
-}
+
+
+
+
+
+
+
  /* navbar styles */
 .navbar-nav a {
     font-family: "RumeiHouse";
