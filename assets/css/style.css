@@ -3,6 +3,12 @@
 input::placeholder, 
 textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="email"], textarea {
+    font-family: "Montserrat" sans-serif;
+    text-transform: uppercase;
 }
 
 
