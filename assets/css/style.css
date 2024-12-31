@@ -18,10 +18,9 @@ textarea::placeholder, .form-select, .form-check-label {
 }
 
 input[type="text"], input[type="email"], textarea {
-    font-family: "Montserrat" sans-serif;
-    text-transform: uppercase;
+    font-family: "Montserrat" sans-serif; 
     color: black !important;
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
 }
 
 #contactButton {
