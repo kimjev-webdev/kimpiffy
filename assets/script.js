@@ -17,12 +17,8 @@ form.addEventListener('submit', function (event) {
     event.preventDefault(); 
 
     submitButton.textContent = 'THANKS!';
-    
-    submitButton.disabled = true;
-    
-    thankYouMessage.style.display = 'block';
-    
-    emailInput.value = '';
+        
+emailInput.value = '';
 });
 
 
