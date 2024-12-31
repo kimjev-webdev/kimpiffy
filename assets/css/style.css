@@ -1,4 +1,6 @@
  .contactHeader {
+    display: flex;
+    justify-content: center;
 font-family: "RumeiHouse";
  }
 
