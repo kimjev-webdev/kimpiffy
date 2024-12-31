@@ -99,6 +99,10 @@ footer {
     font-family: "Montserrat", san-serif;
 }
 
+#emailInput {
+    text-align: center;
+}
+
 #submitWrapper {
     display: flex;
     flex-direction: column;
@@ -247,6 +251,16 @@ footer .text-light {
 
     .footer i {
         font-size: 2.5rem;
+    }
+
+    #submitButton {
+        margin: 0.1rem;
+    }
+
+    .footer h5 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 }
 
