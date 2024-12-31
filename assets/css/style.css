@@ -223,6 +223,7 @@ footer .text-light {
         max-width: 768px;
         align-items: center;
         flex-wrap: wrap;
+        padding-top: 0;
     }
 
     .footer .row {
@@ -259,18 +260,19 @@ footer .text-light {
 
     #submitButton {
         margin: 0.1rem;
+
     }
 
   .footer .col-12.col-md-3 {
-         display: flex;                      /* Use flexbox */
-         flex-direction: column;             /* Stack the elements vertically */
-         align-items: center;                /* Center items horizontally on small screens */
-         justify-content: center;            /* Center items vertically */
-         text-align: center;                 /* Center text inside */
-         padding: 0;                          /* Remove any default padding */
+         display: flex;                      
+         flex-direction: column;            
+         align-items: center;             
+         justify-content: center;           
+         text-align: center;                
+         padding: 0;  
+         padding-bottom: 5px;                      
          margin: 0;      
-                       /* Remove any default margin */
-    }
+}
 }
 
 @media (max-width: 991px) {
