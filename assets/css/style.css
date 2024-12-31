@@ -36,9 +36,9 @@ input[type="text"], input[type="email"], textarea {
     outline: none;
 }
 
-
-#contactmain {
-
+.form-select option {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
 }
 
 
@@ -134,9 +134,16 @@ input[type="text"], input[type="email"], textarea {
     font-family: "RumeiHouse";
  }
 
+ 
+    .contact-form-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;      
+        height: 100vh;            
+        background-color:#8067d8;
+ }
 /* footer styles */
 footer {
-position: absolute;
 width: 100%;
 bottom: 0;
     background-color: black;
