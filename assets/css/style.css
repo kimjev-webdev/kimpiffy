@@ -23,6 +23,7 @@ input[type="text"], input[type="email"], textarea {
 #contactButton {
     display: flex;
     background-color: transparent;
+    border: none;
     outline: none;
     font-size: 2rem;
     color: black;
