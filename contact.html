@@ -48,97 +48,52 @@
         </div>
     </nav>
 
-    <!-- contact form -->
-
-    <div class="container-fluid">
-    <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-      </div>
-
     <!-- footer -->
     <footer class="footer">
         <div class="container-fluid px-1">
             <div class="row text-center text-md-left">
                 <!-- footer email sign up -->
-                <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center align-items-start">
-                    <h5>EMAIL.</h5>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="STAY UPDATED...">
-                            <button type="submit" class="btn btn-primary w-100 text-end">SIGN UP!</button>
-                        </div>
-                    </form>
-                </div>
-                <!-- empty column for symmetry -->
-                <div class="col-12 col-md-1"></div>
-                <!-- logo & social icons -->
-                <div
-                    class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
-                    <img src="assets/images/PortfolioFooterLogo.png" alt="Logo" class="mx-2 my-2"
-                        style="max-height: 60px;">
-                    <a href="https://www.instagram.com/kimpiffy" target="_blank" class="mx-2 my-2 mb-3">
-                        <i class="fa-brands fa-instagram fa-4x"></i>
-                    </a>
-                </div>
-                <!-- footer navigation links -->
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
-                    <ul class="list-unstyled footer-links">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- copyright -->
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="text-light copyright">&copy; KIM JEVON 2024</p>
-                </div>
+                <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
+                <h5>EMAIL.</h5>
+            <form id="emailForm">
+        <div class="form-group">
+        <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..." required>
+        <div id="submitWrapper">
+        <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton" disabled>
+            SIGN UP!
+        </button>
+        </div>
+        </form>
+        </div>
+        </div>
+        
+        <!-- empty column for symmetry -->
+        <div class="col-12 col-md-1"></div>
+
+        <!-- logo & social icons -->
+        <div class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
+            <img src="assets/images/PortfolioFooterLogo.png" alt="Logo" class="mx-2 my-2" style="max-height: 60px;">
+            <a href="https://www.instagram.com/kimpiffy" target="_blank" class="mx-2 my-3 mb-2">
+                <i class="fa-brands fa-instagram fa-4x"></i>
+            </a>
+        </div>
+        <!-- footer navigation links -->
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+            <ul class="list-unstyled footer-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        </div>
+        <!-- copyright -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="text-light copyright">&copy; KIM JEVON 2024</p>
             </div>
         </div>
+        
     </footer>
 
     <!-- bootstrap java link -->
@@ -146,6 +101,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+    <!-- custom java link -->
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
