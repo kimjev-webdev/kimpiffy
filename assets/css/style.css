@@ -1,16 +1,9 @@
- .contactHeader {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+ .body {
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
  }
-
- .contactHeader h1 {
-    margin-top: 2rem;
-    font-size: 2rem;
-    font-family: "RumeiHouse";
- }
-
-/* navbar styles */
+ 
+ /* navbar styles */
 .navbar-nav a {
     font-family: "RumeiHouse";
     font-size: 2rem;
@@ -88,6 +81,18 @@
 .carousel-item:hover .slogan {
     opacity: 1;
 }
+
+/* contact page styles */
+.contactHeader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ .contactHeader h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: "RumeiHouse";
+ }
 
 /* footer styles */
 footer {
