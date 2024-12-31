@@ -135,6 +135,7 @@ input[type="checkbox"]:checked {
 
 .contactForm {
     width: 100%;
+    padding-bottom: 10vh;
 }
 .contactHeader {
     display: flex;
@@ -356,11 +357,6 @@ footer .text-light {
 }
 }
 
-@media (min-width:767px) {
-    .contactHeader h1 {
-        width: 100%;
-    }
-}
 
 @media (max-width: 991px) {
     .navbar-collapse {
@@ -381,5 +377,9 @@ footer .text-light {
     .slogan .slogan-button {
         font-size: 6vw;
         padding: 8px 16px;
+    }
+
+    .footer .emailFormContact {
+        display: none;
     }
 }
