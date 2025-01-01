@@ -91,7 +91,6 @@ body .btn {
 
 .contactForm {
     width: 100%;
-    padding-bottom: 10vh;
 }
 .contactHeader {
     display: flex;
@@ -106,15 +105,12 @@ body .btn {
  }
 
 .contact-form-container {
-        display: flex;
-        justify-content: center;  
-        align-items: flex-start;      
-        height: 100vh;            
-        background-color:#8067d8;
-        padding: 20px;
+        background-color: transparent;
  }
 
-/* contact form */
+.contactBody {
+    background-image: url("/assets/images/ContactBackground.jpeg");
+}
 input::placeholder, 
 textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
