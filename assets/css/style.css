@@ -147,6 +147,40 @@ input[type="checkbox"]:checked {
     border-color:#8067d8;  
 }
 
+/* contact form thankyou message */
+
+#thankYouMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 
+    width: 100%; 
+    padding: 20px;
+}
+
+#thankYouMessage a {
+    margin: 10px; /* Space between social icons */
+}
+
+#thankYouMessage a:hover {
+    color: #8067d8;
+}
+
+#thankYouMessage h1 {
+    font-size: 3rem;
+    font-family: "RumeiHouse";
+    margin-bottom: 20px;
+}
+
+#thankYouMessage p {
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+
 /* footer styles */
 footer {
 width: 100%;

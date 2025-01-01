@@ -1,10 +1,11 @@
-// Footer
+// Footer Form Logic (Email Sign-Up Form)
 
+// Accessing elements for the footer form
 const emailInput = document.getElementById('emailInput');
 const submitButton = document.getElementById('submitButton');
-const form = document.getElementById('emailForm');
+const emailForm = document.getElementById('emailForm');
 
-
+// Enable/Disable Submit Button based on Email Validity
 emailInput.addEventListener('input', function () {
     if (emailInput.validity.valid) {
         submitButton.disabled = false;
@@ -13,28 +14,33 @@ emailInput.addEventListener('input', function () {
     }
 });
 
-form.addEventListener('submit', function (event) {
-    event.preventDefault(); 
+// Handling form submission (for the footer form)
+emailForm.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the form from submitting
 
-    submitButton.textContent = 'THANKS!';
+    submitButton.textContent = 'THANKS!'; // Change button text
 
-    emailInput.value = ''; 
+    // Clear the input field and change its placeholder
+    emailInput.value = '';
     emailInput.placeholder = 'ALL DONE...';
 });
 
-//Contact page
+// Contact Form Logic
 
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); 
+// Accessing elements for the contact form
+const contactForm = document.querySelector('.contactForm');
+const contactHeading = document.querySelector('.contactHeader h1');
+const formFields = document.getElementById('formFields');
+const thankYouMessage = document.getElementById('thankYouMessage');
 
+// Handling form submission (for the contact form)
+contactForm.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the form from submitting
 
-    document.getElementById('contactHeading').textContent = 'SPEAK SOON!';
-    document.getElementById('formFields').classList.add('d-none');
-    document.getElementById('thankYouMessage').classList.remove('d-none');
+    // Change heading text and hide the form fields
+    contactHeading.textContent = 'SPEAK SOON!';
+    formFields.classList.add('d-none');
 
+    // Show the thank-you message
+    thankYouMessage.classList.remove('d-none');
 });
-
-
-
-
-
