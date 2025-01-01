@@ -69,6 +69,7 @@ body .btn {
 }
 
 .slogan p {
+    font-family: "Montserrat", sans-serif;
     font-size: 2vw;
 }
 
@@ -79,12 +80,11 @@ body .btn {
     background-color: transparent;
     border: none;
     text-decoration: none;
-    border-radius: 5px;
     display: inline-block;
 }
 
 .slogan a:hover {
-    color: #08ff2d;
+    color: #c5fa07;
 }
 
 .carousel-item:hover .carousel-overlay {
@@ -318,10 +318,10 @@ footer .text-light {
 
 .slogan p {
     font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
 }
     .slogan a {
         font-size: 5vw;
-        padding: 0.3em 0.6em;
     }
 }
 
@@ -349,12 +349,13 @@ footer .text-light {
     }
 
     .slogan p {
-        font-size: 4vw;
-        margin-top: 1em;
+        font-size: 2vw;
+        font-family: "Montserrat" sans-serif;
     }
 
-    #slogan-button {
+    .slogan a {
         font-size: 5vw;
+        padding: 0;
     }
 
     #thankYouMessage p {
@@ -368,7 +369,7 @@ footer .text-light {
     }
 
     #contactButton {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .footer {
@@ -439,16 +440,16 @@ footer .text-light {
     }
 
     .slogan h2 {
-        font-size: 3vw;
+        font-size: 5vw;
         margin-bottom: 1em;
     }
 
     .slogan p {
-        font-size: 2vw;
-        margin-top: 1rem;
+        font-family: "Montserrat", sans-serif;
+        font-size: 3vw;
     }
 
-    #slogan-button {
+   .slogan a {
         font-size: 6vw;
     }
 }
