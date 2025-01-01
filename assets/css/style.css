@@ -68,10 +68,13 @@ body .btn {
     word-wrap: break-word;
 }
 
+.slogan p {
+    font-size: 2vw;
+}
+
 .slogan a {
     font-family: "RumeiHouse";
-    font-size: 2vw;
-    padding: 1em 1em;
+    font-size: 4vw;
     color: white;
     background-color: transparent;
     border: none;
@@ -313,6 +316,9 @@ footer .text-light {
         font-size: 6vw;
     }
 
+.slogan p {
+    font-size: 5vw;
+}
     .slogan a {
         font-size: 5vw;
         padding: 0.3em 0.6em;
@@ -342,9 +348,12 @@ footer .text-light {
         font-size: 4vw;
     }
 
-    .slogan .slogan-button {
+    .slogan p {
+        font-size: 3vw;
+    }
+
+    #slogan-button {
         font-size: 5vw;
-        padding: 0.4em 0.8em;
     }
 
     #thankYouMessage p {
@@ -428,13 +437,16 @@ footer .text-light {
         padding: 0;
     }
 
-    .slogan .h2 {
+    .slogan h2 {
         font-size: 3vw;
         margin-bottom: 8px;
     }
 
-    .slogan .slogan-button {
+    .slogan p {
+        font-size: 2vw;
+    }
+
+    #slogan-button {
         font-size: 6vw;
-        padding: 8px 16px;
     }
 }
