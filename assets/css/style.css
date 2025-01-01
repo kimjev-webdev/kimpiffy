@@ -161,7 +161,10 @@ input[type="checkbox"]:checked {
 }
 
 #thankYouMessage a {
-    margin: 10px; /* Space between social icons */
+    margin: 2px; 
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
 }
 
 #thankYouMessage a:hover {
@@ -172,15 +175,22 @@ input[type="checkbox"]:checked {
     
     font-size: 10vw;
     font-family: "RumeiHouse";
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 #thankYouMessage p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
 }
 
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    margin: 2px; 
+    text-decoration: none;
+    color: black;
+}
 
 /* footer styles */
 footer {
