@@ -184,7 +184,7 @@ input[type="checkbox"]:checked {
     margin-bottom: 20px;
 }
 
-.social-icon {
+.socialIcons {
     display: flex;
     flex-direction: row;
     margin: 2px; 

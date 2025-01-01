@@ -32,6 +32,7 @@ const contactForm = document.querySelector('.contactForm');
 const contactHeading = document.querySelector('.contactHeader h1');
 const formFields = document.getElementById('formFields');
 const thankYouMessage = document.getElementById('thankYouMessage');
+const socialIcons = document.getElementById('social-icons');
 
 // Handling form submission (for the contact form)
 contactForm.addEventListener('submit', function (event) {
@@ -43,4 +44,6 @@ contactForm.addEventListener('submit', function (event) {
 
     // Show the thank-you message
     thankYouMessage.classList.remove('d-none');
+
+    socialIcons.classList.remove('d-none');
 });
