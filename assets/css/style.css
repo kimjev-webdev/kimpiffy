@@ -131,7 +131,6 @@ input[type="text"], input[type="email"], textarea {
     outline: none;
     font-size: 2.5rem;
     color: black;
-;
  }
 
 
@@ -356,6 +355,10 @@ footer .text-light {
 
     #socialIcons a {
         font-size: 0.8rem;
+    }
+
+    #contactButton {
+        font-size: 1.7rem;
     }
 
     .footer {
