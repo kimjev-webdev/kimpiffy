@@ -180,19 +180,17 @@ input[type="checkbox"]:checked {
 #thankYouMessage p {
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 3px;
+    margin-bottom: 7px;
 }
 
-/* Social Icons container, aligning them to the bottom */
 #socialIcons {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align icons to the bottom */
-    margin-top: 20px; /* Optional: adds space between the paragraph and icons */
+    align-items: flex-start;
+    margin-top: 2px; 
 }
 
 #socialIcons a {
-    margin: 0 10px; /* Space between icons */
     text-decoration: none;
     color: black;
 }
@@ -342,6 +340,16 @@ footer .text-light {
     .slogan .slogan-button {
         font-size: 5vw;
         padding: 0.4em 0.8em;
+    }
+
+    #thankYouMessage p {
+        font-size: 0.8rem;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 7px;
+    }
+
+    #socialIcons a {
+        font-size: 0.8rem;
     }
 
     .footer {
