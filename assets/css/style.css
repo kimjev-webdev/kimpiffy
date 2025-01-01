@@ -9,6 +9,11 @@ body .btn {
 }
 
  /* navbar styles */
+
+ .navbar-nav {
+    padding: 2px;
+    margin: 5px;
+ }
 .navbar-nav a {
     font-family: "RumeiHouse";
     font-size: 2rem;
