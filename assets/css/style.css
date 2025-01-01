@@ -102,15 +102,9 @@ body .btn {
     margin-top: 5rem;
     font-family: "RumeiHouse";
     font-size: 10vw;
+    color: black;
  }
 
-.contact-form-container {
-        background-color: transparent;
- }
-
-.contactBody {
-    background-image: url("/assets/images/ContactBackground.jpeg");
-}
 input::placeholder, 
 textarea::placeholder, .form-select, .form-check-label {
     font-family: "Montserrat", sans-serif;
