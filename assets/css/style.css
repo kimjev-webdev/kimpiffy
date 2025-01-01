@@ -169,7 +169,8 @@ input[type="checkbox"]:checked {
 }
 
 #thankYouMessage h1 {
-    font-size: 3rem;
+    
+    font-size: 10vw;
     font-family: "RumeiHouse";
     margin-bottom: 20px;
 }
