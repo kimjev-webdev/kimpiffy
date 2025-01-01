@@ -1,3 +1,5 @@
+// Footer
+
 const emailInput = document.getElementById('emailInput');
 const submitButton = document.getElementById('submitButton');
 const form = document.getElementById('emailForm');
@@ -20,9 +22,17 @@ form.addEventListener('submit', function (event) {
     emailInput.placeholder = 'ALL DONE...';
 });
 
+//Contact page
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault(); 
 
 
+    document.getElementById('contactHeading').textContent = 'SPEAK SOON!';
+    document.getElementById('formFields').classList.add('d-none');
+    document.getElementById('thankYouMessage').classList.remove('d-none');
 
+});
 
 
 
