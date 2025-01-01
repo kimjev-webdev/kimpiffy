@@ -349,7 +349,8 @@ footer .text-light {
     }
 
     .slogan p {
-        font-size: 3vw;
+        font-size: 4vw;
+        margin-top: 1em;
     }
 
     #slogan-button {
@@ -439,11 +440,12 @@ footer .text-light {
 
     .slogan h2 {
         font-size: 3vw;
-        margin-bottom: 8px;
+        margin-bottom: 1em;
     }
 
     .slogan p {
         font-size: 2vw;
+        margin-top: 1rem;
     }
 
     #slogan-button {
