@@ -1,8 +1,11 @@
 
-body {
+html, body {
     font-family: "Montserrat" sans-serif;
     text-transform: uppercase;
-}
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+  }
 
 body .btn {
     font-family: "RumeiHouse";
@@ -96,6 +99,19 @@ body .btn {
 }
 
 /* contact page styles */
+
+.contactBody {
+    height: 100%;
+}
+
+.mainContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
 
 .contactForm {
     width: 100%;
@@ -369,7 +385,7 @@ footer .text-light {
     }
 
     #contactButton {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .footer {
