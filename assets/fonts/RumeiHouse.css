@@ -1,7 +1,7 @@
 @font-face {
   font-family: "RumeiHouse";
-  src: url('/assets/fonts/RumeiHouse/font.woff2') format('woff2'),
-    url('/assets/fonts/RumeiHouse/font.woff') format('woff');
+  src: url('./assets/fonts/RumeiHouse/font.woff2') format('woff2'),
+    url('./assets/fonts/RumeiHouse/font.woff') format('woff');
 }
 
 /**
