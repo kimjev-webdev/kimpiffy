@@ -1,10 +1,9 @@
 html,
 body, main {
-    font-family: "Montserrat"sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
 body .btn {
@@ -101,13 +100,39 @@ body .btn {
 
 /* about page styles */
 
-.aboutMe {
-    text-align: center;
+
+/* Styling for the header */
+.great {
+    font-family: "RumeiHouse", sans-serif;
+    font-size: 15vh;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-.great  {
- font-family: "RumeiHouse";
- font-size: 10vw;
+/* Profile Image adjustments */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* About Me Header Styling */
+.about-me-title {
+    font-family: "RumeiHouse", sans-serif;
+font-size: clamp(3.5rem, 5vw, 7vh); 
+line-height: 1;   
+text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* About Me Text Styling */
+.about-text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 20px;
 }
 
 .btn.cvButton,
@@ -125,13 +150,6 @@ body .btn {
     background-color: transparent;
     outline: none;
 }
-
-.aboutButtons {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
 
 /* contact page styles */
 
