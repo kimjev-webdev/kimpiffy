@@ -105,6 +105,11 @@ body .btn {
     text-align: center;
 }
 
+.great  {
+ font-family: "RumeiHouse";
+ font-size: 10vw;
+}
+
 .btn.cvButton,
 .btn.galleryButton {
     background-color: transparent;
