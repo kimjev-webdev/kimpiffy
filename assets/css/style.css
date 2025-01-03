@@ -1,5 +1,5 @@
 html,
-body {
+body, main {
     font-family: "Montserrat"sans-serif;
     text-transform: uppercase;
     height: 100%;
@@ -101,6 +101,10 @@ body .btn {
 
 /* about page styles */
 
+.aboutMe {
+    text-align: center;
+}
+
 .btn.cvButton,
 .btn.galleryButton {
     background-color: transparent;
@@ -115,6 +119,12 @@ body .btn {
     color: #8067d8;
     background-color: transparent;
     outline: none;
+}
+
+.aboutButtons {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
