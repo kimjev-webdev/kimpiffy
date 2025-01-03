@@ -58,22 +58,25 @@ body .btn {
 
 .slogan {
     max-width: 80%;
-    padding: 1rem;
     color: white;
     text-align: center;
 }
 
 .slogan h2 {
-    font-size: 3vw;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    font-family: "Montserrat", sans-serif;
-    word-wrap: break-word;
+    font-size: 5vw;
+    font-family: "RumeiHouse", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .slogan p {
     font-family: "Montserrat", sans-serif;
     font-size: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    line-height: 1.2;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .slogan a {
@@ -111,7 +114,7 @@ body .btn {
 
 /* Profile Image adjustments */
 .img-fluid {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 50%;
 }
@@ -120,9 +123,10 @@ body .btn {
 .about-me-title {
     font-family: "RumeiHouse", sans-serif;
 font-size: clamp(3.5rem, 5vw, 7vh); 
-line-height: 1;   
+line-height: 0.5;   
 text-transform: uppercase;
     text-align: center;
+    line-height: 1;
     margin-top: 0;
 }
 
@@ -131,7 +135,7 @@ text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.2;
     margin-top: 20px;
 }
 
