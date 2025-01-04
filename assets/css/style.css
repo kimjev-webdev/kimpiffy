@@ -108,14 +108,9 @@ body .btn {
 
 .about-text {
     text-align: justify;
+    margin: 0;
+    padding 0;
 }
-      
-.greatRow img { 
-    max-width: 400px;
-    height: auto;
-
-}
-
 
 .btn.cvButton,
 .btn.galleryButton {
@@ -129,7 +124,6 @@ body .btn {
     color: black;
     text-align: center !important;
     margin-top: 5px;
-    padding: 12px;
 }
 
 .btn.cvButton:hover,
@@ -424,10 +418,6 @@ footer .text-light {
         padding: 0;
     }
 
-    .aboutMe {
-        flex-direction: row;
-    }
-
     .greatRow {
         flex-direction: row; /* Keep the row aligned horizontally */
         margin-top: 0;
@@ -499,6 +489,12 @@ footer .text-light {
         padding: 0;
         padding-bottom: 5px;
         margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .aboutMe {
+        flex-direction: row;
     }
 }
 
