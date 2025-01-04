@@ -107,52 +107,15 @@ body .btn {
 
 
 .about-text {
-    margin: 30px;
     text-align: justify;
 }
-
-.firstBit, .secondBit {
-    margin: 0;
-    padding: 0;
-}
-.aboutMe {
-        display: grid;
-        grid-template-rows: 2fr 1fr; 
-        align-content: space-around;
-      }
-
-      .aboutInfo {
-        align-content: center;
-      }
       
-.greatRow {
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    padding-top: 30px;
-
-}
 .greatRow img { 
-    width: 400px;
+    max-width: 400px;
     height: auto;
+
 }
 
-.aboutMe .row {
-    margin-bottom: 0 !important;
-    padding: 20px; /* Remove default margin from Bootstrap rows */
-}
-
-.about-text {
-    margin-bottom: 0; 
-}
-
-.nameText {
-    width: 35vh;
-}
-
-.profileImage {
-   width: 35vh;
-}
 
 .btn.cvButton,
 .btn.galleryButton {
@@ -459,6 +422,15 @@ footer .text-light {
     .slogan a {
         font-size: 5vw;
         padding: 0;
+    }
+
+    .aboutMe {
+        flex-direction: row;
+    }
+
+    .greatRow {
+        flex-direction: row; /* Keep the row aligned horizontally */
+        margin-top: 0;
     }
 
     #thankYouMessage p {
