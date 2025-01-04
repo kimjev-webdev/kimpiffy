@@ -103,32 +103,33 @@ body .btn {
 }
 
 /* about page styles */
+
+.greatRow {
+    padding-top: 20px;
+    margin-right: 50px;
+    padding-left: 4vw;
+    margin: 20px;
+}
+.greatRow img {
+    width: 35vh;
+    height: auto;
+    margin-top: 15px;
+}
+
+.nameText {
+    width: 22vh;
+}
+
 .aboutInfo {
         display: flex;
         flex-direction: column;
         justify-content: center; 
         align-items: center;      
-        width: 50vw;              
+        width: 30vw;              
         margin-left: auto;        
         padding: 20px;
 }
 
-.greatHead {
-    display: inline-block;
-    width: 100%; 
-    text-align: jusify;
-    line-height: 1; 
-    white-space: normal; 
-    font-family: "RumeiHouse", sans-serif;
-    text-transform: uppercase;
- font-size: 10vw;
-  }
-  
-  .greatHead::after {
-    content: ''; /* No content, just used for forcing the layout */
-    display: inline-block;
-    width: 100%; 
-  }
 
 .rounded-circle {
    width: 100%;
@@ -136,19 +137,12 @@ body .btn {
   margin-right: 3vw;
 }
 
-.about-me-title {
-    font-family: "RumeiHouse", sans-serif;
-    font-size: clamp(3.5rem, 5vw, 7vh);
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 0.9;
-    margin-top: 0;
-}
-
 .about-text {
     font-family: "Montserrat", sans-serif;
     text-align: justify;
     width: 100%;
+    padding-right: 4vw;
+    padding-left: 3vw;
     font-size: 1rem;
     line-height: 1.2;
     margin-top: 20px;
