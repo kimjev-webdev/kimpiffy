@@ -107,18 +107,29 @@ body .btn {
 .aboutMe {
     display: flex;
     width: 100vw;
+    padding: 0;
+    margin: 0;
 }
-.lovely {
+.greatRow {
     width: 50vw;
+    align-items: center;
 }
 
+
 .aboutInfo {
-    width: 50vw;
+        display: flex;
+        justify-content: center; 
+        align-items: center;      
+        width: 50vw;              
+        margin-left: auto;        
+        padding: 20px;
 }
-.great {
+.greatHead {
     font-family: "RumeiHouse", sans-serif;
     font-size: 15vh;
+    line-height: 1;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .img-fluid {
@@ -137,6 +148,10 @@ body .btn {
     margin-top: 0;
 }
 
+.aboutCol {
+    align-items: center ;
+    justify-content: center;
+}
 .about-text {
     font-family: "Montserrat", sans-serif;
     text-align: center;
