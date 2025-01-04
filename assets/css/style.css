@@ -116,7 +116,6 @@ body .btn {
 .greatRow {
     width: 100%;
     align-items: center;
-    text-align: center;
 }
 
 .greatHead {
@@ -125,6 +124,12 @@ body .btn {
     text-transform: uppercase;
     text-align: center;
  font-size: 10vw;
+ width: 100%;
+}
+
+.greatHead br {
+    display: block;
+    width: 100%;
 }
 
 .rounded-circle {
