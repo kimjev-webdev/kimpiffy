@@ -104,15 +104,25 @@ body .btn {
 
 /* about page styles */
 
+
+
 .about-text {
     margin: 30px;
     text-align: justify;
 }
 
+.firstBit, .secondBit {
+    margin: 0;
+    padding: 0;
+}
 .aboutMe {
         display: grid;
         grid-template-rows: 2fr 1fr; 
-        height: 100vh;
+        align-content: space-around;
+      }
+
+      .aboutInfo {
+        align-content: center;
       }
       
 .greatRow {
@@ -120,31 +130,29 @@ body .btn {
     align-items: start;
     justify-content: start;
     padding-top: 30px;
+
 }
 .greatRow img { 
     width: 400px;
     height: auto;
 }
 
-.nameText {
-    width: 30vh;
+.aboutMe .row {
+    margin-bottom: 0 !important;
+    padding: 20px; /* Remove default margin from Bootstrap rows */
 }
 
-.aboutInfo {
-        display: flex;
-        justify-content: center; 
-        align-items: center; 
-        margin: 50px;
-        padding: 20px;                        
+.about-text {
+    margin-bottom: 0; 
+}
+
+.nameText {
+    width: 35vh;
 }
 
 .profileImage {
-   width: 30vh;
+   width: 35vh;
 }
-
-
-
-
 
 .btn.cvButton,
 .btn.galleryButton {
@@ -157,6 +165,8 @@ body .btn {
     font-size: 2rem;
     color: black;
     text-align: center !important;
+    margin-top: 5px;
+    padding: 12px;
 }
 
 .btn.cvButton:hover,
