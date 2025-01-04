@@ -104,17 +104,15 @@ body .btn {
 
 /* about page styles */
 
-.aboutMe {
-    display: flex;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-}
-.greatRow {
-    width: 50vw;
-    align-items: center;
-}
 
+.greatRow {
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
 
 .aboutInfo {
         display: flex;
@@ -132,26 +130,21 @@ body .btn {
     text-align: center;
 }
 
-.img-fluid {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+.rounded-circle {
+   width: 100%;
+   min-width: 17vw;
+  margin-right: 3vw;
 }
 
 .about-me-title {
     font-family: "RumeiHouse", sans-serif;
     font-size: clamp(3.5rem, 5vw, 7vh);
-    line-height: 0.5;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1;
+    line-height: 0.9;
     margin-top: 0;
 }
 
-.aboutCol {
-    align-items: center ;
-    justify-content: center;
-}
 .about-text {
     font-family: "Montserrat", sans-serif;
     text-align: center;
