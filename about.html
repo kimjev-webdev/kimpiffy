@@ -48,57 +48,40 @@
         </div>
     </nav>
 
-<div class="aboutMe">
-        <div class="container py-5">
-            <!-- First Row: Full 50% width with header -->
-            <div class="row d-flex">
-                <div class="col-12 col-md-6 text-center">
-                    <h2 class="great">it's lovely to meet you!</h2>
-                </div>
+    <div class="container d-flex py-5 aboutMe">
+        <!-- First Row: Full 50% width with header -->
+        <div class="row lovely">
+            <div class="col-12 col-md-6">
+                <h2 class="great">it's lovely to meet you!</h2>
             </div>
-    
-            <!-- Second Row: Profile image + About Me header aligned horizontally -->
-            <div class="row d-flex mt-4">
-                <!-- Profile Image -->
-                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
-                    <img src="assets/images/AboutImage.png" alt="Profile Image" class="img-fluid rounded-circle w-75">
-                </div>
-                <!-- About Me Header -->
-                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
-                    <h3 class="about-me-title">My name is Kim</h3>
-                </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row aboutInfo mt-4 d-flex justify-content-around" style="flex-direction: column;">
+            <!-- Profile Image -->
+            <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="assets/images/AboutImage.png" alt="Profile Image" class="img-fluid rounded-circle w-75">
+                <h3 class="about-me-title">My name is Kim</h3>
             </div>
-    
-            <!-- Third Row: About Me Paragraph Below -->
-            <div class="row mt-4">
-                <div class="col-12 col-md-6">
-                    <p class="about-text">
-                        I am a visual artist and aspiring web developer. My creative background allows me to approach design projects from a different angle, with a strong focus on making the user experience both beautiful and intuitive. I understand the importance of colors, composition, and storytelling from both an artistic and technical perspective.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Download CV Button -->
-            <div class="row mt-4">
-                <div class="col-12 col-md-6 text-center">
-                    <a href="insertcvhere.pdf" class="btn cvButton" download>Download CV</a>
-                </div>
-            </div>
-    
-            <!-- Lorem Ipsum Paragraph -->
-            <div class="row mt-4">
-                <div class="col-12 col-md-6">
-                    <p class="about-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- View My Work Button -->
-            <div class="row mt-4">
-                <div class="col-12 col-md-6 text-center">
-                    <a href="gallery.html" class="btn galleryButton">View My Work</a>
-                </div>
+
+            <div class="col-12 col-md-6 w-100">
+                <p class="about-text">
+                    I am a visual artist and aspiring web developer. My creative background allows me to approach design
+                    projects from a different angle, with a strong focus on making the user experience both beautiful
+                    and intuitive. I understand the importance of colors, composition, and storytelling from both an
+                    artistic and technical perspective.
+                </p>
+
+                <a href="insertcvhere.pdf" class="btn cvButton" download>Download CV</a>
+
+
+                <p class="about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
+                    dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas
+                    ligula massa, varius a, semper congue, euismod non, mi.
+                </p>
+
+                <a href="gallery.html" class="btn galleryButton">View My Work</a>
             </div>
         </div>
     </div>
@@ -109,38 +92,40 @@
             <div class="row text-center text-md-left">
                 <!-- footer email sign up -->
                 <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
-                <h5>EMAIL.</h5>
-            <form id="emailForm">
-        <div class="form-group">
-        <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..." required>
-        <div id="submitWrapper">
-        <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton" disabled>
-            SIGN UP!
-        </button>
-        </div>
-        </form>
-        </div>
-        </div>
-        
-        <!-- empty column for symmetry -->
-        <div class="col-12 col-md-1"></div>
+                    <h5>EMAIL.</h5>
+                    <form id="emailForm">
+                        <div class="form-group">
+                            <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
+                                required>
+                            <div id="submitWrapper">
+                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
+                                    disabled>
+                                    SIGN UP!
+                                </button>
+                            </div>
+                    </form>
+                </div>
+            </div>
 
-        <!-- logo & social icons -->
-        <div class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
-            <img src="assets/images/PortfolioFooterLogo.png" alt="Logo" class="mx-2 my-2" style="max-height: 60px;">
-            <a href="https://www.instagram.com/kimpiffy" target="_blank" class="mx-2 my-3 mb-2">
-                <i class="fa-brands fa-instagram fa-4x"></i>
-            </a>
-        </div>
-        <!-- footer navigation links -->
-        <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
-            <ul class="list-unstyled footer-links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </div>
+            <!-- empty column for symmetry -->
+            <div class="col-12 col-md-1"></div>
+
+            <!-- logo & social icons -->
+            <div class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
+                <img src="assets/images/PortfolioFooterLogo.png" alt="Logo" class="mx-2 my-2" style="max-height: 60px;">
+                <a href="https://www.instagram.com/kimpiffy" target="_blank" class="mx-2 my-3 mb-2">
+                    <i class="fa-brands fa-instagram fa-4x"></i>
+                </a>
+            </div>
+            <!-- footer navigation links -->
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+                <ul class="list-unstyled footer-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
         </div>
         <!-- copyright -->
         <div class="row">
@@ -148,7 +133,7 @@
                 <p class="text-light copyright">&copy; KIM JEVON 2024</p>
             </div>
         </div>
-        
+
     </footer>
 
     <!-- bootstrap java link -->
