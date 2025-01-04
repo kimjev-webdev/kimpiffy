@@ -104,10 +104,6 @@ body .btn {
 
 /* about page styles */
 
-.aboutMe img {
-    max-width: 10ch;
-}
-
 .about-text {
     text-align: justify;
     margin: 0;
