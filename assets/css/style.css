@@ -104,49 +104,47 @@ body .btn {
 
 /* about page styles */
 
-.greatRow {
-    padding-top: 20px;
-    margin-right: 50px;
-    padding-left: 4vw;
-    margin: 20px;
+.about-text {
+    margin: 30px;
+    text-align: justify;
 }
-.greatRow img {
-    width: 35vh;
+
+.aboutMe {
+        display: grid;
+        grid-template-rows: 2fr 1fr; 
+        height: 100vh;
+      }
+      
+.greatRow {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 30px;
+}
+.greatRow img { 
+    width: 400px;
     height: auto;
-    margin-top: 15px;
 }
 
 .nameText {
-    width: 22vh;
+    width: 30vh;
 }
 
 .aboutInfo {
         display: flex;
-        flex-direction: column;
         justify-content: center; 
-        align-items: center;      
-        width: 30vw;              
-        margin-left: auto;        
-        padding: 20px;
+        align-items: center; 
+        margin: 50px;
+        padding: 20px;                        
 }
-
 
 .profileImage {
-   width: 100%;
-   min-width: 17vw;
-  margin-right: 3vw;
+   width: 30vh;
 }
 
-.about-text {
-    font-family: "Montserrat", sans-serif;
-    text-align: justify;
-    width: 100%;
-    padding-right: 4vw;
-    padding-left: 3vw;
-    font-size: 1rem;
-    line-height: 1.2;
-    margin-top: 20px;
-}
+
+
+
 
 .btn.cvButton,
 .btn.galleryButton {
