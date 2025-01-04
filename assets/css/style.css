@@ -113,24 +113,22 @@ body .btn {
         padding: 20px;
 }
 
-.greatRow {
-    width: 100%;
-    align-items: center;
-}
-
 .greatHead {
+    display: inline-block;
+    width: 100%; 
+    text-align: jusify;
+    line-height: 1; 
+    white-space: normal; 
     font-family: "RumeiHouse", sans-serif;
-    line-height: 1;
     text-transform: uppercase;
-    text-align: center;
  font-size: 10vw;
- width: 100%;
-}
-
-.greatHead br {
-    display: block;
-    width: 100%;
-}
+  }
+  
+  .greatHead::after {
+    content: ''; /* No content, just used for forcing the layout */
+    display: inline-block;
+    width: 100%; 
+  }
 
 .rounded-circle {
    width: 100%;
