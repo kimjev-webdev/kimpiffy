@@ -103,31 +103,28 @@ body .btn {
 }
 
 /* about page styles */
-
-
-.greatRow {
-    width: 100%;
-    text-align: justify;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-
-}
-
 .aboutInfo {
         display: flex;
+        flex-direction: column;
         justify-content: center; 
         align-items: center;      
         width: 50vw;              
         margin-left: auto;        
         padding: 20px;
 }
+
+.greatRow {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
 .greatHead {
     font-family: "RumeiHouse", sans-serif;
-    font-size: 15vh;
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
+ font-size: 10vw;
 }
 
 .rounded-circle {
@@ -155,11 +152,15 @@ body .btn {
 
 .btn.cvButton,
 .btn.galleryButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     border: none;
     outline: none;
     font-size: 2rem;
     color: black;
+    text-align: center !important;
 }
 
 .btn.cvButton:hover,
