@@ -106,19 +106,24 @@ body .btn {
 .aboutMe {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    padding-top: 30px;
+    padding-bottom: 30px
 }
 .about-text {
     text-align: justify;
-    font-size: smaller;
-    margin: 5;
+    font-size: 12px;
+    margin-top: 10px;
     padding: 5;
 }
 
+.namePic {
+    padding: 10px;
+}
+
 .profileImage {
-    max-width: 80%;
-    padding: 0;
-    margin: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 .btn.cvButton,
 .btn.galleryButton {
@@ -426,6 +431,15 @@ footer .text-light {
     .slogan a {
         font-size: 5vw;
         padding: 0;
+    }
+
+    .greatImage {
+        display: none;
+    } 
+
+    .aboutMe .row {
+        padding: 20px;
+        flex-direction: row;
     }
 
     #thankYouMessage p {
