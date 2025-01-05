@@ -66,9 +66,13 @@ body .btn {
 }
 
 .slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 80%;
     color: white;
-    text-align: center;
+    text-align: center; 
 }
 
 #slogan .carouselSm {
@@ -79,22 +83,21 @@ body .btn {
 
 #slogan .carouselLg {
     padding-bottom: 0px;
-    margin-bottom: 2vw;
+    margin-bottom: 2vh;
 }
 
 #slogan p {
     font-family: "Montserrat", sans-serif;
-    font-size: 3vw;
-    padding-left: 3vw;
-    padding-bottom: 0.5vh;
-    padding-top: 2vh;
-    padding-right: 3vw;
+    text-align: center;
+    font-size: 3.5vw;
+    max-width: 90%;
+    padding-top: 1.5vh;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
-
 .slogan a {
     font-family: "RumeiHouse";
-    font-size: 4vw;
+    font-size: 5vw;
     color: white;
     background-color: transparent;
     border: none;
@@ -116,11 +119,13 @@ body .btn {
     padding-top: 30px;
     padding-bottom: 30px
 }
-.about-text {
+
+.aboutMe .about-text {
+    font-family: "Montserrat", sans-serif;
     text-align: justify;
     font-size: 12px;
     margin-top: 5px;
-    padding: 5;
+    padding: 5px;
 }
 
 .namePic {
@@ -401,25 +406,12 @@ footer .text-light {
 /* media query for xs screens */
 @media (max-width: 480px) {
 
-
-    .slogan p {
-        font-size: 5vw;
-        font-family: "Montserrat", sans-serif;
-    }
-
     .slogan a {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
 
 @media (min-width: 576px) and (max-width: 769px) {
-.slogan p {
-    margin-left: 8vw;
-    margin-right: 8vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
-}
-
 #slogan .carouselSm {
     width: 500px;
 }
@@ -442,15 +434,6 @@ footer .text-light {
     .navbar-toggler-icon {
         width: 3em;
         height: 3em;
-    }
-
-    .slogan h2 {
-        font-size: 4vw;
-    }
-
-    .slogan p {
-        font-size: 2vw;
-        font-family: "Montserrat"sans-serif;
     }
 
     .slogan a {
@@ -563,16 +546,6 @@ footer .text-light {
         font-size: 1.5rem;
         margin: 0;
         padding: 0;
-    }
-
-    .slogan h2 {
-        font-size: 5vw;
-        margin-bottom: 1em;
-    }
-
-    .slogan p {
-        font-family: "Montserrat", sans-serif;
-        font-size: 3vw;
     }
 
     .slogan a {
