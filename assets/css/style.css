@@ -25,7 +25,7 @@ body .btn {
 }
 
 .navbar-nav a:hover {
-    color: #8067d8;
+    color: #9256f6;
 }
 
 /* home page carousel and overlay styles */
@@ -55,7 +55,7 @@ body .btn {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #5128e5b6;
+    background-color: #9256f6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,7 @@ body .btn {
 
 .btn.cvButton:hover,
 .btn.galleryButton:hover {
-    color: #8067d8;
+    color: #9256f6;
     background-color: transparent;
     outline: none;
 }
@@ -198,7 +198,7 @@ body .btn {
 }
 
 #contactButton:hover {
-    color: #8067d8;
+    color: #9256f6;
     background-color: transparent;
     outline: none;
 }
@@ -222,8 +222,8 @@ textarea {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #8067d8;
-    border-color: #8067d8;
+    background-color: #9256f6;
+    border-color: #9256f6;
 }
 
 .mainContact {
@@ -261,7 +261,7 @@ input[type="checkbox"]:checked {
 }
 
 #thankYouMessage a:hover {
-    color: #8067d8;
+    color: #9256f6;
 }
 
 #thankYouMessage h1 {
@@ -290,7 +290,7 @@ input[type="checkbox"]:checked {
 }
 
 #socialIcons a:hover {
-    color: #8067d8;
+    color: #9256f6;
 }
 
 /* footer styles */
@@ -351,7 +351,7 @@ footer {
 #submitButton:hover {
     background-color: transparent;
     border-color: transparent;
-    color: #8067d8;
+    color: #9256f6;
 }
 
 #submitButton:focus,
@@ -359,7 +359,7 @@ footer {
     background-color: transparent;
     border-color: transparent;
     box-shadow: none;
-    color: #8067d8;
+    color: #9256f6;
 }
 
 .footer a {
@@ -376,7 +376,7 @@ footer {
 
 .footer a:hover,
 a:focus {
-    color: #8067d8;
+    color: #9256f6;
 }
 
 footer .text-light {
