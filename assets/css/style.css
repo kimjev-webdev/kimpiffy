@@ -73,20 +73,21 @@ body .btn {
 
 #slogan .carouselSm {
     padding: auto;
-    margin: auto;
+    margin-bottom: 2vh;
     max-width: 350px;
 }
 
 #slogan .carouselLg {
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 2vw;
 }
 
 #slogan p {
     font-family: "Montserrat", sans-serif;
     font-size: 3vw;
     padding-left: 3vw;
-    padding-top: 2vw;
+    padding-bottom: 0.5vh;
+    padding-top: 2vh;
     padding-right: 3vw;
     line-height: 1.2;
 }
@@ -99,6 +100,8 @@ body .btn {
     border: none;
     text-decoration: none;
     display: inline-block;
+    padding: 0px;
+    margin: 0px;
 }
 
 .slogan a:hover {
@@ -401,6 +404,15 @@ footer .text-light {
     .slogan a {
         font-size: 5vw;
     }
+}
+
+@media (min-width: 576px) and (max-width: 99px) {
+#slogan p {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
 }
 
 /* media query for small screens */
