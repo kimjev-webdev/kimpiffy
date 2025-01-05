@@ -71,21 +71,19 @@ body .btn {
     text-align: center;
 }
 
-.slogan h2 {
-    font-size: 5vw;
-    font-family: "RumeiHouse", sans-serif;
-    padding-bottom: 0;
-    margin-bottom: 0;
+#slogan .carouselSm {
+    padding: auto;
+    margin: auto;
+    max-width: 350px;
 }
 
-.slogan p {
+#slogan p {
     font-family: "Montserrat", sans-serif;
-    font-size: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    font-size: 3vw;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    padding-right: 3vw;
     line-height: 1.2;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 .slogan a {
@@ -519,8 +517,18 @@ footer .text-light {
     }
 }
 
+@media (min-width: 992px) {
+#slogan .carouselSm {
+    display: none;
+}
+}
+
 /* media query for medium screens */
 @media (max-width: 991px) {
+
+#slogan .carouselLg {
+        display: none;
+    }
     .navbar-collapse {
         text-align: right;
     }
