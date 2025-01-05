@@ -103,13 +103,23 @@ body .btn {
 }
 
 /* about page styles */
-
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .about-text {
     text-align: justify;
-    margin: 0;
-    padding: 0;
+    font-size: smaller;
+    margin: 5;
+    padding: 5;
 }
 
+.profileImage {
+    max-width: 80%;
+    padding: 0;
+    margin: 0;
+}
 .btn.cvButton,
 .btn.galleryButton {
     display: flex;
@@ -122,6 +132,8 @@ body .btn {
     color: black;
     text-align: center !important;
     margin-top: 5px;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .btn.cvButton:hover,
@@ -416,11 +428,6 @@ footer .text-light {
         padding: 0;
     }
 
-    .greatRow {
-        flex-direction: row; /* Keep the row aligned horizontally */
-        margin-top: 0;
-    }
-
     #thankYouMessage p {
         font-size: 0.8rem;
         font-family: "Montserrat", sans-serif;
@@ -491,8 +498,9 @@ footer .text-light {
 }
 
 @media (min-width: 768px) {
-    .aboutMe {
-        flex-direction: row;
+    .aboutMe .row {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
