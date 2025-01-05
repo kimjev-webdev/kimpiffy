@@ -533,14 +533,20 @@ footer .text-light {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .aboutMe .row {
         display: flex;
         justify-content: space-evenly;
     }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 767px) {
+#slogan .carouselLg {
+    display: none;
+}
+}
+
+@media (min-width: 767px) {
 #slogan .carouselSm {
     display: none;
 }
@@ -549,9 +555,6 @@ footer .text-light {
 /* media query for medium screens */
 @media (max-width: 991px) {
 
-#slogan .carouselLg {
-        display: none;
-    }
     .navbar-collapse {
         text-align: right;
     }
