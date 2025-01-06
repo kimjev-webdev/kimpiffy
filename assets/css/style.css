@@ -70,35 +70,17 @@ body .btn {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 80%;
+    max-width: 70%;
     color: white;
 }
 
-.slogan img {
-    margin: 0;
-    padding: 0;
-}
-
-.slogan p {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    font-size: 3.5vw;
-    padding: 0;
-    max-width: 90%;
-    margin-top: 10px;
-    line-height: 1;
-    margin-bottom: 10px;
-}
-.slogan a {
+.slogan .a {
     font-family: "RumeiHouse";
-    font-size: 5vw;
     color: white;
     background-color: transparent;
     border: none;
     text-decoration: none;
     display: inline-block;
-    padding: 0px;
-    margin: 0px;
 }
 
 .slogan a:hover {
@@ -397,17 +379,9 @@ footer .text-light {
     height: 100%;
 }
 
-/* media query for xs screens */
-@media (max-width: 480px) {
-
-    .slogan a {
-        font-size: 6vw;
-    }
-}
-
 @media (min-width: 576px) and (max-width: 769px) {
 #slogan .carouselSm {
-    width: 500px;
+    width: 300px;
 }
 }
 
@@ -428,11 +402,6 @@ footer .text-light {
     .navbar-toggler-icon {
         width: 3em;
         height: 3em;
-    }
-
-    .slogan a {
-        font-size: 5vw;
-        padding: 0;
     }
 
     .aboutMe .row {
@@ -531,7 +500,6 @@ footer .text-light {
 
 /* media query for medium screens */
 @media (max-width: 991px) {
-
     .navbar-collapse {
         text-align: right;
     }
@@ -540,10 +508,6 @@ footer .text-light {
         font-size: 1.5rem;
         margin: 0;
         padding: 0;
-    }
-
-    .slogan a {
-        font-size: 6vw;
     }
 }
 
