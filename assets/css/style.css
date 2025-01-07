@@ -28,6 +28,11 @@ body .btn {
     color: #9256f6;
 }
 
+.navbar .navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
 /* home page carousel and overlay styles */
 .carousel-item {
     position: relative;
@@ -410,6 +415,8 @@ footer .text-light {
 
     .navbar-toggler {
         font-size: 1rem;
+        outline: none;
+        background-color: none;
     }
 
     .navbar-toggler-icon {
