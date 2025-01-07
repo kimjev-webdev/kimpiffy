@@ -74,7 +74,7 @@ body .btn {
     color: white;
 }
 
-.slogan .a {
+.slogan .slogan-button {
     font-family: "RumeiHouse";
     color: white;
     background-color: transparent;
@@ -461,6 +461,7 @@ footer .text-light {
 
     .footer i {
         font-size: 2.5rem;
+        text-decoration: none;
     }
 
     .footer .instagram-container {
