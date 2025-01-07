@@ -376,14 +376,27 @@ footer .text-light {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%;
+    height: 1
+    00%;
 }
 
-@media (min-width: 576px) and (max-width: 769px) {
+@media (min-width: 320px) and (max-width: 576px) {
+    .slogan .slogan-button {
+        font-size: clamp(27px, 30px, 32px);
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
 #slogan .carouselSm {
     width: 300px;
 }
+
+    .slogan .slogan-button {
+    font-size: clamp(30px, 32px, 35px);
+    }
 }
+
 
 /* media query for small screens */
 @media (max-width: 768px) {
