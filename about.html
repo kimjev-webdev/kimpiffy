@@ -88,18 +88,23 @@
         </article>
     </main>
 
-    <footer class="container-fluid px-1">
+<!-- footer -->
+<footer class="footer">
+    <div class="container-fluid px-1">
         <div class="row text-center text-md-left">
             <!-- footer email sign up -->
             <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
                 <h5>EMAIL</h5>
-                <form id="emailForm" class="form-group">
-                    <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..." required>
-                    <div id="submitWrapper">
-                        <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton" disabled>
-                            SIGN UP!
-                        </button>
-                    </div>
+                <form id="emailForm">
+                    <div class="form-group">
+                        <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
+                            required>
+                        <div id="submitWrapper">
+                            <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
+                                disabled>
+                                SIGN UP!
+                            </button>
+                        </div>
                 </form>
             </div>
         </div>
@@ -123,14 +128,15 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
-
-        <!-- copyright -->
-        <div class="row">
-            <div class="col-12 text-center">
-                <p class="text-light copyright">&copy; KIM JEVON 2025</p>
-            </div>
+    </div>
+    <!-- copyright -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <p class="text-light copyright">&copy; KIM JEVON 2025</p>
         </div>
-    </footer>
+    </div>
+
+</footer>
 
     <!-- bootstrap java link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -140,5 +146,4 @@
     <!-- custom java link -->
     <script src="assets/js/script.js"></script>
 </body>
-
 </html>

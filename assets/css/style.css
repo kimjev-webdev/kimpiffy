@@ -122,11 +122,13 @@ body .btn {
     flex-grow: 1;
 }
 .greatImage {
-    padding: 10px;
+    padding: 20px;
     object-fit: fill;
 }
 .btn.cvButton,
 .btn.galleryButton {
+    font-family: "RumeiHouse";
+    text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +138,7 @@ body .btn {
     font-size: 2rem;
     color: black;
     text-align: center !important;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 0;
     margin-bottom: 0;
 }
