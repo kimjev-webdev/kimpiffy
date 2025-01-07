@@ -46,14 +46,6 @@ body .btn {
     object-fit: cover;
 }
 
-.carousel-item:hover .carousel-overlay {
-    opacity: 1;
-}
-
-.carousel-item:hover .slogan {
-    opacity: 1;
-}
-
 .carousel-overlay {
     position: absolute;
     top: 0;
@@ -404,7 +396,6 @@ footer .text-light {
     }
 }
 
-
 /* media query for small screens */
 @media (max-width: 768px) {
 .navbar-brand {
@@ -431,6 +422,15 @@ footer .text-light {
         padding: 20px;
         flex-direction: row;
     }
+
+    .carousel-item .carousel-overlay {
+        opacity: 1
+    }
+
+.carousel-item .slogan {
+    opacity: 1;
+}
+
 
     #thankYouMessage p {
         font-size: 0.8rem;
@@ -502,20 +502,31 @@ footer .text-light {
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .aboutMe .row {
         display: flex;
         justify-content: space-evenly;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 #slogan .carouselLg {
     display: none;
 }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
+    .carousel-item:hover .carousel-overlay {
+        opacity: 1;
+    }
+
+    .carousel-item:hover .slogan {
+        opacity: 1;
+    }
+}
+
+
+@media (min-width: 768px) {
 #slogan .carouselSm {
     display: none;
 }
