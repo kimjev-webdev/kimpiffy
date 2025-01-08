@@ -216,9 +216,9 @@ textarea::placeholder {
     font-size: 0.8rem;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
     font-family: "Montserrat"sans-serif;
     color: black !important;
     font-size: 0.8rem !important;
