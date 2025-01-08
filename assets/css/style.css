@@ -146,7 +146,7 @@ body .btn {
 /* contact page styles */
 .contactBody {
         background-color: #9256f6;
-        background-image: radial-gradient(circle, rgb(146, 86, 246) 20%, rgb(0, 0, 0) 30%);
+        background-image: radial-gradient(circle, rgb(146, 86, 246) 20%, rgb(172, 117, 239) 30%);
         background-size: 10px 10px;
     }
 .contactBody .navbar-nav a:hover {     
@@ -182,7 +182,7 @@ body .btn {
 }
 
 #contactButton:hover {
-    color: #9256f6;
+    color: #ffffff;
     background-color: transparent;
     outline: none;
 }
@@ -215,7 +215,7 @@ textarea {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #9256f6;
+    background-color: #000000;
     border-color: #9256f6;
 }
 
