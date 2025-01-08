@@ -146,11 +146,15 @@ body .btn {
 /* gallery styles will go here */
 
 /* contact page styles */
+.contactBody .navbar a {
+    color: black
+}
+
 .contactBody {
     height: 100%;
     background-image: url('/assets/images/ContactBG.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     background-color: #9256f6;
     background-position: center;
 }
