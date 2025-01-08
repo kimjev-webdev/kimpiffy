@@ -35,6 +35,11 @@ body .btn {
     color: transparent;
 }
 
+.navbar .navbar-toggler-icon {
+width: 2rem;
+height: 2rem;
+}
+
 /* home page carousel and overlay styles */
 .carousel-item {
     position: relative;
@@ -419,17 +424,6 @@ footer .text-light {
 
  .navbar-nav a {
         font-size: 2rem;
-    }
-
-    .navbar-toggler {
-        font-size: 1rem;
-        outline: none;
-        background-color: none;
-    }
-
-    .navbar-toggler-icon {
-        width: 3em;
-        height: 3em;
     }
 
     .aboutMe .row {
