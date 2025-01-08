@@ -36,8 +36,12 @@ body .btn {
 }
 
 .navbar .navbar-toggler-icon {
-width: 2rem;
-height: 2rem;
+width: 3rem;
+height: 3rem;
+}
+
+.navbar img {
+    margin-left: 15px;
 }
 
 /* home page carousel and overlay styles */
