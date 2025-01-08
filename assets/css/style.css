@@ -520,6 +520,10 @@ footer .text-light {
         display: flex;
         justify-content: space-evenly;
     }
+
+    .slogan .slogan-button {
+        font-size: clamp(35px, 40px, 45px);
+        }
 }
 
 @media (max-width: 768px) {
