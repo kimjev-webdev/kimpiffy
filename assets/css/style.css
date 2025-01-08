@@ -97,15 +97,13 @@ body .btn {
 .aboutMe .about-text {
     text-align: justify;
     font-size: 12px;
-    margin-top: 5px;
-    padding: 15px;
 }
 
 .namePic {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 .profileImage {
@@ -131,7 +129,7 @@ body .btn {
     font-size: 1.75rem;
     color: black;
     text-align: center !important;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 0;
     margin-bottom: 0;
 }
@@ -146,20 +144,22 @@ body .btn {
 /* gallery styles will go here */
 
 /* contact page styles */
-.contactBody .navbar a {
-    color: black
-}
-
 .contactBody {
         background-color: #9256f6;
-        background-image: radial-gradient(circle, rgb(146, 86, 246) 20%, rgb(120, 132, 240) 30%);
+        background-image: radial-gradient(circle, rgb(146, 86, 246) 20%, rgb(0, 0, 0) 30%);
         background-size: 10px 10px;
     }
-
+.contactBody .navbar-nav a:hover {     
+      color:  #9256f6
+    }
+            
 .contactForm {
     width: 100%;
     margin-bottom: 0;
-    padding-bottom: 0;
+        background-color: rgb(146, 86, 246); 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.349); 
+        border-radius: 8px; 
+    padding: 20px;
 }
 
 .contactHeader {
@@ -192,13 +192,22 @@ body .btn {
     outline: none;
 }
 
-input::placeholder,
-textarea::placeholder,
 .form-select,
+input::placeholder,
+textarea::placeholder {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
 .form-check-label {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    color: black !important;
+    text-shadow: #000000;
+    font-weight: 300;
+    color: rgb(255, 255, 255) !important;
     font-size: 0.8rem;
 }
 
@@ -524,6 +533,13 @@ footer .text-light {
 #slogan .carouselLg {
     display: none;
 }
+
+.aboutMe .about-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -534,12 +550,13 @@ footer .text-light {
     .carousel-item:hover .slogan {
         opacity: 1;
     }
-}
 
-
-@media (min-width: 768px) {
 #slogan .carouselSm {
     display: none;
+}
+
+.aboutMe .about-text {
+   padding: 15px;
 }
 }
 
