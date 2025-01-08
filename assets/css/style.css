@@ -151,16 +151,15 @@ body .btn {
 }
 
 .contactBody {
-    height: 100%;
-    background-image: url('/assets/images/ContactBG.png');
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-color: #9256f6;
-    background-position: center;
-}
+        background-color: #9256f6;
+        background-image: radial-gradient(circle, rgb(146, 86, 246) 20%, rgb(120, 132, 240) 30%);
+        background-size: 10px 10px;
+    }
 
 .contactForm {
     width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .contactHeader {
@@ -188,7 +187,7 @@ body .btn {
 }
 
 #contactButton:hover {
-    color: #9256f6;
+    color: #ffffff;
     background-color: transparent;
     outline: none;
 }
@@ -212,8 +211,9 @@ textarea {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #9256f6;
-    border-color: #9256f6;
+    background-color: #000000;
+    border-color: #000000;
+    color: #9256f6;
 }
 
 .mainContact {
@@ -221,8 +221,8 @@ input[type="checkbox"]:checked {
     align-items: center;
     justify-content: center;
     flex: 1;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 #query {
@@ -251,7 +251,7 @@ input[type="checkbox"]:checked {
 }
 
 #thankYouMessage a:hover {
-    color: #9256f6;
+    color: #ffffff;
 }
 
 #thankYouMessage h1 {
