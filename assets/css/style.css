@@ -32,6 +32,7 @@ body .btn {
 .navbar .navbar-toggler {
     background-color: transparent;
     border: none;
+    color: transparent;
 }
 
 /* home page carousel and overlay styles */
