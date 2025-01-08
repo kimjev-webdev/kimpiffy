@@ -22,7 +22,7 @@ body .btn {
 .navbar-nav a {
     font-family: "RumeiHouse";
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .navbar-nav a:hover {
