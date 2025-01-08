@@ -29,6 +29,10 @@ body .btn {
     color: #9256f6;
 }
 
+.navbar-brand {
+    filter: invert(1) ;
+}
+
 .navbar .navbar-toggler {
     background-color: transparent;
     border: none;
