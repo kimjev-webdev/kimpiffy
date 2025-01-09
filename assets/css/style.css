@@ -48,6 +48,11 @@ height: 3rem;
     margin-left: 15px;
 }
 
+.navbar-toggler > i {
+    color: white;
+    font-size: 2.5rem;
+}
+
 /* home page carousel and overlay styles */
 .carousel-item {
     position: relative;
