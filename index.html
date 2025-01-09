@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Kim's portfolio web development project showcasing contemporary art alongside HTML, CSS, JavaScript & Bootstrap skills.">
-    <meta name="keywords" content="Mixed Media Art, Illustration, Collage, Textiles, U.V Light, Web Development, HTML, CSS, JavaScript, Kim Jevon, Kim Piffy, Web Design">
+    <meta name="description"
+        content="Explore Kim's portfolio web development project showcasing contemporary art alongside HTML, CSS, JavaScript & Bootstrap skills.">
+    <meta name="keywords"
+        content="Mixed Media Art, Illustration, Collage, Textiles, U.V Light, Web Development, HTML, CSS, JavaScript, Kim Jevon, Kim Piffy, Web Design">
     <meta name="author" content="Kim Jevon">
     <meta name="robots" content="index, follow">
     <title>Home - Kim Jevon Portfolio</title>
 
-     <!-- favicon -->
- <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <!-- favicon -->
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
 
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,120 +29,130 @@
         rel="stylesheet">
 
     <!-- "RumeiHouse" font -->
-   <link rel="stylesheet" type="text/css" href="./assets/fonts/RumeiHouse.css">
-   <!-- custom css -->
-   <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/RumeiHouse.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-<header>
-    <!-- navigation -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-black" role="navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="./assets/images/BadgeLogo.png" alt="Piffy Badge Logo" width="60">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Expand page navigation.">
-                <!-- <span class="navbar-toggler-icon"></span> for future ref this can be deleted and replace with icon. -->
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="about.html">ABOUT</a>
-                    <a class="nav-link" href="gallery.html">GALLERY</a>
-                    <a class="nav-link" href="contact.html">CONTACT</a>
+    <header role="banner">
+        <!-- navigation -->
+        <nav class="navbar sticky-top navbar-expand-lg bg-black" role="navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/BadgeLogo.png" alt="Piffy Badge Logo" width="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Expand page navigation.">
+                    <!-- <span class="navbar-toggler-icon"></span> for future ref this can be deleted and replace with icon. -->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </nav>
-</header>
+            </div>
+        </nav>
+    </header>
 
-<main class="flex-grow-1" role="main">
-<!-- hero image / carousel -->
-<h2 id="carouselHeading" class="visually-hidden">Featured Artworks</h2>
-<div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000" role="region" aria-labelledby="carouselHeading">
+    <main class="flex-grow-1" role="main">
+        <!-- hero image / carousel -->
+        <h2 id="carouselHeading" class="visually-hidden">Featured Artworks</h2>
+        <section id="carousel" role="region" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000"
+            role="region" aria-labelledby="carouselHeading">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <figure class="carousel-item active">
                     <img class="d-block w-100" src="./assets/images/PortfolioHero1.png"
                         alt="'Techno Angel' a fine art print by showcasing a bionic woman looking backwards over her shoulder, surrounded by guilded golden, falling binary notations.">
-                    <div class="carousel-overlay">
+                        <figcaption class="visually-hidden">Featured artwork: 'Techno Angel'.</figcaption>
+                        <div class="carousel-overlay">
                         <div class="slogan" id="slogan">
                             <img src="assets/images/CarouselTextSm.png" class="img-fluid carouselSm">
                             <img src="assets/images/CarouselText.png" class="img-fluid carouselLg">
                             <br><a href="about.html" class="slogan-button">LEARN MORE</a>
                         </div>
                     </div>
-                </div>
+                </figure>
 
-                <div class="carousel-item">
+                <figure class="carousel-item">
                     <img class="d-block w-100" src="./assets/images/PortfolioHero2.png"
                         alt="'Antagony' a mixed media, abstract, representation of soil, the hummus layer and root structures using neon orange, pink, and black hues by Piffy.">
-                    <div class="carousel-overlay">
+                        <figcaption class="visually-hidden">Featured artwork: 'Antagony'.</figcaption>
+                        <div class="carousel-overlay">
                         <div class="slogan" id="slogan">
                             <img src="assets/images/CarouselTextSm.png" class="img-fluid carouselSm">
                             <img src="assets/images/CarouselText.png" class="img-fluid carouselLg">
                             <br><a href="about.html" class="slogan-button">LEARN MORE</a>
                         </div>
                     </div>
-                </div>
+                </figure>
 
-                <div class="carousel-item">
+                <figure class="carousel-item">
                     <img class="d-block w-100" src="./assets/images/PortfolioHero3.png"
                         alt="'Prophecy' a large-scale fine art textiles banner with philosophical poetry appliqu´e by Piffy">
-                    <div class="carousel-overlay">
+                        <figcaption class="visually-hidden">Featured artwork: 'Prophecy'.</figcaption>
+                        <div class="carousel-overlay">
                         <div class="slogan" id="slogan">
                             <img src="assets/images/CarouselTextSm.png" class="img-fluid carouselSm">
                             <img src="assets/images/CarouselText.png" class="img-fluid carouselLg">
                             <br><a href="about.html" class="slogan-button">LEARN MORE</a>
                         </div>
                     </div>
-                </div>
+                </figure>
             </div>
-        </div>
-</main>
+        </section>
+    </main>
 
-<!-- footer -->
+    <!-- footer -->
     <footer class="footer" role="contentinfo">
         <div class="container-fluid px-1">
             <div class="row text-center text-md-left">
                 <!-- footer email sign up -->
-                <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
+                <section class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
                     <h5>EMAIL</h5>
                     <form id="emailForm" role="form">
                         <div class="form-group">
-                            <label for="emailInput" class="form-label">Enter your email address</label>
+                            <label for="emailInput" class="visually-hidden">Enter your email address</label>
                             <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
                                 required>
                             <div id="submitWrapper">
-                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton" aria-label="Sign up for updates."
-                                    disabled>
+                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
+                                    aria-label="Sign up for updates." disabled>
                                     SIGN UP!
                                 </button>
                             </div>
                     </form>
-                </div>
-            </div>
+                </section>
+            
 
             <!-- empty column for symmetry -->
             <div class="col-12 col-md-1"></div>
 
             <!-- logo & social icons -->
             <div class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
-                <img src="assets/images/PortfolioFooterLogo.png" alt="Piffy 'P' Icon - Kim's artistic logo and signature" class="mx-2 my-2" style="max-height: 60px;">
-                <a href="https://www.instagram.com/kimpiffy" aria-label="Visit Kim's Instagram profile"  target="_blank" class="mx-2 my-3 mb-2">
+                <img src="assets/images/PortfolioFooterLogo.png"
+                    alt="Piffy 'P' Icon - Kim's artistic logo and signature" class="mx-2 my-2"
+                    style="max-height: 60px;">
+                <a href="https://www.instagram.com/kimpiffy" aria-label="Visit Kim's Instagram profile" target="_blank"
+                    class="mx-2 my-3 mb-2">
                     <i class="fa-brands fa-instagram fa-4x"></i>
                 </a>
             </div>
             <!-- footer navigation links -->
-            <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+            <nav class="col-12 col-md-4 d-flex flex-column justify-content-center" aria-labelledby="footerNavHeading">
+                <h2 id="footerNavHeading" class="visually-hidden">Footer Navigation</h2>
                 <ul class="list-unstyled footer-links">
                     <li><a href="index.html" aria-label="Navigate to Home page">HOME</a></li>
                     <li><a href="about.html" aria-label="Navigate to About page">ABOUT</a></li>
                     <li><a href="gallery.html" aria-label="Navigate to Gallery page">GALLERY</a></li>
                     <li><a href="contact.html" aria-label="Navigate to Contact page">CONTACT</a></li>
                 </ul>
+            </nav>
             </div>
         </div>
         <!-- copyright -->
