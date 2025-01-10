@@ -36,16 +36,16 @@
 </head>
 
 <body>
-    <header>
+    <header role="banner">
         <!-- navigation -->
-        <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <nav class="navbar sticky-top navbar-expand-lg bg-black" role="navigation">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/BadgeLogo.png" alt="Piffy Badge Logo" width="60">
+                <a class="navbar-brand" href="index.html" aria-label="Go to Homepage">
+                    <img src="assets/images/BadgeLogo.png" aria-label="CLick to navigate to Homepage" alt="Kim's badge logo with part of her signature" width="60">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    aria-label="Expand page navigation">
                     <!-- <span class="navbar-toggler-icon"></span> for future ref this can be deleted and replace with icon. -->
                     <i class="fa-solid fa-bars"></i>
                 </button>
@@ -62,6 +62,7 @@
     <main class="container">
         <article class="row aboutMe">
             <section class="col-12 col-sm-6 col-xl-4">
+                <h1 id="aboutHeading" class="visually-hidden">About me and my goals</h1>
                 <img src="assets/images/NameText.png" alt="My name is Kim" class="namePic img-fluid">
                 <p class="about-text">
                     I am a visual artist and aspiring web developer. My creative background allows me to approach
@@ -71,11 +72,12 @@
                     and intuitive. I understand the importance of colors, composition, and storytelling from both an
                     artistic and technical perspective. As I continue to develop my knowledge, I look forward to
                     collaborating on projects where I can apply my creativity, and problem solving skills.
-                    <a href="insertcvhere.pdf" class="btn cvButton" download>Download C.V</a>
+                    <a href="insertcvhere.pdf" class="btn cvButton" aria-label="Download Kim Jevon's C.V" download>Download C.V</a>
                 </p>
             </section>
 
             <section class="col-12 col-sm-6 col-xl-4">
+                <h2 id="aboutHeading2" class="visually-hidden">About my art</h2>
                 <p class="about-text">
                     Over the last decade I have been practicing as a contemporary artist, primarily working on
                     abstract collages and textile banners. I have staged several solo exhibitions under
@@ -84,8 +86,8 @@
                     and philosophy. The results are fun bright, bold and busy images, with an edifying complexity
                     to their underlying themes. As well as fine art I often work on illustration, and also spent a
                     period of time creating surface patterns for my own alternative fashion label.
-                    <a href="gallery.html" class="btn galleryButton">View my art</a>
-                </p> <img src="assets/images/ProfileImage.png" alt="Profile image" class="img-fluid profileImage">
+                    <a href="gallery.html" class="btn galleryButton" aria-label="Go to the gallery page and see Kim's artwork">View my art</a>
+                </p> <img src="assets/images/ProfileImage.png" alt="Portrait image of Kim" class="img-fluid profileImage">
             </section>
 
             <aside class="col-12 col-xl-4 greatContainer">
@@ -100,14 +102,15 @@
             <div class="row text-center text-md-left">
                 <!-- footer email sign up -->
                 <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
-                    <h5>EMAIL</h5>
+                    <h2>EMAIL</h2>
                     <form id="emailForm">
                         <div class="form-group">
+                            <label for="emailInput" class="visually-hidden">Enter your email address</label>
                             <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
                                 required>
                             <div id="submitWrapper">
                                 <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
-                                    disabled>
+                                    disabled aria-label="Sign up for email updates" aria-disabled="true">
                                     SIGN UP!
                                 </button>
                             </div>
@@ -120,9 +123,9 @@
 
             <!-- logo & social icons -->
             <div class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
-                <img src="assets/images/PortfolioFooterLogo.png" alt="Piffy Logo" class="mx-2 my-2"
+                <img src="assets/images/PortfolioFooterLogo.png"  alt="Piffy 'P' Icon - Kim's artistic logo and signature" class="mx-2 my-2"
                     style="max-height: 60px;">
-                <a href="https://www.instagram.com/kimpiffy" alt="Instagram Icon" target="_blank"
+                <a href="https://www.instagram.com/kimpiffy" alt="Instagram Icon" aria-label="Visit Kim's Instagram profile" target="_blank"
                     class="mx-2 my-3 mb-2">
                     <i class="fa-brands fa-instagram fa-4x"></i>
                 </a>

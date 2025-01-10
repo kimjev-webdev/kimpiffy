@@ -116,6 +116,8 @@ height: 3rem;
 .aboutMe .about-text {
     text-align: justify;
     font-size: 12px;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .namePic {
@@ -137,20 +139,15 @@ height: 3rem;
     padding: 15px;
     object-fit: fill;
 }
+
 .btn.cvButton,
 .btn.galleryButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
     font-size: 1.75rem;
-    color: black;
-    text-align: center !important;
-    margin-top: 10px;
-    padding: 0;
-    margin-bottom: 0;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn.cvButton:hover,
