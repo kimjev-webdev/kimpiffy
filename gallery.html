@@ -10,7 +10,7 @@
         content="Mixed Media Art, Illustration, Collage, Textiles, U.V Light, Web Development, HTML, CSS, JavaScript, Kim Jevon, Kim Piffy, Web Design">
     <meta name="author" content="Kim Jevon">
     <meta name="robots" content="index, follow">
-    <title>Gallery - Kim Jevon Portfolio</title>
+    <title>Home - Kim Jevon Portfolio</title>
 
     <!-- favicon -->
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
@@ -34,17 +34,17 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <!-- navigation -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-black sticky-top">
+<body class="d-flex flex-column min-vh-100 bg-black">
+    <header role="banner">
+        <!-- navigation -->
+        <nav class="navbar sticky-top navbar-expand-lg bg-black" role="navigation">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/BadgeLogo.png" alt="Piffy Badge Logo" width="60">
+                <a class="navbar-brand" href="index.html" aria-label="Go to Homepage">
+                    <img src="./assets/images/BadgeLogo.png" aria-label="Click to navigate to homepage" alt="Kim's badge logo with part of her signature" width="60">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    aria-label="Expand page navigation.">
                     <!-- <span class="navbar-toggler-icon"></span> for future ref this can be deleted and replace with icon. -->
                     <i class="fa-solid fa-bars"></i>
                 </button>
@@ -59,20 +59,20 @@
             </div>
         </nav>
     </header>
-    <main>
-        <!-- gallery -->
-        <div class="container-fluid">
+<main>
+<!-- gallery -->
+        <div class="container-fluid bg-black">
             <h1 class="visually-hidden">Gallery of Kim’s Artwork</h1>
-            <div class="row" data-masonry='{"percentPosition": true }'>
-                <figure class="col-12 col-sm-6 col-lg-3">
+            <div class="row m-2" data-masonry='{"percentPosition": true }'>
+                <figure class="col-12 col-sm-6 col-lg-3 p-1">
                     <img src="../assets/images/gallery/Gallery1.JPEG" alt="Kim stood in the doorway to her exhibition in Bristol, with a pink neon light in the shape of her logo behind her" class="img-fluid">
                     <figcaption class="visually-hidden">Kim outside CentreSpace gallery, Bristol during her solo exhibition.</figcaption>
                 </figure>
-                <figure class="col-12 col-sm-6 col-lg-3">
+                <figure class="col-12 col-sm-6 col-lg-3 p-1">
                     <img src="../assets/images/gallery/Gallery2.JPEG" alt="Image 2" class="img-fluid">
                     <figcaption></figcaption>
                 </figure>
-                <figure class="col-12 col-sm-6 col-lg-3">
+                <figure class="col-12 col-sm-6 col-lg-3 p-1">
                     <img src="../assets/images/gallery/Gallery3.JPEG" alt="Image 3" class="img-fluid">
                     <figcaption></figcaption>
                 </figure>
@@ -104,64 +104,54 @@
                     <img src="../assets/images/gallery/Gallery10.JPEG" alt="Image 6" class="img-fluid">
                     <figcaption></figcaption>
                 </figure>
-     
-     
             </div>
             </div>
             </div>
-
-    
-
-     
-     
-     
-     
-     
-     
-
-
-    </main>
+</main>
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container-fluid px-1">
             <div class="row text-center text-md-left">
                 <!-- footer email sign up -->
-                <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
-                    <h5>EMAIL</h5>
-                    <form id="emailForm">
+                <section class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
+                    <h2>EMAIL</h2>
+                    <form id="emailForm" role="form">
                         <div class="form-group">
+                            <label for="emailInput" class="visually-hidden">Enter your email address</label>
                             <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
                                 required>
                             <div id="submitWrapper">
-                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
-                                    disabled>
+                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton" disabled aria-label="Sign up for email updates" aria-disabled="true">
                                     SIGN UP!
                                 </button>
                             </div>
                     </form>
-                </div>
-            </div>
+                </section>
+            
 
             <!-- empty column for symmetry -->
             <div class="col-12 col-md-1"></div>
 
             <!-- logo & social icons -->
             <div class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
-                <img src="assets/images/PortfolioFooterLogo.png" alt="Piffy Logo" class="mx-2 my-2"
+                <img src="assets/images/PortfolioFooterLogo.png"
+                    alt="Piffy 'P' Icon - Kim's artistic logo and signature" class="mx-2 my-2"
                     style="max-height: 60px;">
-                <a href="https://www.instagram.com/kimpiffy" alt="Instagram Icon" target="_blank"
+                <a href="https://www.instagram.com/kimpiffy" alt="Instagram Icon" aria-label="Visit Kim's Instagram profile" target="_blank"
                     class="mx-2 my-3 mb-2">
                     <i class="fa-brands fa-instagram fa-4x"></i>
                 </a>
             </div>
             <!-- footer navigation links -->
-            <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+            <nav class="col-12 col-md-4 d-flex flex-column justify-content-center" aria-labelledby="footerNavHeading">
+                <h2 id="footerNavHeading" class="visually-hidden">Footer Navigation</h2>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.html" aria-label="Navigate to Home page">HOME</a></li>
+                    <li><a href="about.html" aria-label="Navigate to About page">ABOUT</a></li>
+                    <li><a href="gallery.html" aria-label="Navigate to Gallery page">GALLERY</a></li>
+                    <li><a href="contact.html" aria-label="Navigate to Contact page">CONTACT</a></li>
                 </ul>
+            </nav>
             </div>
         </div>
         <!-- copyright -->
