@@ -42,7 +42,7 @@ body .btn:focus {
 }
 
 .navbar-nav a:hover {
-    color: #9256f6;
+    color: #af80f9
 }
 
 .navbar-brand {
@@ -117,7 +117,7 @@ height: 3rem;
 }
 
 .slogan a:hover {
-    color: #9256f6;
+    color: #af80f9
 }
 
 /* about page styles */
@@ -219,7 +219,7 @@ margin-bottom: 5px;}
     color: white;
 }
 .contactBody .navbar-nav a:hover {     
-      color:  #9256f6
+      color:  #af80f9
     }
             
 .contactForm {
@@ -252,7 +252,7 @@ margin-bottom: 5px;}
 }
 
 #contactButton:hover {
-    color: black;
+    color: #af80f9
     background-color: transparent;
     outline: none;
 }
@@ -286,7 +286,7 @@ textarea::placeholder {
 
 input[type="checkbox"]:checked {
     background-color: #000000;
-    border-color: #9256f6;
+    border-color: #af80f9
 }
 
 .mainContact {
@@ -324,7 +324,7 @@ input[type="checkbox"]:checked {
 }
 
 #thankYouMessage a:hover {
-    color: #9256f6;
+    color: #af80f9
 }
 
 #thankYouMessage h1 {
@@ -353,7 +353,7 @@ input[type="checkbox"]:checked {
 }
 
 #socialIcons a:hover {
-    color: #9256f6;
+    color: #af80f9
 }
 
 /* footer styles */
@@ -415,7 +415,7 @@ footer h2 {
 #submitButton:hover {
     background-color: transparent;
     border-color: transparent;
-    color: #9256f6;
+    color: #af80f9
 }
 
 #submitButton:focus,
@@ -423,7 +423,7 @@ footer h2 {
     background-color: transparent;
     border-color: transparent;
     box-shadow: none;
-    color: #9256f6;
+    color: #af80f9
 }
 
 .footer a {
@@ -440,7 +440,7 @@ footer h2 {
 
 .footer a:hover,
 a:focus {
-    color: #9256f6;
+    color: #af80f9
 }
 
 footer .text-light {
