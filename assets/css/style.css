@@ -210,9 +210,9 @@ margin-bottom: 5px;}
 
 /* contact page styles */
 .contactBody {
-        background-color: #9256f6;
-        background-image: radial-gradient(circle, rgb(146, 86, 246) 20%, rgb(172, 117, 239) 30%);
-        background-size: 10px 10px;
+        background-image: url("/assets/images/contactbg.webp");
+        background-size: contain;
+        background-position: center;
     }
 
 .contactBody .navbar-nav a {
