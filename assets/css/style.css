@@ -315,7 +315,7 @@ input[type="checkbox"]:checked {
     border-radius: 20px;
 }
 
-.thanks h1, p, i {
+.thanks {
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -324,7 +324,7 @@ input[type="checkbox"]:checked {
 #thankYouMessage {
     width: 100%;
 }
-
+x
 #thankYouMessage a {
     margin: 2px;
     text-decoration: none;
@@ -357,7 +357,7 @@ input[type="checkbox"]:checked {
 
 #socialIcons a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #socialIcons a:hover {
