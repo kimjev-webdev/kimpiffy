@@ -223,7 +223,13 @@ margin-bottom: 5px;}
     }
             
 .contactForm {
+    background-color: #000000e0;
     width: 100%;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
 }
 
 .contactHeader {
@@ -234,12 +240,11 @@ margin-bottom: 5px;}
 
 .contactHeader h1 {
     display: block;
-    outline: black;
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: "RumeiHouse";
-    font-size: 11.5vw;
+    font-size: 10.5vw;
     color: white;
 }
 
@@ -252,7 +257,7 @@ margin-bottom: 5px;}
 }
 
 #contactButton:hover {
-    color: #af80f9
+    color: #af80f9;
     background-color: transparent;
     outline: none;
 }
@@ -285,7 +290,7 @@ textarea::placeholder {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #000000;
+    background-color: #af80f9;
     border-color: #af80f9
 }
 
