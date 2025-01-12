@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 body .btn {
     font-family: "RumeiHouse";
     text-transform: uppercase;
@@ -157,12 +161,35 @@ height: 3rem;
     outline: none;
 }
 
-/* gallery styles */
+/* Gallery container grid setup */
+.gallery {
+    width: 100vw; 
+    min-height: 100vh;
+}
+.gallery img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 20px;
+}
 
 
+/* Add specific aspect ratios to columns */
+.gallery .col-left img,
+.gallery .col-right img {
+    display: flex;
+    flex-direction: row;
+    aspect-ratio: 4 / 5; /* Tall images */
+}
 
+.gallery .col-mid img {
+    aspect-ratio: 5 / 4; /* Wide images */
+    width: 100%;
+}
 
-
+.gallery img {
+    margin-top: 5px;
+margin-bottom: 5px;}
 
 
 
