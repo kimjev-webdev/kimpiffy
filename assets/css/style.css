@@ -15,7 +15,19 @@ main {
 body .btn {
     font-family: "RumeiHouse";
     text-transform: uppercase;
+    background-color: transparent;
+    outline: none;
+    border: transparent;
 }
+    
+body .btn:focus {
+        outline: none !important;
+      }
+
+    body .btn:hover{
+        outline: none !important;
+      }
+
 
 /* navbar styles */
 .navbar-nav {
@@ -146,6 +158,7 @@ height: 3rem;
 
 .btn.cvButton,
 .btn.galleryButton {
+    color: #000000;
     font-size: 1.75rem;
     margin-top: 5px;
     padding: 10px;
@@ -158,7 +171,7 @@ height: 3rem;
 .btn.galleryButton:hover {
     color: #6810F4;
     background-color: transparent;
-    outline: none;
+    border: transparent;
 }
 
 /* Gallery container grid setup */
