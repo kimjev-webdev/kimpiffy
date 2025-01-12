@@ -162,6 +162,7 @@ height: 3rem;
 }
 
 /* Gallery container grid setup */
+
 .gallery {
     width: 100vw; 
     min-height: 100vh;
