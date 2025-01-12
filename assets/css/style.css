@@ -123,13 +123,15 @@ height: 3rem;
 /* about page styles */
 .aboutMe {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px
 }
 
 .aboutMe .about-text {
+    color: #000000;
     text-align: justify;
     font-size: 12px;
     padding: 0;
@@ -149,11 +151,12 @@ height: 3rem;
 }
 
 .greatContainer {
-    flex-grow: 1;
+    flex-grow: 2;
 }
 .greatImage {
     padding: 15px;
-    object-fit: fill;
+    max-height: 100%;
+    
 }
 
 .btn.cvButton,
@@ -174,7 +177,7 @@ height: 3rem;
     border: transparent;
 }
 
-/* Gallery container grid setup */
+/* gallery styles */
 
 .gallery {
     width: 100vw; 
@@ -187,25 +190,21 @@ height: 3rem;
         border-radius: 20px;
 }
 
-
-/* Add specific aspect ratios to columns */
 .gallery .col-left img,
 .gallery .col-right img {
     display: flex;
     flex-direction: row;
-    aspect-ratio: 4 / 5; /* Tall images */
+    aspect-ratio: 4 / 5; 
 }
 
 .gallery .col-mid img {
-    aspect-ratio: 5 / 4; /* Wide images */
+    aspect-ratio: 5 / 4; 
     width: 100%;
 }
 
 .gallery img {
     margin-top: 5px;
-margin-bottom: 5px;}
-
-
+margin-bottom: 3vh;}
 
 
 /* contact page styles */
@@ -213,13 +212,6 @@ margin-bottom: 5px;}
         background-image: url("/assets/images/contactbg.webp");
         background-size: contain;
         background-position: center;
-    }
-
-.contactBody .navbar-nav a {
-    color: white;
-}
-.contactBody .navbar-nav a:hover {     
-      color:  #af80f9
     }
             
 .contactForm {
@@ -262,9 +254,9 @@ margin-bottom: 5px;}
     outline: none;
 }
 
-.form-select,
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder,
+select::placeholder {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     color: #000000;
@@ -279,8 +271,10 @@ textarea::placeholder {
     font-weight: 300;
     color: rgb(255, 255, 255) !important;
     font-size: 0.8rem;
+    font-weight: 600;
 }
 
+input[type="select"]::placeholder,
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 textarea::placeholder {
@@ -306,26 +300,35 @@ input[type="checkbox"]:checked {
 #query {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 0.8rem;
+    font-weight: 500;
 }
 
-/* contact form thankyou message */
-#thankYouMessage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.thanks {
+    background-color: #000000e0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: fit-content;
     align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.thanks h1, p, i {
+    color: white;
+    text-transform: uppercase;
     text-align: center;
+}
+
+#thankYouMessage {
     width: 100%;
-    padding: 3px;
 }
 
 #thankYouMessage a {
     margin: 2px;
     text-decoration: none;
-    color: black;
-    display: inline-flex;
+    color: rgb(255, 255, 255);
 }
 
 #thankYouMessage a:hover {
@@ -336,7 +339,7 @@ input[type="checkbox"]:checked {
 
     font-size: 10vw;
     font-family: "RumeiHouse";
-    margin-bottom: 0px;
+    line-height: 0.75;
 }
 
 #thankYouMessage p {
