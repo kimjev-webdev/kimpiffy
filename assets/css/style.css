@@ -292,7 +292,7 @@ input[type="checkbox"]:checked {
 }
 
 .contactBody {
-    background-image: url("assets/images/contactbg.webp");
+    background-image: url("../images/contactbg.webp");
     background-size: cover;
     background-position: center;
 }
