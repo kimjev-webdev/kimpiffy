@@ -209,7 +209,7 @@ margin-bottom: 3vh;}
 
 /* contact page styles */
 .contactBody {
-        background-image: url("./assets/images/contactbg.webp");
+        background-image: url("assets/images/contactbg.webp");
         background-size: contain;
         background-position: center;
     }
