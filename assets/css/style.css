@@ -292,8 +292,8 @@ input[type="checkbox"]:checked {
 }
 
 .contactBody {
-    background-image: url("./assets/images/contactbg.webp");
-    background-size: contain;
+    background-image: url("assets/images/contactbg.webp");
+    background-size: cover;
     background-position: center;
 }
 
@@ -306,8 +306,10 @@ input[type="checkbox"]:checked {
 }
 
 
-#thankYouMessage {
+.thanks {
     width: 100%;
+    background-color: #000000;
+    color: white;
 }
 
 
