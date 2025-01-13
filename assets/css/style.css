@@ -35,11 +35,7 @@ body .btn:focus {
     margin: 5px;
 }
 
-.navbar i {
-    font-size: 5rem;
-}
-
-.navbar-nav a {
+.navbar-nav a, .navbar-nav i {
     font-family: "RumeiHouse";
     font-size: 2rem;
     color: rgb(255, 255, 255);
@@ -48,7 +44,6 @@ body .btn:focus {
 .navbar-nav a:hover {
     color: #af80f9
 }
-
 
 .navbar .navbar-toggler {
     background-color: transparent;
