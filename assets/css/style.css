@@ -61,6 +61,10 @@ height: 3rem;
     font-size: 2.5rem;
 }
 
+.fa-piffy-badge:hover {
+    color: #af80f9;
+}
+
 /* home page carousel and overlay styles */
 .carousel-item {
     position: relative;
