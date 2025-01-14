@@ -19,31 +19,32 @@ body .btn {
     outline: none;
     border: transparent;
 }
-    
+
 body .btn:focus {
-        outline: none !important;
-      }
+    outline: none !important;
+}
 
-    body .btn:hover{
-        outline: none !important;
-      }
+body .btn:hover {
+    outline: none !important;
+}
 
-  .navbar-brand     {
+/* navbar styles */
+
+.navbar-brand {
     padding-left: 3px;
-  }
+}
 
-.navbar-brand > i:hover {
+.navbar-brand>i:hover {
     color: #af80f9 !important;
 }
 
-
-/* navbar styles */
 .navbar-nav {
     padding: 2px;
     margin: 5px;
 }
 
-.navbar-nav a, .navbar-nav i {
+.navbar-nav a,
+.navbar-nav i {
     font-family: "RumeiHouse";
     font-size: 2rem;
     color: rgb(255, 255, 255);
@@ -60,15 +61,15 @@ body .btn:focus {
 }
 
 .navbar .navbar-toggler-icon {
-width: 3rem;
-height: 3rem;
+    width: 3rem;
+    height: 3rem;
 }
 
-.navbar .navbar-toggler > i:hover {
+.navbar .navbar-toggler>i:hover {
     color: #af80f9;
 }
 
-.navbar-toggler > i {
+.navbar-toggler>i {
     color: white;
     font-size: 2.5rem;
 }
@@ -161,10 +162,11 @@ height: 3rem;
 .greatContainer {
     flex-grow: 2;
 }
+
 .greatImage {
     padding: 15px;
     max-height: 100%;
-    
+
 }
 
 .btn.cvButton,
@@ -187,35 +189,45 @@ height: 3rem;
 
 /* gallery styles */
 .gallery {
-    width: 100vw; 
+    width: 100vw;
     min-height: 100vh;
 }
+
 .gallery img {
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-        border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
 }
 
 .gallery .col-left img,
 .gallery .col-right img {
     display: flex;
     flex-direction: row;
-    aspect-ratio: 4 / 5; 
+    aspect-ratio: 4 / 5;
 }
 
 .gallery .col-mid img {
-    aspect-ratio: 5 / 4; 
+    aspect-ratio: 5 / 4;
     width: 100%;
 }
 
 .gallery img {
     margin-top: 5px;
-margin-bottom: 3vh;}
+    margin-bottom: 3vh;
+}
 
 
 /* contact page styles */
+.mainContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000000d2;
     width: 100%;
     margin: 20px;
@@ -223,14 +235,9 @@ margin-bottom: 3vh;}
     border-radius: 20px;
 }
 
-.contactHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .contactHeader h1 {
-    font-size: 9vw;
+    font-size: 8vw;
     width: 100%;
     margin-bottom: 10px;
     padding: 0;
@@ -286,15 +293,6 @@ input[type="checkbox"]:checked {
     border-color: #af80f9
 }
 
-.mainContact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 .contactBody {
     background-image: url("../images/contactbg.webp");
     background-size: cover;
@@ -309,17 +307,13 @@ input[type="checkbox"]:checked {
     font-weight: 500;
 }
 
-
-.thanks {
-    width: 100%;
-    color: white;
-}
-
 #thankYouMessage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #thankYouMessage a {
@@ -338,6 +332,7 @@ input[type="checkbox"]:checked {
     font-size: 8vw;
     font-family: "RumeiHouse";
     line-height: 0.75;
+    padding-top: 10px;
 }
 
 #thankYouMessage p {
@@ -467,8 +462,7 @@ footer .text-light {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 1
-    00%;
+    height: 1 00%;
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -479,24 +473,24 @@ footer .text-light {
 
 
 @media (min-width: 576px) and (max-width: 768px) {
-#slogan .carouselSm {
-    width: 300px;
-}
+    #slogan .carouselSm {
+        width: 300px;
+    }
 
-.slogan .slogan-button {
-    font-size: clamp(30px, 32px, 35px);
+    .slogan .slogan-button {
+        font-size: clamp(30px, 32px, 35px);
     }
 }
 
 /* media query for small screens */
 @media (max-width: 768px) {
-.navbar-brand > i {
-    font-size: 3.5rem !important;
-    padding: 5px;
-}
+    .navbar-brand>i {
+        font-size: 3.5rem !important;
+        padding: 5px;
+    }
 
 
- .navbar-nav a {
+    .navbar-nav a {
         font-size: 2rem;
     }
 
@@ -510,9 +504,9 @@ footer .text-light {
         opacity: 1
     }
 
-.carousel-item .slogan {
-    opacity: 1;
-}
+    .carousel-item .slogan {
+        opacity: 1;
+    }
 
 
     #thankYouMessage p {
@@ -593,19 +587,19 @@ footer .text-light {
 
     .slogan .slogan-button {
         font-size: clamp(35px, 40px, 45px);
-        }
+    }
 }
 
 @media (max-width: 768px) {
-#slogan .carouselLg {
-    display: none;
-}
+    #slogan .carouselLg {
+        display: none;
+    }
 
-.aboutMe .about-text {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 5px;
-}
+    .aboutMe .about-text {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 5px;
+    }
 
 }
 
@@ -618,13 +612,13 @@ footer .text-light {
         opacity: 1;
     }
 
-#slogan .carouselSm {
-    display: none;
-}
+    #slogan .carouselSm {
+        display: none;
+    }
 
-.aboutMe .about-text {
-   padding: 15px;
-}
+    .aboutMe .about-text {
+        padding: 15px;
+    }
 }
 
 /* media query for medium screens */
