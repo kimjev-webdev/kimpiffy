@@ -28,6 +28,10 @@ body .btn:focus {
         outline: none !important;
       }
 
+  .navbar-brand     {
+    padding-left: 5px;
+  }
+
 .navbar-brand > i:hover {
     color: #af80f9 !important;
 }
@@ -58,6 +62,10 @@ body .btn:focus {
 .navbar .navbar-toggler-icon {
 width: 3rem;
 height: 3rem;
+}
+
+.navbar .navbar-toggler > i:hover {
+    color: #af80f9;
 }
 
 .navbar-toggler > i {
@@ -478,10 +486,6 @@ footer .text-light {
 
 /* media query for small screens */
 @media (max-width: 768px) {
-.navbar-brand {
-        font-size: 2.5rem;
-    }
-
 .navbar-brand > i {
     font-size: 3.5rem !important;
     padding: 5px;
