@@ -216,13 +216,13 @@ margin-bottom: 3vh;}
 
 /* contact page styles */
 .contactForm {
+    align-items: center;
+    justify-content: center;
     background-color: #000000d2;
     width: 100%;
+    margin: 20px;
+    padding: 20px;
     border-radius: 20px;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 15px;
 }
 
 .contactHeader {
@@ -232,7 +232,7 @@ margin-bottom: 3vh;}
 }
 
 .contactHeader h1 {
-    display: block;
+    font-size: 9vw;
     width: 100%;
     margin-bottom: 10px;
     padding: 0;
@@ -317,6 +317,12 @@ input[type="checkbox"]:checked {
     color: white;
 }
 
+#thankYouMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #thankYouMessage a {
     margin: 2px;
@@ -329,8 +335,9 @@ input[type="checkbox"]:checked {
 }
 
 #thankYouMessage h1 {
+    text-align: center;
     color: white;
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: "RumeiHouse";
     line-height: 0.75;
 }
@@ -640,8 +647,10 @@ footer .text-light {
     .greatImage {
         display: none;
     }
-
-.contactHeader h1 {
-    font-size: 9vw;
 }
+
+@media (min-width: 1200px) {
+    .contactHeader h1 {
+        font-size: 10.5vw;
+    }
 }
