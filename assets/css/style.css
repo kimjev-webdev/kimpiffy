@@ -234,10 +234,9 @@ margin-bottom: 3vh;}
 .contactHeader h1 {
     display: block;
     width: 100%;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     font-family: "RumeiHouse";
-    font-size: 10.5vw;
     color: white;
 }
 
@@ -636,8 +635,13 @@ footer .text-light {
     }
 }
 
+
 @media (max-width: 1200px) {
     .greatImage {
         display: none;
     }
+
+.contactHeader h1 {
+    font-size: 9vw;
+}
 }
