@@ -28,6 +28,10 @@ body .btn:focus {
         outline: none !important;
       }
 
+.navbar-brand > i:hover {
+    color: #af80f9 !important;
+}
+
 
 /* navbar styles */
 .navbar-nav {
@@ -174,7 +178,6 @@ height: 3rem;
 }
 
 /* gallery styles */
-
 .gallery {
     width: 100vw; 
     min-height: 100vh;
@@ -468,7 +471,7 @@ footer .text-light {
     width: 300px;
 }
 
-    .slogan .slogan-button {
+.slogan .slogan-button {
     font-size: clamp(30px, 32px, 35px);
     }
 }
