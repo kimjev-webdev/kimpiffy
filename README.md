@@ -157,4 +157,5 @@ Originally, a single aesthetically pleasing colour ( #9256f6) was chosen for use
 
 A combination of icons from the FontAwesome library have been utilized in the navbar, footer and contact page (after form submission). As well as stock icons, several custom icons were created and used for the navbar branding and amongst social icons in the footer. 
 
+
 #### 
