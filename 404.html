@@ -15,8 +15,7 @@
             text-align: center;
         }
 
-        /* Apply Montserrat font to the rest of the body text */
-        body {
+        .body {
             font-family: 'Montserrat', sans-serif;
             text-align: center;
             margin: 0;
@@ -41,17 +40,17 @@
     <!-- Embed Montserrat font from Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
-    <!-- Include Font Awesome from CDN for the icon -->
     <script src="https://kit.fontawesome.com/40e23bfd7e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <!-- Tombstone icon with 404 message -->
     <div class="error-container d-flex align-items-center justify-content-center">
-        <div class="row">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12">
         <i class="fa-solid fa-tombstone fa-10x"></i>
         <h1>404</h1>
         <p>OH NO! The page you're looking for doesn't exist. </p>
+            </div>
     </div>
     </div>
 
