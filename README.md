@@ -1,131 +1,160 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center"> Welcome to Kim Jevon's Porfolio </h1>
 
-Welcome Kim Jevon,
+<img src="assets/images/readmetitle.webp" alt="From a world of art into a new digital realm" width="100%"/>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Kim Jevon](https://kimjev-webdev.github.io/Unit1/index.html) is a visual artist and an aspiring web developer. The purpose of this portfolio site is to combine and demonstrate Kim's creative talents alongside her new front-end technical skills.  The main goal of the website is to help establish an online presence that can help open doors to new professional opportunities. The site blends aesthetic sensibility with technical functionality, showcasing how Kim's former experiences as an artist can be beneficial to her web development projects. The result is a user-friendly, intuitive, visually appealing site with a simple and coherent navigation. The style choices such as the colour palette, images and fonts complement the artwork, which takes centre stage on the responsive gallery page. 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Table of Contents
 
-## Gitpod Reminders
+<details open>
+    <summary><a href="#ux">UX</a></summary>
+ <ul>
+ <summary><a href="#goals">Planning & Goals</a></summary>
+    - [Business Goals]
+    - [User Profiles]
+    - [User Stories]
+    - [Minimum Viable Product]
+</ul
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+   <li><details>
+    <summary><a href="#visual-design">2. Visual Design</a></summary>
+    - [Wireframes](#wireframes)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    - [Images](#images)
+    - [Styling](#styling)
+    </details></li>
+    </ul>
+</details>
 
-`python3 -m http.server`
+## UX - Planning & Goals
 
-A blue button should appear to click: _Make Public_,
+### 1. Business Goals 
 
-Another blue button should appear to click: _Open Browser_.
+#### Primary Goal 
+The primary goal for this portfolio website is to showcase artistic and technical skills in a way that attracts potential clients or employers. The dual focus on both artwork and web development should inherently demonstrate Kim's versatility and ability to bridge the gap between creative and technical fields. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+Further business goals are:
 
-A blue button should appear to click: _Make Public_,
+<details>
+<summary> Showcase artistic & technical skills </summary>
+<li>Present a cohesive portfolio that highlights both Kim’s visual artwork and web development project to demonstrate proficiency in both areas.</li>
+</details>
 
-Another blue button should appear to click: _Open Browser_.
+<details> 
+<summary> Attract potential clients/employers </summary>
+<li>Generate interest from companies or individuals looking for web developers, leveraging Kim’s unique background in art.</li>
+</details>
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<details>
+<summary> Build upon personal brand </summary>
+<li>Establish a strong online presence that reflects Kim’s identity, style, and values, helping to differentiate her in a competitive market.</li>
+</details>
 
-To log into the Heroku toolbelt CLI:
+<details>
+<summary> Facilitate networking opportunities </summary>
+<li>Create a platform for connecting with other artists, developers, and industry professionals. Foster a community around Kim's work through social media links & newsletters which encourage engagement and repeat visits to the site.</li>
+</details>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<details>
+<summary>Generate leads for freelance work</summary>
+<li>Encourage inquiries for freelance projects or commissions with a contact form and clear calls to action.</li>
+</details>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+<details>
+<summary> Increase online visibility </summary>
+<li>Optimize the website for search engines (SEO) to attract organic traffic, ensuring that the portfolio is discoverable by potential clients or collaborators.</li>
+</details>
 
-### Connecting your Mongo database
+<details>
+<summary>Showcase learning </summary>
+<li>Highlight new skills & technologies learned, demonstrating commitment to personal and professional development.</li>
+</details>
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
 
-------
+### 2. User Profiles
 
-## Release History
+<details>
+<summary>Potential employers/clients </summary>
+<li>Individuals or companies looking to hire Kim for freelance projects or employment.</li>
+</details>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<details>
+<summary>Fellow artists/web developers</summary>
+<li>Creative professionals interested in collaboration, networking, or gaining inspiration from Kim's work.</li>
+</details>
 
-**June 18, 2024,** Add Mongo back into template
+<details>
+<summary>Art enthusiasts/collectors</summary>
+<li>People who appreciate art/design and want to explore Kim's work for personal enjoyment, inspiration, or even commission/buy artwork.</li>
+</details>
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+<details>
+<summary>Recruiters</summary>
+<li>Professionals searching for candidates to fill positions in creative or tech companies who need to assess Kim’s skills and experience.</li>
+</details>
 
-**May 28 2024:** Fix Mongo and Links installs
+<details>
+<summary>Students/learners</summary>
+<li>Inividuals interested in learning from the Kim's journey, techniques, and processes in both art and web development.</li>
+</details>
 
-**April 26 2024:** Update node version to 16
+### 3. User Stories 
 
-**September 20 2023:** Update Python version to 3.9.17.
+### 4. Minimum Viable Product
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<details> 
+<summary>Responsive Design</summary> 
+<li>Ensure the website is accessible and looks good on various devices (desktops, tablets, smartphones).</li>
+</details>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<details>
+<summary>Navigation</summary>
+<li> An easy-to-navigate menu that includes links to the homepage, gallery, about page, and contact information.</li>
+<li>A footer with navigation links, social links and newsletter sign up so option to connect is on every page.</li>
+ </details>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ <details>
+ <summary>Homepage</summary>
+<li>A striking hero image/carousel that shows Kim’s style and immediately communicates her creative skills.</li>
+<li>A short introduction to give context and spark interest with a call to action leading to more in depth information.</li>
+</details>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<details>
+<summary>About Page</summary>
+<li>A section that highlights Kim’s experience in art and career aspirations for web development with option to download C.V.</li>
+<li>A biography that includes information about Kim’s journey and influences.</li>
+<li>Profile image.</li>
+</details>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<details>
+<summary>Gallery Section</summary>
+<li>A dedicated gallery showcasing Kim’s work with high-quality images.</li>
+</details>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<details>
+<summary>Contact Information</summary>
+ <li>A simple contact form for inquiries or collaboration requests.</li>
+ <li>Social Media Links: Links to the Kim’s social media profiles to encourage further engagement.</li>
+ </details>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## UX - Visual Design
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### 1. Wireframes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### 2. Color Palette 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![](assets/images/colorpalette.webp)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<img style="margin: 20px" align="left" width="300" height="300" src="assets/images/profileimage.webp"> <br>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Why Violet?
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Originally, a single aesthetically pleasing colour ( #9256f6) was chosen for use on button hovers, clicks, links and for use in some titles. The reason that a violet hue was selected as the color choice for the portfolio website is because it has a direct relationship with Kim's use of ultra-violet light in her art exhibitions - the color itself carries meaning, and tells a story about Kim's artwork. From this base color two secondary violet hues ( #a781f1 and #5f18ea) were selected to account for accessibility and contrast criteria. An artistic 'flower petal' shaped border on Kim's profile image on the [about](https:/kimjev-webdev.github.io/Unit1/about.html) page makes use of all 3 violet tones, next to segments of the pattern which forms the background on the [contact](https:/kimjev-webdev.github.io/Unit1/contact.html) page. The profile image border, therefore, draws together all of the colors used across the site which prevents the use of #5f18ea on white background, and use of #a781f1 on black backgrounds looking hapchance, and instead makes the selection a concious style choice which also adhere to WCAG. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### 3. Icons
 
-------
+A combination of icons from the FontAwesome library have been utilized in the navbar, footer and contact page (after form submission). As well as stock icons, several custom icons were created and used for the navbar branding and amongst social icons in the footer. 
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+#### 

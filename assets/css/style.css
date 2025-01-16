@@ -217,6 +217,9 @@ body .btn:hover {
     margin-bottom: 3vh;
 }
 
+.col-mid.fa-angle-up:hover {
+    color: #af80f9;
+}
 
 /* contact page styles */
 .mainContact {
