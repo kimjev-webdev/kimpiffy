@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error - Page Not Found</title>
+    
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/RumeiHouse.css">
+
+    <style>
+     
+     /* Apply RumeiHouse font to the 404 heading */
+        h1 {
+            font-family: 'RumeiHouse', sans-serif;
+            font-size: 100px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        /* Apply Montserrat font to the rest of the body text */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Styling for the error message */
+        p {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        /* Styling for the Font Awesome icon */
+        .error-icon {
+            font-size: 120px;
+            color: #333;
+        }
+    </style>
+    
+    <!-- Embed Montserrat font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Include Font Awesome from CDN for the icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Tombstone icon with 404 message -->
+    <div class="error-container">
+        <i class="fa-solid fa-tombstone error-icon"></i>
+        <h1>404</h1>
+        <p>Oops! The page you're looking for doesn't exist.</p>
+    </div>
+
+</body>
+</html>
