@@ -151,11 +151,15 @@ Further business goals are:
 
 ### Why Violet?
 
-Originally, a single aesthetically pleasing colour ( #9256f6) was chosen for use on button hovers, clicks, links and for use in some titles. The reason that a violet hue was selected as the color choice for the portfolio website is because it has a direct relationship with Kim's use of ultra-violet light in her art exhibitions - the color itself carries meaning, and tells a story about Kim's artwork. From this base color two secondary violet hues ( #a781f1 and #5f18ea) were selected to account for accessibility and contrast criteria. An artistic 'flower petal' shaped border on Kim's profile image on the [about](https:/kimjev-webdev.github.io/Unit1/about.html) page makes use of all 3 violet tones, next to segments of the pattern which forms the background on the [contact](https:/kimjev-webdev.github.io/Unit1/contact.html) page. The profile image border, therefore, draws together all of the colors used across the site which prevents the use of #5f18ea on white background, and use of #a781f1 on black backgrounds looking hapchance, and instead makes the selection a concious style choice which also adhere to WCAG. 
+Originally, a single aesthetically pleasing colour ( #9256f6) was chosen for use on button hovers, clicks, links and for use in some titles. The reason that a violet hue was selected for the portfolio website is because it has a direct relationship with Kim's use of ultra-violet light in her art exhibitions - the color itself carries meaning, and tells a story about Kim's artwork. From this base color two secondary violet hues ( #a781f1 and #5f18ea) were selected to account for accessibility and contrast criteria. An artistic 'flower petal' shaped border on Kim's profile image on the [about](https:/kimjev-webdev.github.io/Unit1/about.html) page makes use of all 3 violet tones, next to segments of the pattern which forms the background on the [contact](https:/kimjev-webdev.github.io/Unit1/contact.html) page. The profile image border, therefore, draws together all of the colors used across the site which prevents the use of #5f18ea on white background, and use of #a781f1 on black backgrounds looking hapchance, and instead makes the selection a concious style choice which is WCAG compliant.
+
+<br>
 
 ### 3. Icons
 
 A combination of icons from the FontAwesome library have been utilized in the navbar, footer and contact page (after form submission). As well as stock icons, several custom icons were created and used for the navbar branding and amongst social icons in the footer. 
 
+<img style="margin: 20px" align="left" width="600" src="assets/images/faicons.webp"> <br> This selection of icons from the Font Awesome library are styled with a combination of Bootstrap's inline styling and custom CSS which targets custom classes applied to the  tag. Font Awesome's own [literal sizing scale](https://docs.fontawesome.com/web/style/size) is also utilized inline to scale the icons. 
 
-#### 
+ <img style="margin: 20px" align="right" width="250" src="assets/images/facustom.webp"><br><br>
+Two custom icons were created using SVG files uploaded to the Font Awesome library. This allows the brand 'badge' logo in the navbar to be targetted and styles in the same method as the other icons. A second custom icon displays Kim's full logo in the footer, to cement the brand identity she has developed throughout her art career. The logo is a registered trademark.
