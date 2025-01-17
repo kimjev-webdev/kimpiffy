@@ -163,3 +163,35 @@ A combination of icons from the FontAwesome library have been utilized in the na
 
  <img style="margin: 20px" align="right" width="250" src="assets/images/facustom.webp"><br><br>
 Two custom icons were created using SVG files uploaded to the Font Awesome library. This allows the brand 'badge' logo in the navbar to be targetted and styles in the same method as the other icons. A second custom icon displays Kim's full logo in the footer, to cement the brand identity she has developed throughout her art career. The logo is a registered trademark.
+
+### 4. Fonts 
+
+#### Primary Font - Rumei House
+
+Rumei House was purchased under lisence from [MyFonts.com](https://www.myfonts.com/collections/rumei-house-font-imoodev?srsltid=AfmBOorYh8r2v8qMe3nCv5gwRjpZThU-3WT1UXSih-AlNUYzToOGvVYH)
+
+A psychedelic, maximalist, and very stylized font was chosen for headings and buttons for several reasons.
+* It clearly represents aspects of Kim's artistic style and therefore compliments the content of the website.
+* The font fits into a 'box shape' which makes it intuitivley identifiable as a button. 
+* The box-like letters also allow the text to look aesthetically pleasing when justified. 
+<br>
+<br>
+ <img style="margin: 20px" align="left" width="300" src="assets/images/nametext.webp">
+Graphic images of text elements were used on the carousel overlay text and on the about page to work around alignment complications. CSS text justification properties ('text-justify: justified') is only applicable when text is overspilling onto the next line, and even with several other style adjustments in place the desired outcome was complicated to achieve. 
+
+Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. The images all contain alt-text which matches the writing displayed in the image. 
+
+The user is familiarised with the 'Rumei House' font representing 'clickable content' through its use in the navbar, a conventional element on most websites. After learning through the use of the font in this location, combined with a hover effect on the menu items, it becomes clear that any text in Rumei House font which displays a purple hover color is likely to be a button. This eliminates confusion which could be caused by the lack of outline and background that is a usual style convention of buttons. The 'call to action' placements also solidify that text displayed in Rumei House is usually a button. 
+
+The discerning quality between RumeiHouse being used as headers and as buttons is the size along with the hover color - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
+
+![](assets/images/overlayps.webp)
+#### Secondary Font - Montserrat
+
+Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google.com/specimen/Montserrat) for several reasons.
+* Sans-serif makes it easy to read across all devices.
+* The letterforms are curvy which means they compliment the 'flowing' forms of Rumei House. 
+* Montserrat has clean, geometric letterforms which make it feel modern and structured.
+* It is offered in a wide range of weights, from thin to bold which makes it easy to style.  
+* It has tall uppercase letters which make it look effective when capitalised.                  
+
