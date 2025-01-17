@@ -6,26 +6,28 @@
 
 ## Table of Contents
 
-<details open>
-    <summary><a href="#ux">UX</a></summary>
- <ul>
- <summary><a href="#goals">Planning & Goals</a></summary>
-    - [Business Goals]
-    - [User Profiles]
-    - [User Stories]
-    - [Minimum Viable Product]
-</ul
+<details>
+  <summary>UX</summary>
 
-   <li><details>
-    <summary><a href="#visual-design">2. Visual Design</a></summary>
-    - [Wireframes](#wireframes)
-    - [Fonts](#fonts)
-    - [Icons](#icons)
-    - [Colors](#colors)
-    - [Images](#images)
-    - [Styling](#styling)
-    </details></li>
-    </ul>
+  <details>
+    <summary>Planning & Goals</summary>
+
+1.  Business Goals 
+2. User Profiles
+3. User Stories
+4. Minimum Viable Product
+
+  </details>
+
+<details>
+  <summary>Visual Design</summary>
+
+  1. Wireframes
+  2. Colour Palette
+  3. Icons
+  4. Fonts 
+  5. Images - Mockups, Background Image, Text Images Profile Image, Carousel.
+</details>
 </details>
 
 ## UX - Planning & Goals
@@ -102,6 +104,14 @@ Further business goals are:
 
 ### 3. User Stories 
 
+* As a <b>recruiter</b> I want to see a clear, well-structured site with intuitive navigation, so I can easily assess Kim’s understanding of UX/UI principles and her approach to design.
+* As a <b>prospective client</b> I want to view smooth and interactive web elements so I can get a clear idea of how Kim's technical skills and creativity fit together.
+* As a <b>potential employer</b> I want to view Kim’s past credentials and get an in depth look at her professional profile so I can make an informed decision on whether or not to invite her to an interview.
+* As a <b>potential collaborator</b> I want to find a contact form or email link easily, so I can reach out to discuss possible partnerships or freelance opportunities.
+* As an <b>art enthusiast</b> I want to browse through a gallery of Kim's work, so I can see her style and enjoy the creative content.
+* As a <b>first-time visitor</b> I want to see clear calls-to-action which will guide me through the site towards contacting Kim for appropriate web development or creative projects.
+* As a <b>student</b> I want to research and gather information on Kim’s artistic career to get an in-depth look at her credentials, creative process and web development techniques so that I can learn from her experiences.
+
 ### 4. Minimum Viable Product
 
 <details> 
@@ -172,20 +182,25 @@ Rumei House was purchased under lisence from [MyFonts.com](https://www.myfonts.c
 
 A psychedelic, maximalist, and very stylized font was chosen for headings and buttons for several reasons.
 * It clearly represents aspects of Kim's artistic style and therefore compliments the content of the website.
-* The font fits into a 'box shape' which makes it intuitivley identifiable as a button. 
+* When capitalized the font fits into a 'box shape' which makes it intuitivley identifiable as a button. 
 * The box-like letters also allow the text to look aesthetically pleasing when justified. 
 <br>
 <br>
  <img style="margin: 20px" align="left" width="300" src="assets/images/nametext.webp">
 Graphic images of text elements were used on the carousel overlay text and on the about page to work around alignment complications. CSS text justification properties ('text-justify: justified') is only applicable when text is overspilling onto the next line, and even with several other style adjustments in place the desired outcome was complicated to achieve. 
 
-Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. The images all contain alt-text which matches the writing displayed in the image. 
+Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. (See preview left) The images all contain alt-text which matches the writing displayed in the image. 
 
 The user is familiarised with the 'Rumei House' font representing 'clickable content' through its use in the navbar, a conventional element on most websites. After learning through the use of the font in this location, combined with a hover effect on the menu items, it becomes clear that any text in Rumei House font which displays a purple hover color is likely to be a button. This eliminates confusion which could be caused by the lack of outline and background that is a usual style convention of buttons. The 'call to action' placements also solidify that text displayed in Rumei House is usually a button. 
 
-The discerning quality between RumeiHouse being used as headers and as buttons is the size along with the hover color - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
+The discerning quality between RumeinHouse being used as headers and as buttons is the size along with the hover color (see preview below) - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
+
+Rumei House has been capitalized wherever it is used across the site. 
 
 ![](assets/images/overlayps.webp)
+
+<img style="margin: 20px" align="right" width="400" height="auto" src="assets/images/montserratprev.webp">
+
 #### Secondary Font - Montserrat
 
 Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google.com/specimen/Montserrat) for several reasons.
@@ -193,5 +208,7 @@ Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google
 * The letterforms are curvy which means they compliment the 'flowing' forms of Rumei House. 
 * Montserrat has clean, geometric letterforms which make it feel modern and structured.
 * It is offered in a wide range of weights, from thin to bold which makes it easy to style.  
-* It has tall uppercase letters which make it look effective when capitalised.                  
+* It has tall uppercase letters which make it look effective when capitalised.    
+
+Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. See preview >
 
