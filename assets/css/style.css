@@ -184,7 +184,7 @@ main .aboutContainer {
 .greatImage {
     padding-top: 30px;
     padding-bottom: 30px;
-    max-width: 85%;
+    max-width: 90%;
 }
 
 .btn.cvButton,
@@ -709,7 +709,7 @@ footer .text-light {
     }
 
     .greatImage {
-        max-width: 9%;
+        max-width: 87%;
     }
 }
 
@@ -728,5 +728,9 @@ footer .text-light {
 @media (min-width: 2000px) {
     .aboutMe .about-text {
         font-size: 1.5rem;
+    }
+
+    .greatImage {
+        max-width: 90%;
     }
 }
