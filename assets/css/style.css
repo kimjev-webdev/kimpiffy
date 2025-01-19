@@ -155,7 +155,7 @@ main .aboutContainer {
 }
 
 .aboutMe .about-text {
-    font-size: 0.7rem;
+    font-size: 13px;
     min-width: 100%;
     max-width: 100%;
     color: #000000;
@@ -708,7 +708,7 @@ footer .text-light {
     }
 
     .greatImage {
-        max-width: 90%;
+        max-width: 9%;
     }
 }
 
