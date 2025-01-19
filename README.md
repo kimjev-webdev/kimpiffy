@@ -212,3 +212,51 @@ Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google
 
 Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. See preview >
 
+### 5. Images
+![](assets/images/gallerypreview.webp)
+
+The images selected for the site should provide a visual overview of Kim's experience as an artist, as well as a clear idea of her visual language and style. The gallery hosts pictures of Kim's surface pattern designs and creative direction for fashion photography, her textile banners, her mixed-media artwork, art exhibitions and illustration which shows a dynamic approach to creativity.  
+
+* Images are a combination of photographs and mockups of Kim's work which help to give a clear and concise layout to the gallery.
+* 3 responsive columns are used to give a basic masonry style effect. 
+* All images are high quality, and therefore have large file sizes. To aid loading times all images were compressed.
+* All images are uploaded in 'webp' format to aid UX and provide superior lossless and lossy compression to the images in the gallery.
+* Lazy loading (loading="lazy") was used to improve UX.
+* With more time and experience the gallery would benefit from [Blur Hash](https://blurha.sh/) implementation to improve UX.
+* With more time and experience the gallery would benefit from other feature such as zoom hover or displaying in larger format when clicked. 
+
+6. ### Styling
+
+Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inlinek, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
+
+## Features - All Pages
+
+### 1. Navbar
+
+The navbar is as simple as possible to aid the UX. 
+3 pages with clear and obvious headings make the site easy to navigate.
+The left hand side of the navbar has the badge version of Kim's logo. This operates as a homepage link to aid navigation.
+The badge logo has been implemented as a custom icon, created and uploaded to Font Awesome.
+All buttons in the navbar have a purple rollover.
+The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices.
+The navbar uses 'sticky-top' to keep it visible on even when the page is scrolled down. 
+
+
+### 2. Footer 
+
+•The footer is ocated at the bottom of every page.
+The footer is responsive, forming 3 columns on larger screens and on smaller devices it collapses into one column. 
+The footer includes an email sign up 'call to action' which utilizes placeholder text to explain to the user that they are signing up for a newsletter whilst requiring no extra space.
+The email sign up uses JavaScript to change the SIGN UP button text to THANKS! Which allows the user to understand that the form has been submitted without taking up extra space.
+The SIGN UP button on the email sign up is greyed out to communicate that the email hasn't been entered and this transitions to white once it has been filled in. 
+The central column includes social links encouraging users to stay connected and find out more about Kim.
+The final column contains the page navigation links which aid site navigation. 
+
+mainly highlighting contact and social aspects with the photographer
+Made of three columns, changing shape for larger or smaller devices.
+The first column has a newsletter signup box that uses EmailJS to make contact with the photographer.
+A modal confirming the message has been sent and changes on success or an error is used for a response.
+A message encouraging contact is used as the second column.
+The third column represents social media links
+
+
