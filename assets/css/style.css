@@ -83,6 +83,7 @@ body .btn:hover {
 .main .flex-grow-1 {
     margin-top: 200px;
 }
+
 .carousel-item {
     position: relative;
     height: 100vh;
@@ -156,7 +157,7 @@ main .aboutContainer {
 .aboutMe .about-text {
     font-size: 0.7rem;
     min-width: 100%;
-    max-width: 100%; 
+    max-width: 100%;
     color: #000000;
     text-align: justify;
     padding: 0;
@@ -211,6 +212,7 @@ main .aboutContainer {
 .mainGallery {
     margin-top: 100px;
 }
+
 .gallery img {
     max-width: 100%;
     height: auto;
@@ -247,6 +249,7 @@ main .mainContact {
     align-items: center;
     justify-content: center;
 }
+
 .contactForm {
     background-color: #000000d2;
     max-width: 100%;
@@ -554,9 +557,9 @@ footer .text-light {
     }
 
     .centerArrow {
-            display: none;
-        }
-    
+        display: none;
+    }
+
     #thankYouMessage p {
         font-size: 0.8rem;
         font-family: "Montserrat", sans-serif;
@@ -638,9 +641,10 @@ footer .text-light {
 }
 
 @media (min-width: 768px) {
-.mainGallery .endArrow {
+    .mainGallery .endArrow {
         display: none;
     }
+
     .aboutMe .row {
         display: flex;
         justify-content: space-evenly;
@@ -681,10 +685,10 @@ footer .text-light {
 }
 
 @media (min-width: 969px) {
-        .contactHeader h1 {
-            font-size: 5rem;
-        }
+    .contactHeader h1 {
+        font-size: 5rem;
     }
+}
 
 
 @media (max-width: 1200px) {
