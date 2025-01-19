@@ -553,7 +553,10 @@ footer .text-light {
         opacity: 1;
     }
 
-
+    .centerArrow {
+            display: none;
+        }
+    
     #thankYouMessage p {
         font-size: 0.8rem;
         font-family: "Montserrat", sans-serif;
@@ -635,6 +638,9 @@ footer .text-light {
 }
 
 @media (min-width: 768px) {
+.mainGallery .endArrow {
+        display: none;
+    }
     .aboutMe .row {
         display: flex;
         justify-content: space-evenly;
