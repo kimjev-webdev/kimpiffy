@@ -13,7 +13,7 @@ main {
 }
 
 body .btn {
-    font-family: "RumeiHouse";
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     text-transform: uppercase;
     background-color: transparent;
     outline: none;
@@ -45,7 +45,7 @@ body .btn:hover {
 
 .navbar-nav a,
 .navbar-nav i {
-    font-family: "RumeiHouse";
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     font-size: 2rem;
     color: rgb(255, 255, 255);
 }
@@ -122,7 +122,7 @@ body .btn:hover {
 }
 
 .slogan .slogan-button {
-    font-family: "RumeiHouse";
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     color: white;
     background-color: transparent;
     border: none;
@@ -268,7 +268,7 @@ main .mainContact {
     width: 100%;
     margin-bottom: 10px;
     padding: 0;
-    font-family: "RumeiHouse";
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     color: white;
 }
 
@@ -357,7 +357,7 @@ input[type="checkbox"]:checked {
     text-align: center;
     color: white;
     font-size: 8vw;
-    font-family: "RumeiHouse";
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     line-height: 0.75;
     padding-top: 10px;
 }
@@ -400,7 +400,7 @@ footer {
 }
 
 footer h2 {
-    font-family: "RumeiHouse";
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     font-size: 2rem;
     margin: 0;
     padding: 0;
