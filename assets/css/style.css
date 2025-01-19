@@ -81,7 +81,7 @@ body .btn:hover {
 /* home page styles */
 
 .main .flex-grow-1 {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .carousel-item {
     position: relative;
@@ -240,26 +240,25 @@ main .aboutContainer {
 }
 
 /* contact page styles */
-.mainContact {
-    margin-top: 100px;
+main .mainContact {
+    max-height: auto;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .contactForm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #000000d2;
-    width: 100%;
-    margin: 20px;
+    max-width: 100%;
+    margin-top: 200px;
+    margin-bottom: 100px;
     padding: 20px;
     border-radius: 20px;
 }
 
 
 .contactHeader h1 {
-    font-size: 8vw;
+    font-size: 3rem;
     width: 100%;
     margin-bottom: 10px;
     padding: 0;
@@ -493,7 +492,6 @@ footer .text-light {
     }
 }
 
-
 @media (min-width: 576px) and (max-width: 768px) {
     #slogan .carouselSm {
         width: 300px;
@@ -510,7 +508,6 @@ footer .text-light {
         font-size: 3.5rem !important;
         padding: 5px;
     }
-
 
     .navbar-nav a {
         font-size: 2rem;
@@ -599,6 +596,16 @@ footer .text-light {
         padding-bottom: 5px;
         margin: 0;
     }
+
+    #slogan .carouselLg {
+        display: none;
+    }
+
+    .aboutMe .about-text {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 5px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -610,22 +617,7 @@ footer .text-light {
     .slogan .slogan-button {
         font-size: clamp(35px, 40px, 45px);
     }
-}
 
-@media (max-width: 768px) {
-    #slogan .carouselLg {
-        display: none;
-    }
-
-    .aboutMe .about-text {
-        margin-left: 15px;
-        margin-right: 15px;
-        padding: 5px;
-    }
-
-}
-
-@media (min-width: 768px) {
     .carousel-item:hover .carousel-overlay {
         opacity: 1;
     }
@@ -663,18 +655,11 @@ footer .text-light {
     }
 }
 
-@media (min-width: 1200px) {
-    .contactHeader h1 {
-        font-size: 10.5vw;
-    }
-}
-
 @media (min-width: 1300px) {
     .aboutMe .about-text {
         font-size: 0.8rem;
     }
 }
-
 
 @media (min-width: 1400px) {
     .aboutMe .about-text {
