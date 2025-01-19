@@ -254,11 +254,13 @@ main .mainContact {
     margin-bottom: 100px;
     padding: 20px;
     border-radius: 20px;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 
 .contactHeader h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 100%;
     margin-bottom: 10px;
     padding: 0;
@@ -486,6 +488,12 @@ footer .text-light {
     height: 1 00%;
 }
 
+@media (max-width: 320px) {
+    .contactHeader h1 {
+        font-size: 1.7rem;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 576px) {
     .slogan .slogan-button {
         font-size: clamp(27px, 30px, 32px);
@@ -499,6 +507,24 @@ footer .text-light {
 
     .slogan .slogan-button {
         font-size: clamp(30px, 32px, 35px);
+    }
+}
+
+@media (min-width: 400px) {
+    .contactHeader h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .contactHeader h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .contactHeader h1 {
+        font-size: 4rem;
     }
 }
 
@@ -647,6 +673,12 @@ footer .text-light {
         padding: 0;
     }
 }
+
+@media (min-width: 969px) {
+        .contactHeader h1 {
+            font-size: 5rem;
+        }
+    }
 
 
 @media (max-width: 1200px) {
