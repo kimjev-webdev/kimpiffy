@@ -27,6 +27,91 @@
   3. Icons
   4. Fonts 
   5. Images - Mockups, Background Image, Text Images Profile Image, Carousel.
+  6. Styling
+</details>
+</details>
+
+</details>
+<details>
+<summary>Features</summary>
+<details>
+<summary>All Pages</summary>
+
+1. Navbar
+2. Footer
+</details>
+<details>
+<summary>Homepage</summary>
+
+1. Hero/Carousel
+2. Image Text & Overlay
+</details>
+<details>
+<summary>About Page</summary>
+
+1. Images
+2. Paragraphs
+3. Buttons
+</details>
+<details> 
+<summary>Gallery Page</summary>
+
+1. Images
+2. Icon
+</details>
+
+<details>
+<summary>Contact Page</summary>
+
+1. Background Image
+2. Form
+</details>
+</details>
+
+<details>
+ <summary>Technologies Used</summary>
+ 
+<details>
+<summary>Languages</summary>
+
+1. HTML
+2. CSS
+3. JavaScript 
+</details>
+
+<details>
+<summary>Framework</summary>
+
+1. Bootstrap 5 
+</details>
+
+<details>
+<summary>Libraries</summary>
+
+1. Google Fonts
+2. Font Awesome 
+</details>
+
+<details>
+<summary>Platforms</summary>
+
+1. GitHub
+2. Gitpod 
+</details>
+
+<details>
+ <summary>Other Tools</summary>
+
+ 1. Canvy
+ 2. Remini
+ 3. TinyPNG
+ 4. Online-Convert
+ 5. Vectorizer
+ 6. Figma
+ 7. Vecteezy
+ 8. Procreate
+ 9. Fotor
+ 10. Favicon
 </details>
 </details>
 
@@ -226,37 +311,125 @@ The images selected for the site should provide a visual overview of Kim's exper
 * With more time and experience the gallery would benefit from other feature such as zoom hover or displaying in larger format when clicked. 
 
 6. ### Styling
-
 Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inlinek, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
 
 ## Features - All Pages
 
 ### 1. Navbar
 
-The navbar is as simple as possible to aid the UX. 
-3 pages with clear and obvious headings make the site easy to navigate.
-The left hand side of the navbar has the badge version of Kim's logo. This operates as a homepage link to aid navigation.
-The badge logo has been implemented as a custom icon, created and uploaded to Font Awesome.
-All buttons in the navbar have a purple rollover.
-The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices.
-The navbar uses 'sticky-top' to keep it visible on even when the page is scrolled down. 
+![](assets/images/navfull.webp)
+The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/components/navbar/) copied from Bootstrap 5 and then customized. 
+
+<img style="margin: 20px;" align="right" width="400px" height="auto" src="assets/images/navcollapse.webp" >
+
+* The navbar is as simple as possible to aid the UX. 
+* 3 pages with clear and obvious headings make the site easy to navigate.
+* The navbar uses Rumei House font for links.
+* The left hand side of the navbar has the badge version of Kim's logo. This operates as a homepage link to aid navigation.
+* The badge logo has been implemented as a custom icon, created and uploaded to Font Awesome.
+* The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices. > See preview
+* Bootstrap's navbar toggler icon (hamburger for collapsible responsive menu) has been replaced with a Font Awesome alternative which makes it easier to target with CSS, including adding the purple hover effect.
+* All buttons in the navbar have this purple rollover.
+* The navbar uses 'sticky-top' to keep it visible on even when the page is scrolled down. 
 
 
 ### 2. Footer 
+![](assets/images/footerfull.webp)
 
-•The footer is ocated at the bottom of every page.
-The footer is responsive, forming 3 columns on larger screens and on smaller devices it collapses into one column. 
-The footer includes an email sign up 'call to action' which utilizes placeholder text to explain to the user that they are signing up for a newsletter whilst requiring no extra space.
-The email sign up uses JavaScript to change the SIGN UP button text to THANKS! Which allows the user to understand that the form has been submitted without taking up extra space.
-The SIGN UP button on the email sign up is greyed out to communicate that the email hasn't been entered and this transitions to white once it has been filled in. 
-The central column includes social links encouraging users to stay connected and find out more about Kim.
-The final column contains the page navigation links which aid site navigation. 
+<img style="margin: 20px;" align="right" width="300" height="auto" src="assets/images/footerjs.webp">
 
-mainly highlighting contact and social aspects with the photographer
-Made of three columns, changing shape for larger or smaller devices.
-The first column has a newsletter signup box that uses EmailJS to make contact with the photographer.
-A modal confirming the message has been sent and changes on success or an error is used for a response.
-A message encouraging contact is used as the second column.
-The third column represents social media links
+The footer is located at the bottom of every page, and was created from a [boilerplate](https://getbootstrap.com/docs/5.3/components/card/#header-and-footer) provided by Bootstrap 5.
+
+* The footer is responsive, forming 3 columns on larger screens and on smaller devices it collapses into one column. 
+* There is an empty column nested within the footer to help assist in aligning the central column despite the aysmetrical widths of the two outside columns. 
+* The footer includes an email sign up 'call to action' which utilizes placeholder text to explain to the user that they are signing up for a newsletter.
+* The email sign up uses JavaScript to change the SIGN UP button text to THANKS! Which allows the user to understand that the form has been submitted without taking up extra space. This whole column is designed to be as comprehensive as possible without comprimising UX.
+* The 'SIGN UP' button on the email sign up is greyed out to communicate that the email hasn't been entered and this transitions to white once it has been filled in. 
+* The central column includes social links encouraging users to stay connected and find out more about Kim.
+* The final column contains the page navigation links which aid site navigation. 
+* There is space in the final column for a PRIVACY section to contain the privacy policy once this has been created.
+
+## Features - Homepage 
+
+### 1. Hero/Carousel
+
+### 2. Image Text & Overlay
+
+## Features - About Page
+
+### 1. Images
+
+### 2. Paragraphs
+
+### 3. Buttons
+
+## Features - Gallery
+
+### 1. Images
+
+### 2. Icons
+
+## Features - Contact Page
+
+### 1. Background Image
+
+### 2. Form 
+
+## Technologies Used - Languages 
+
+### 1. HTML
+* This is the page markup language used.
+
+### 2. CSS
+* This is used for styling the elements.
+
+### 3. JavaScript
+* Simple JS instructions are used on the forms in the footer and on the [contact](contact.html) page.
+
+## Technologies Used - Framework
+
+### 1. Bootstrap 5
+* Bootstrap 5 boilerplate code was implemented throughout the site as a blueprint for many of the elements.
+
+## Technologies Used - Libraries 
+
+### 1. Google Fonts
+* Google Fonts was utilized for installing the Montserrat body/secondary font.
+
+### 2. Font Awesome
+* Font Awesome was utlized for installing icons and also used for hosting custom icons. 
+
+## Technologies Used - Platforms 
+
+### 1. Github
+* Hosts the deployed version of the site and also stores the code. 
+
+### 2. Gitpod
+* Hosts the IDE used for the project development.
+
+## Technologies Used - Other Tools
+
+### 1. [Canvy](https://canvy.com)
+* Used to create realistic framed mock-ups and gallery placements of Kim's art to improve the aesthetics of the gallery. 
+### 2. [Remini](https://app.remini.ai)
+* AI image optimization used to improve quality of low resolution pictures in the gallery.
+### 3. [TinyPNG](https://tinypng.com/)
+* Used to compress images and optimize for web.
+### 4. [Online-Convert](https://online-convert.com)
+* Used to convert all images to webp format. 
+### 5. [Vectorizer](https://vectorizer.io) 
+* Used to convert images to vector format for quality.
+* Used to convert logos to SVG format before using figma to aid in design of custom Font Awesome icons.
+### 6. [Figma](https://figma.com)
+* Used to extract nessacary code from SVG images in order to create custom Font Awesome icons.
+### 7. [Vecteezy](https://vecteezy.com)
+* Used to download some blank wall imagery for creating mockups.
+### 8. [Procreate](https://procreate.com)
+* Application used to create PNG's, designed all text images & the border for the profile image on the About page.
+### 9. [Fotor](https://fotor.com)
+* Used to resize and compress images to aid responsivity of gallery.
+### 10. [Favicon](https://favicon.io/)
+* Used to change image file to favicon format.
+
 
 
