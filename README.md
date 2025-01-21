@@ -26,7 +26,7 @@
   2. Colour Palette
   3. Icons
   4. Fonts 
-  5. Images - Mockups, Background Image, Text Images Profile Image, Carousel.
+  5. Images
   6. Styling
 </details>
 </details>
@@ -113,6 +113,16 @@
  9. Fotor
  10. Favicon
 </details>
+</details>
+
+<details>
+<summary>Testing</summary>
+
+1. About Testing
+2. Validation
+3. Mobile Testing
+4. Desktop Testing
+5. Bugs
 </details>
 
 ## UX - Planning & Goals
@@ -351,11 +361,17 @@ The footer is located at the bottom of every page, and was created from a [boile
 
 ## Features - Homepage 
 
+![](assets/images/carouseloverlaypreview.webp)
+
+The homepage serves a strong, visually impactful set of imagery to intrigue users, with its purpose being to capture their attention and lead them 'deeper' into the website's content. 
+
 ### 1. Hero/Carousel
 
-<img style="margin: 5px" width="350" height="auto" src="assets/images/portfoliohero1.webp">
-<img style="margin: 5px" width="350" height="auto" src="assets/images/portfoliohero2.webp">
-<img style="margin: 5px" width="350" height="auto" src="assets/images/portfoliohero3.webp">
+<center>
+<img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero1.webp">
+<img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero2.webp">
+<img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero3.webp">
+</center>
 
 The Hero imagery on the homepage is the first visual introduction to Kim's artwork on the site. 
 
@@ -365,6 +381,9 @@ The Hero imagery on the homepage is the first visual introduction to Kim's artwo
 * The hero images in the carousel span the entire viewport width to serve an impact and give strong visual ques to the user.
 
 ### 2. Image Text & Overlay
+
+![](assets/images/overlayps.webp)
+
 The image text on the carousel 'teases' more information about the content of the website and supports the content of the hero imagery in the carousel. 
 
 * The image text is in webp image format to help style the text in a justified format with multiple text sizes on each line. 
@@ -381,7 +400,13 @@ The image text on the carousel 'teases' more information about the content of th
 
 ## Features - About Page
 
+![](assets/images/aboutpreview.webp)
+
+The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a visually enticing responsive design which forms a single column on mobiles, expanding to two columns on tablets and on larger screens it reveals a hidden third column.
+
 ### 1. Images
+
+<img style="margin: 20px" align="left" width="auto" height="600" src="assets/images/abouttext.webp">
 
 * There are 3 images on the About page - 2 show on devices up to size medium, and 3 showing on larger screens.
 * Two images show text and follow the same format as the justified text seen on the carousel overlay for consistency.
@@ -392,6 +417,21 @@ The image text on the carousel 'teases' more information about the content of th
 * The final image only displays on larger screens and helps the content of the first two columns on the page look more aesthetically pleasing. It says 'its great to meet you' which again, adds personality and friendly tones to the information which could otherwise be quite serious and mundane. 
 * The images with text use Rumei House, justified to fit into the widths of the container they occupy. Key words are highlighted in the mid purple tone #9256f6 which helps draw the users eyes to the most important words 'Kim & Great' - which gives a positive message about her to potential employers and collaborators. 
 
+<img style="margin: 20px" align="right" width="auto" height="300" src="assets/images/nametext.webp">
+<img style="margin: 20px" align="right" width="auto" height="300" src="assets/images/profileimage.webp">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ### 2. Paragraphs
 
 * The first paragraph serves to inform users a little more about Kim's aspirations in becoming a web developer and why her artistic background is a good device for this career change. This paragraph serves the main business objective and is targetted at the key user group.
@@ -399,12 +439,20 @@ The image text on the carousel 'teases' more information about the content of th
 
 ### 3. Buttons
 
+<center>
+<img style="margin: 20px" width="auto" height="100" src="assets/images/artbuttonprev.webp">
+<img style="margin: 20px" width="auto" height="100" src="assets/images/cvbuttonprev.webp">
+</center>
+
 * The buttons help assist the user in gaining more relevant information, if the content of the paragraphs is of interest to them.
 * At the base of the first paragraph is the button 'Download C.V' which provides a direct download to a PDF which will give recruiters and employers more in depth proffesional information about Kim
 * This downloadable C.V prevents the about page from looking cluttered, and also allows the information to only be provided to people who require it.
 * The button at the base of the second paragraph helps guide users to the next page in the navigation 'Gallery' - it says 'View my Artwork' and helps users follow a natural progression - once they have 'got to know' Kim on the about page, they can see a lot more visual information about her in the gallery. 
+* Buttons utilize the darker violet #5f18ea on rollover to maintain WCAG on the white background of the about page. 
 
 ## Features - Gallery
+
+![](assets/images/galleryresponsive.webp)
 
 ### 1. Images
 
@@ -421,6 +469,8 @@ Images in the gallery aim to showcase Kim's experiences as an artist, showcasing
 * This arrow is a secondary option to the fixed-top navigation, should the user want to look back through the gallery rather than navigate to a different page. 
 
 ## Features - Contact Page
+
+![](assets/images/contactpreview.webp)
 
 ### 1. Background Image
 
@@ -497,5 +547,11 @@ The background image is the final visual 'wow' that aims to ensure website users
 ### 10. [Favicon](https://favicon.io/)
 * Used to change image file to favicon format.
 
+## Testing
 
-
+### 1. About Testing
+* The entire site has been tested comprehensivley throughout the build. A full log of these adjustments can be found in the [commit log]  on Github
+### 2. Validation
+### 3. Mobile Testing
+### 4. Desktop Testing
+### 5. Bugs 
