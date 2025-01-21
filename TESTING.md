@@ -9,9 +9,7 @@
 |-----------|----------------------|----------------------|--------------------|
 | Index.html - Before    | [W3C ](https://validator.w3.org/) | <img src="assets/images/testing/indexhtml1.jpeg" height="auto" width="600px"> <img src="assets/images/testing/indexhtml2.jpeg" height="auto" width="600px"> | Removed unnessacary roles, deleted stray end div tag, close footer form, change carousel section to div, remove alt text from icons in footer   |
 | Index.html - After    | [W3C](https:/validator.w3.org) | <img src="assets/images/testing/indexhtml.jpeg" height="auto" width="600px">  | Passed all tests.   |
-
-
-| Gallery   | [http://example3.com](http://example3.com) | ![Screenshot 3](http://example3.com/screenshot3.png) | Example note 3     |
+| About.html - Before   | [W3C](https://validator.w3.org/) | <img src="assets/images/testing/abouthtml.jpeg" height="auto" width="600px">| Removed roles, closed form in footer, removed alt tags from footer icons, fixed headers and header hierarchy|
 
 
 | Contact    | [http://example4.com](http://example4.com) | ![Screenshot 4](http://example4.com/screenshot4.png) | Example note 4     |

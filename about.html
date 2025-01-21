@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -102,7 +105,7 @@
         <div class="container-fluid px-1">
             <div class="row text-center text-md-left">
                 <!-- footer email sign up -->
-                <div class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
+                <section class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
                     <h2>EMAIL</h2>
                     <form id="emailForm">
                         <div class="form-group">
@@ -110,15 +113,14 @@
                             <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
                                 required>
                             <div id="submitWrapper">
-                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
-                                    disabled aria-label="Sign up for email updates" aria-disabled="true">
+                                <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton" disabled aria-label="Sign up for email updates" aria-disabled="true">
                                     SIGN UP!
                                 </button>
                             </div>
                         </div>
                     </form>
-                </div>
-            </div>
+                </section>
+            
 
             <!-- empty column for symmetry -->
             <div class="col-12 col-md-1"></div>
@@ -139,13 +141,15 @@
                 </a>
             </div>
             <!-- footer navigation links -->
-            <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+            <nav class="col-12 col-md-4 d-flex flex-column justify-content-center" aria-labelledby="footerNavHeading">
+                <h2 id="footerNavHeading" class="visually-hidden">Footer Navigation</h2>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.html" aria-label="Navigate to Home page">HOME</a></li>
+                    <li><a href="about.html" aria-label="Navigate to About page">ABOUT</a></li>
+                    <li><a href="gallery.html" aria-label="Navigate to Gallery page">GALLERY</a></li>
+                    <li><a href="contact.html" aria-label="Navigate to Contact page">CONTACT</a></li>
                 </ul>
+            </nav>
             </div>
         </div>
         <!-- copyright -->
