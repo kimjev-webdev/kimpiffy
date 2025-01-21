@@ -122,7 +122,7 @@ body .btn:hover {
     color: white;
 }
 
-.slogan .slogan-button {
+.slogan-button {
     font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     color: white;
     background-color: transparent;
@@ -500,7 +500,7 @@ footer .text-light {
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
-    .slogan .slogan-button {
+.slogan-button {
         font-size: clamp(27px, 30px, 32px);
     }
 }
@@ -510,7 +510,7 @@ footer .text-light {
         width: 300px;
     }
 
-    .slogan.slogan-button {
+.slogan-button {
         font-size: clamp(30px, 32px, 35px);
     }
 }
@@ -631,7 +631,7 @@ footer .text-light {
         margin: 0;
     }
 
-img .carouselLg {
+.carouselLg {
         display: none;
     }
 
@@ -650,7 +650,7 @@ img .carouselLg {
         justify-content: space-evenly;
     }
 
-    .slogan .slogan-button {
+.slogan-button {
         font-size: clamp(35px, 40px, 45px);
     }
 

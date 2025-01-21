@@ -7,10 +7,8 @@
 
 | Page      | URL                  | Screenshot           | Notes              |
 |-----------|----------------------|----------------------|--------------------|
-| Index/Home    | [W3C ](https://validator.w3.org/) | ![]() | Removed unnessacary roles, deleted stray end div tag, close footer form, change carousel section to div, remove alt text from icons in footer   |
-
-
-| About    | [http://example2.com](http://example2.com) | ![Screenshot 2](http://example2.com/screenshot2.png) | Example note 2     |
+| Index.html - Before    | [W3C ](https://validator.w3.org/) | <img src="assets/images/testing/indexhtml1.jpeg" height="auto" width="600px"> <img src="assets/images/testing/indexhtml2.jpeg" height="auto" width="600px"> | Removed unnessacary roles, deleted stray end div tag, close footer form, change carousel section to div, remove alt text from icons in footer   |
+| Index.html - After    | [W3C](https:/validator.w3.org) | <img src="assets/images/testing/indexhtml.jpeg" height="auto" width="600px">  | Passed all tests.   |
 
 
 | Gallery   | [http://example3.com](http://example3.com) | ![Screenshot 3](http://example3.com/screenshot3.png) | Example note 3     |
