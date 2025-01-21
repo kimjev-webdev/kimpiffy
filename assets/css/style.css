@@ -261,6 +261,7 @@ main .mainContact {
 
 .contactForm {
     background-color: #000000d2;
+    width: 90%;
     max-width: 100%;
     margin-top: 200px;
     margin-bottom: 100px;
