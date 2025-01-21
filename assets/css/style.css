@@ -252,7 +252,7 @@ main .aboutContainer {
 
 /* contact page styles */
 main .mainContact {
-    max-height: auto;
+    max-height: fit-content;
     max-width: 100%;
     display: flex;
     align-items: center;
