@@ -308,7 +308,6 @@ select::placeholder {
 .form-check-label {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    text-shadow: #000000;
     font-weight: 300;
     color: rgb(255, 255, 255) !important;
     font-size: 0.8rem;
@@ -319,7 +318,7 @@ input[type="select"]::placeholder,
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 textarea::placeholder {
-    font-family: "Montserrat"sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: black !important;
     font-size: 0.8rem !important;
 }
@@ -498,7 +497,7 @@ footer .text-light {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 1 00%;
+    height: 100%;
 }
 
 @media (max-width: 320px) {
