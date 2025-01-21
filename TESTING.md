@@ -71,7 +71,7 @@ Preliminary mobile testing is undertaken with Chrome dev tools Lighthouse. This 
 | index.html - before |<img src="assets/images/testing/homepagedesktoptestingbefore.jpg" width="400px" height="auto"> | Footer links increased to 16px to improve accessibility |
 | index.html - after |<img src="assets/images/testing/indexdesktopafter.jpg" width="400px" height="auto"> | SEO ignored - LEARN MORE button is specific enough for purpose in this instance. |
 | about.html|<img src="assets/images/testing/aboutdesktoptest.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
-| gallery.html|<img src="assets/images/testing/gallerymobiletesting.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |00
-| contact.html|<img src="assets/images/testing/contactmobiletesting.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
+| gallery.html|<img src="assets/images/testing/gallerydesktoptest.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |00
+| contact.html|<img src="assets/images/testing/contactdesktoptest.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 | 404.html |<img src="assets/images/testing/404testingmobile.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 
