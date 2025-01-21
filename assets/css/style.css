@@ -243,6 +243,12 @@ main .aboutContainer {
     color: #af80f9;
 }
 
+.centerArrow, .endArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* contact page styles */
 main .mainContact {
     max-height: auto;
