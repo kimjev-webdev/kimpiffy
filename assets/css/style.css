@@ -239,7 +239,7 @@ main .aboutContainer {
     margin-bottom: 3vh;
 }
 
-.centerArrow i:hover, .endArrow i:hover {
+.i.fa-solid:hover {
     color: #af80f9;
 }
 
