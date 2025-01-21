@@ -239,7 +239,7 @@ main .aboutContainer {
     margin-bottom: 3vh;
 }
 
-.col-mid.fa-angle-up:hover {
+.centerArrow:hover, .endArrow:hover {
     color: #af80f9;
 }
 
@@ -247,6 +247,7 @@ main .aboutContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 /* contact page styles */
