@@ -506,7 +506,7 @@ footer .text-light {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    img .slogan .carouselSm {
+.carouselSm {
         width: 300px;
     }
 
@@ -631,7 +631,7 @@ footer .text-light {
         margin: 0;
     }
 
-    img .slogan .carouselLg {
+img .carouselLg {
         display: none;
     }
 
@@ -668,7 +668,7 @@ footer .text-light {
 }
 
 @media (min-width: 769px) {
-    img .slogan .carouselSm {
+.carouselSm {
         display: none;
     }
 }
