@@ -353,27 +353,93 @@ The footer is located at the bottom of every page, and was created from a [boile
 
 ### 1. Hero/Carousel
 
+<img style="margin: 5px" width="350" height="auto" src="assets/images/portfoliohero1.webp">
+<img style="margin: 5px" width="350" height="auto" src="assets/images/portfoliohero2.webp">
+<img style="margin: 5px" width="350" height="auto" src="assets/images/portfoliohero3.webp">
+
+The Hero imagery on the homepage is the first visual introduction to Kim's artwork on the site. 
+
+* It welcomes users by providing visually exciting snapshots of 3 different artworks in different mediums.
+* The first image contains green tones and binary notations to act as a visual connection between Kim's art & her web development.
+* The images display in a slideshow format automatically which is aided by JavaScript and automatically switches between the images.
+* The hero images in the carousel span the entire viewport width to serve an impact and give strong visual ques to the user.
+
 ### 2. Image Text & Overlay
+The image text on the carousel 'teases' more information about the content of the website and supports the content of the hero imagery in the carousel. 
+
+* The image text is in webp image format to help style the text in a justified format with multiple text sizes on each line. 
+* The text is responsive, on mobiles it is in a box shape format to work with the vertical profile, and on larger screens it is in a longer line to give visual appeal the horizontally wider dimensions. 
+* The image text is styles in Rumei House
+* The button below the image text is also in Rumei House font.
+* The text for the button is smaller and on rollover and click it shows a purple color.
+* The text on the button 'Learn More' indicates to the users that it can be clicked to navigate to another page. 
+* The button navigates to the 'About' page - the first page in the navigation to guide users through the site.
+* There is a semi transparent, dark overlay which makes the text more distinguishable.
+* The overlay is permenant on handheld devices to aid the user experience as there is no mouse to hover the users on mobiles will be relying on touch. 
+* The overlay is activated by hovering over the hero images on desktops as the using a mouse allows for this. 
+
 
 ## Features - About Page
 
 ### 1. Images
 
+* There are 3 images on the About page - 2 show on devices up to size medium, and 3 showing on larger screens.
+* Two images show text and follow the same format as the justified text seen on the carousel overlay for consistency.
+* For the same reasons images of text were used rather than text (justification issues).
+* The first image displays the text 'My name is Kim' which acts as a visual introduction to the information in the following paragraph.
+* The second image, the profile image, gives a personal touch to the text information, supporting the friendly and relaxed introduction in the first image.
+* The profile image displays a variety of violet hues and a pattern in a flower shaped border which ties together the stylistic elements used across the entire site. 
+* The final image only displays on larger screens and helps the content of the first two columns on the page look more aesthetically pleasing. It says 'its great to meet you' which again, adds personality and friendly tones to the information which could otherwise be quite serious and mundane. 
+* The images with text use Rumei House, justified to fit into the widths of the container they occupy. Key words are highlighted in the mid purple tone #9256f6 which helps draw the users eyes to the most important words 'Kim & Great' - which gives a positive message about her to potential employers and collaborators. 
+
 ### 2. Paragraphs
 
+* The first paragraph serves to inform users a little more about Kim's aspirations in becoming a web developer and why her artistic background is a good device for this career change. This paragraph serves the main business objective and is targetted at the key user group.
+* The second paragraph adds a little more in depth information about Kim's artwork, as she does not have a web development portfolio yet it aims to express her strengths and invite users to learn more about her creative skills. It targets other users who are less crucial than potential employers or recruiters. 
+
 ### 3. Buttons
+
+* The buttons help assist the user in gaining more relevant information, if the content of the paragraphs is of interest to them.
+* At the base of the first paragraph is the button 'Download C.V' which provides a direct download to a PDF which will give recruiters and employers more in depth proffesional information about Kim
+* This downloadable C.V prevents the about page from looking cluttered, and also allows the information to only be provided to people who require it.
+* The button at the base of the second paragraph helps guide users to the next page in the navigation 'Gallery' - it says 'View my Artwork' and helps users follow a natural progression - once they have 'got to know' Kim on the about page, they can see a lot more visual information about her in the gallery. 
 
 ## Features - Gallery
 
 ### 1. Images
 
+Images in the gallery aim to showcase Kim's experiences as an artist, showcasing her dynamic design skills and justifying the stylistic choices made for the web design of her portfolio. The gallery is the anchoring point of the site which acts as a portfolio whilst Kim works on building a web-development project collection which can be added to this site at a later date.
+
+* Images in the gallery are presented in a single column on small screens, and expand into 3 columns on larger screens.
+* In order to mimic a masonry style gallery without JavaScript implementation images with 4:5 aspect ratio occupy the outside columns, whilst images with a 5:4 ration occupy the middle column. 
+* Images have been resized to a maximum width of 800 pixels, as there is no way of 'zooming in' on them, they take up the width of an average phone screen whilst assisting in loading times.
+* Nearly all images use 'lady-loading' with the exception of the top two images on the gallery to aid performance.
+ 
 ### 2. Icons
+
+* A single icon is used on the gallery page - an up arrow, which aims to help users navigate back to the top of the gallery once they reach the bottom. 
+* This arrow is a secondary option to the fixed-top navigation, should the user want to look back through the gallery rather than navigate to a different page. 
 
 ## Features - Contact Page
 
 ### 1. Background Image
 
+The background image is the final visual 'wow' that aims to ensure website users want to reach out and connect with Kim.
+
+* The background image of the Contact page is a segment of one of Kim's surface patterns designs.
+* The background image design is also featured in some of the 'petals' surrounding the profile photo on the about page.
+* The image has been selected due to its complimentary tones that work well with the violet hues used for rollovers and buttons.
+* The background image provides more visually exciting content which elevates the simple form layout on the page.
+
 ### 2. Form 
+
+* The form has a large scale header in Rumei House font which gives it a design contingency between the other pages.
+* The form uses a semi-transparent, dark background to give synergy between the overlay used on the index page. 
+* The form has curved corners to match with the images in the gallery before it. 
+* The form is designed to help users be specific about their enquiry, so at a later date these inquiries can be answered in order of relevance. (Users can select the nature of the query from a drop down list)
+* The form has some required fields and others that are optional. 
+* JavaScript has been implimented so that on form submission a secondary window appears which includes Kim's direct email should the user want to reach out in more detail.
+* The language used in headers 'Get in touch' and 'Speak Soon' aims to inform users but also maintain the relaxed communication that is used in headers on the about page. 
 
 ## Technologies Used - Languages 
 

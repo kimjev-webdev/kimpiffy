@@ -662,12 +662,14 @@ footer .text-light {
         opacity: 1;
     }
 
-    #slogan .carouselSm {
-        display: none;
-    }
-
     .aboutMe .about-text {
         padding: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    #slogan .carouselSm {
+        display: none;
     }
 }
 
