@@ -7,7 +7,7 @@
 
 | Page      | URL                  | Screenshot           | Notes              |
 |-----------|----------------------|----------------------|--------------------|
-| Index/Home    | [W3C ](https://validator.w3.org/) | ![]() | Example note 1     |
+| Index/Home    | [W3C ](https://validator.w3.org/) | ![]() | Removed unnessacary roles, deleted stray end div tag, close footer form,     |
 
 
 | About    | [http://example2.com](http://example2.com) | ![Screenshot 2](http://example2.com/screenshot2.png) | Example note 2     |
