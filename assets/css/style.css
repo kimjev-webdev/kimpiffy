@@ -506,11 +506,11 @@ footer .text-light {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    .slogan .carouselSm {
+    img.slogan.carouselSm {
         width: 300px;
     }
 
-    .slogan .slogan-button {
+    .slogan.slogan-button {
         font-size: clamp(30px, 32px, 35px);
     }
 }
@@ -631,7 +631,7 @@ footer .text-light {
         margin: 0;
     }
 
-    .slogan .carouselLg {
+    img.slogan.carouselLg {
         display: none;
     }
 
@@ -668,7 +668,7 @@ footer .text-light {
 }
 
 @media (min-width: 769px) {
-    .slogan .carouselSm {
+    img.slogan.carouselSm {
         display: none;
     }
 }
