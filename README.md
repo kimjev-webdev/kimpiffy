@@ -550,7 +550,18 @@ The background image is the final visual 'wow' that aims to ensure website users
 ## Testing
 
 ### 1. About Testing
-* The entire site has been tested comprehensivley throughout the build. A full log of these adjustments can be found in the [commit log]  on Github
+
+A document including a table with all tests can be found [here](testing.md).
+* The entire site has been tested comprehensivley throughout the build. Testing can be seen throughout the [deployment history](https://github.com/kimjev-webdev/Unit1/deployments) on Github. 
+
+* Each time a feature was added, all the pages on the site were tested to see if there was an impact.
+* The site was sent to friends, family and contacts on social media  feedback and testing.
+
+* The images in the gallery have been compressed so they are all below 300kb with an average image size of less than 150kb. 
+
+* Color contrasts have been checked to ensure compliance with WCAG guidlines.
+
+
 ### 2. Validation
 ### 3. Mobile Testing
 ### 4. Desktop Testing
