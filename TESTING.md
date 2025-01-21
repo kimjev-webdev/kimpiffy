@@ -54,7 +54,7 @@ Preliminary mobile testing is undertaken with Chrome dev tools Lighthouse. This 
 
 | Page      | Screenshot           | Notes              |
 |-----------|----------------------|--------------------|
-| index.html|<img src="assets/images/testing/indextestingmobile.jpg" width="400px" height="auto"> | SEO ignored - LEARN MORE button is specific enough for purpose in this instance. |
+| index.html -after |<img src="assets/images/testing/indextestingmobile.jpg" width="400px" height="auto"> | SEO ignored - LEARN MORE button is specific enough for purpose in this instance. |
 | about.html|<img src="assets/images/testing/abouttestingmobile.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 | gallery.html|<img src="assets/images/testing/gallerymobiletesting.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |00
 | contact.html|<img src="assets/images/testing/contactmobiletesting.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
