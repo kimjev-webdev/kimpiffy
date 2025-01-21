@@ -26,10 +26,36 @@ CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-valida
 | All Pages - Before    | [W3C ](https://jigsaw.w3.org/css-validator/) | <img src="assets/images/testing/cssbefore.jpeg" height="auto" width="600px"> | Remove text shadow class for 311, apply comma after "Montserrat" 322, remove space between 1 and 00% for line 501. |
 | All Pages - After    | [W3C](https://jigsaw.w3.org/css-validator/)| <img src="assets/images/testing/cssafter.jpeg" height="auto" width="600px">  | Passed all tests.   |
 
+### 3. Link Testing
+
+Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
 
 
+| Page      | URL                  | Screenshot           | Notes              |
+|-----------|----------------------|----------------------|--------------------|
+| All Pages   | [W3C ](https://validator.w3.org/checklink) | <img src="" height="auto" width="600px"> | 
 
-| Contact    | [http://example4.com](http://example4.com) | ![Screenshot 4](http://example4.com/screenshot4.png) | Example note 4     |
+COMPLETE THIS LINK SECTION AFTER CV HAS BEEN UPLOADED. 
 
-| 404    | [http://example5.com](http://example5.com) | ![Screenshot 5](http://example5.com/screenshot5.png) | Example note 5     |
+### 4. JavaScript 
+
+| Page      | URL                  | Screenshot           | Notes              |
+|-----------|----------------------|----------------------|--------------------|
+| contact.js   | [JSHint](https://validator.w3.org/checklink) | <img src="assets/images/testing/contactjs.jpeg" height="auto" width="600px"> | Warnings ignored, issue is with JSHint |
+| main.js  | [JSHint](https://validator.w3.org/checklink) | <img src="assets/images/testing/mainjs.jpeg" height="auto" width="600px"> | Warnings ignored, issue is with JSHint |
+
+
+## Mobile Testing 
+
+## 1. Lighthouse
+
+Preliminary mobile testing is undertaken with Chrome dev tools Lighthouse. This assesses the pages Performance, Accessibility, Best Practices and SEO
+
+| Page      | Screenshot           | Notes              |
+|-----------|----------------------|--------------------|
+| index.html|<img src="" width="600px" height="auto"> | SEO ignored - LEARN MORE button is specific enough for purpose in this instance. |
+| about.html|<img src="" width="600px" height="auto"> | Good scores. No amendments needed. |
+| gallery.html|<img src="" width="600px" height="auto"> | Good scores. No amendments needed. |
+| contact.html|<img src="" width="600px" height="auto"> | Good scores. No amendments needed. |
+| 404.html |
