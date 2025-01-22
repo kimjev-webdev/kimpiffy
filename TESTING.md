@@ -1,4 +1,4 @@
-## Validation 
+<h2 id="validation">Validation</h2>
 
 ### 1. HTML
 
@@ -46,7 +46,7 @@ COMPLETE THIS LINK SECTION AFTER CV HAS BEEN UPLOADED.
 | main.js  | [JSHint](https://validator.w3.org/checklink) | <img src="assets/images/testing/mainjs.jpeg" height="auto" width="600px"> | Warnings ignored, issue is with JSHint |
 
 
-## Mobile Testing 
+<h2 id="mobiletesting">Mobile Testing</h2>
 
 ## 1. Lighthouse
 
@@ -60,7 +60,7 @@ Preliminary mobile testing is undertaken with Chrome dev tools Lighthouse. This 
 | contact.html|<img src="assets/images/testing/contactmobiletesting.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 | 404.html |<img src="assets/images/testing/404testingmobile.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 
-## Desktop Testing 
+<h2 id="desktoptesting">Desktop Testing</h2>
 
 ## 1. Lighthouse
 

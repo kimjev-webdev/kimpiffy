@@ -7,127 +7,129 @@
 ## Table of Contents
 
 <details>
-  <summary>UX</summary>
+  <summary><a href="#1">UX</a></summary>
 
   <details>
-    <summary>Planning & Goals</summary>
+    <summary><a href="#2">Planning & Goals</a></summary>
 
-1.  Business Goals 
-2. User Profiles
-3. User Stories
-4. Minimum Viable Product
+1.  <a href="#3">Business Goals</a>
+2. <a href="#4">User Profiles</a>
+3. <a href="#5">User Stories</a>
+4. <a href="#6">Minimum Viable Product</a>
 
   </details>
 
 <details>
-  <summary>Visual Design</summary>
+  <summary><a href="#7">Visual Design</a></summary>
 
-  1. Wireframes
-  2. Colour Palette
-  3. Icons
-  4. Fonts 
-  5. Images
-  6. Styling
-</details>
-</details>
+1. <a href="#8">Wireframes</a>
+2. <a href="#9">Colour Palette</a>
+3. <a href="#10">Icons</a>
+4.  <a href="#11">Fonts</a>
+5.  <a href="#12">Images</a>
+6.  <a href="#13">Styling</a>
 
 </details>
-<details>
-<summary>Features</summary>
-<details>
-<summary>All Pages</summary>
+</details>
 
-1. Navbar
-2. Footer
 </details>
 <details>
-<summary>Homepage</summary>
+<summary><a href="#14">Features</a></summary>
+<details>
+<summary><a href="#15">All Pages</a></summary>
 
-1. Hero/Carousel
-2. Image Text & Overlay
+1. <a href="#16">Navbar</a>
+2. <a href="#17">Footer</a>
 </details>
 <details>
-<summary>About Page</summary>
+<summary><a href="#18">Homepage</a></summary>
 
-1. Images
-2. Paragraphs
-3. Buttons
+1. <a href="#19">Hero/Carousel</a>
+2. <a href="#20">Image Text & Overlay</a>
+</details>
+<details>
+<summary><a href="#21">About Page</a></summary>
+
+1. <a href="#22">Images</a>
+2. <a href="#23">Paragraphs</a>
+3. <a href="#24">Buttons</a>
 </details>
 <details> 
-<summary>Gallery Page</summary>
+<summary><a href="#25">Gallery Page</a></summary>
 
-1. Images
-2. Icon
+1. <a href="#26">Images</a>
+2. <a href="#27">Icon</a>
 </details>
 
 <details>
-<summary>Contact Page</summary>
+<summary><a href="#28">Contact Page</a></summary>
 
-1. Background Image
-2. Form
+1. <a href="#29">Background Image</a>
+2. <a href="#30">Form</a>
 </details>
 </details>
 
 <details>
- <summary>Technologies Used</summary>
+ <summary><a href="#31">Technologies Used</a></summary>
  
 <details>
-<summary>Languages</summary>
+<summary><a href="#32">Languages</a></summary>
 
-1. HTML
-2. CSS
-3. JavaScript 
+1. <a href="#33">HTML</a>
+2. <a href="#34">CSS</a>
+3. <a href="#35">JavaScript</a> 
 </details>
 
 <details>
-<summary>Framework</summary>
+<summary><a href="#36">Framework</a></summary>
 
-1. Bootstrap 5 
+1. <a href="#37">Bootstrap 5</a>
 </details>
 
 <details>
-<summary>Libraries</summary>
+<summary><a href="#38">Libraries</a></summary>
 
-1. Google Fonts
-2. Font Awesome 
+1. <a href="39#">Google Fonts</a>
+2. <a href="#40">Font Awesome</a>
 </details>
 
 <details>
-<summary>Platforms</summary>
+<summary><a href="#41">Platforms</a></summary>
 
-1. GitHub
-2. Gitpod 
+1. <a href="#42">GitHub</a>
+2. <a href="#43">Gitpod</a>
 </details>
 
 <details>
- <summary>Other Tools</summary>
+ <summary><a href="#44">Other Tools</a></summary>
 
- 1. Canvy
- 2. Remini
- 3. TinyPNG
- 4. Online-Convert
- 5. Vectorizer
- 6. Figma
- 7. Vecteezy
- 8. Procreate
- 9. Fotor
- 10. Favicon
+ 1. <a href="#45">Canvy</a>
+ 2. <a href="#46">Remini</a>
+ 3. <a href="#47">TinyPNG</a>
+ 4. <a href="#48">Online-Convert</a>
+ 5. <a href="#49">Vectorizer</a>
+ 6. <a href="#50">Figma</a>
+ 7. <a href="#51">Vecteezy</a>
+ 8. <a href="#52">Procreate</a>
+ 9. <a href="#53">Fotor</a>
+ 10. <a href="#54">Favicon</a>
 </details>
 </details>
 
 <details>
-<summary>Testing</summary>
+<summary><a href="#55">Testing</a></summary>
 
-1. About Testing
-2. Validation
-3. Mobile Testing
-4. Desktop Testing
-5. Bugs
+1.<a href="#56">About Testing</a>
+2. <a href="#57">Validation</a>
+3. <a href="#58">Mobile Testing</a>
+4. <a href="#59">Desktop Testing</a>
+5. <a href="#60">Bugs</a>
 </details>
 
-## UX - Planning & Goals
+<h2 id="1"></h2>
+<h2 id="2">UX - Planning & Goals</h2>
 
-### 1. Business Goals 
+<h3 id="3">1. Business Goals</h3>
 
 #### Primary Goal 
 The primary goal for this portfolio website is to showcase artistic and technical skills in a way that attracts potential clients or employers. The dual focus on both artwork and web development should inherently demonstrate Kim's versatility and ability to bridge the gap between creative and technical fields. 
@@ -170,7 +172,7 @@ Further business goals are:
 </details>
 
 
-### 2. User Profiles
+<h3 id="4">2. User Profiles</h3>
 
 <details>
 <summary>Potential employers/clients </summary>
@@ -197,7 +199,7 @@ Further business goals are:
 <li>Inividuals interested in learning from the Kim's journey, techniques, and processes in both art and web development.</li>
 </details>
 
-### 3. User Stories 
+<h3 id="5">3. User Stories</h3>
 
 * As a <b>recruiter</b> I want to see a clear, well-structured site with intuitive navigation, so I can easily assess Kim’s understanding of UX/UI principles and her approach to design.
 * As a <b>prospective client</b> I want to view smooth and interactive web elements so I can get a clear idea of how Kim's technical skills and creativity fit together.
@@ -207,7 +209,7 @@ Further business goals are:
 * As a <b>first-time visitor</b> I want to see clear calls-to-action which will guide me through the site towards contacting Kim for appropriate web development or creative projects.
 * As a <b>student</b> I want to research and gather information on Kim’s artistic career to get an in-depth look at her credentials, creative process and web development techniques so that I can learn from her experiences.
 
-### 4. Minimum Viable Product
+<h3 id="6">4. Minimum Viable Product</h3>
 
 <details> 
 <summary>Responsive Design</summary> 
@@ -244,15 +246,15 @@ Further business goals are:
  <li>Social Media Links: Links to the Kim’s social media profiles to encourage further engagement.</li>
  </details>
 
-## UX - Visual Design
+<h2 id="7">UX - Visual Design</h2>
 
-### 1. Wireframes
+<h3 id="8">1. Wireframes</h3>
 
-### 2. Color Palette 
+<h3 id="9"> 2. Color Palette</h3>
 
 ![](assets/images/colorpalette.webp)
 
-<img style="margin: 20px" align="left" width="300" height="300" src="assets/images/profileimage.webp"> <br>
+<img style="margin: 20px" align="left" width="400" height="400" src="assets/images/profileimage.webp"> <br>
 
 ### Why Violet?
 
@@ -260,7 +262,7 @@ Originally, a single aesthetically pleasing colour ( #9256f6) was chosen for use
 
 <br>
 
-### 3. Icons
+<h3 id="10"> 3. Icons</h3>
 
 A combination of icons from the FontAwesome library have been utilized in the navbar, footer and contact page (after form submission). As well as stock icons, several custom icons were created and used for the navbar branding and amongst social icons in the footer. 
 
@@ -269,7 +271,7 @@ A combination of icons from the FontAwesome library have been utilized in the na
  <img style="margin: 20px" align="right" width="250" src="assets/images/facustom.webp"><br><br>
 Two custom icons were created using SVG files uploaded to the Font Awesome library. This allows the brand 'badge' logo in the navbar to be targetted and styles in the same method as the other icons. A second custom icon displays Kim's full logo in the footer, to cement the brand identity she has developed throughout her art career. The logo is a registered trademark.
 
-### 4. Fonts 
+<h3 id="11"> 4. Fonts </h3>
 
 #### Primary Font - Rumei House
 
@@ -294,9 +296,9 @@ Rumei House has been capitalized wherever it is used across the site.
 
 ![](assets/images/overlayps.webp)
 
-<img style="margin: 20px" align="right" width="400" height="auto" src="assets/images/montserratprev.webp">
-
 #### Secondary Font - Montserrat
+
+<img style="margin: 20px" align="right" width="400" height="auto" src="assets/images/montserratprev.webp">
 
 Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google.com/specimen/Montserrat) for several reasons.
 * Sans-serif makes it easy to read across all devices.
@@ -307,7 +309,7 @@ Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google
 
 Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. See preview >
 
-### 5. Images
+<h3 id="12"> 5. Images </h3>
 ![](assets/images/gallerypreview.webp)
 
 The images selected for the site should provide a visual overview of Kim's experience as an artist, as well as a clear idea of her visual language and style. The gallery hosts pictures of Kim's surface pattern designs and creative direction for fashion photography, her textile banners, her mixed-media artwork, art exhibitions and illustration which shows a dynamic approach to creativity.  
@@ -320,14 +322,17 @@ The images selected for the site should provide a visual overview of Kim's exper
 * With more time and experience the gallery would benefit from [Blur Hash](https://blurha.sh/) implementation to improve UX.
 * With more time and experience the gallery would benefit from other feature such as zoom hover or displaying in larger format when clicked. 
 
-6. ### Styling
+<h3 id="13">Styling</h3>
 Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inlinek, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
 
-## Features - All Pages
+<h2 id="14"></h2>
 
-### 1. Navbar
+<h2 id="15">Features - All Pages</h2>
+
+<h3 id="16">1. Navbar </h3>
 
 ![](assets/images/navfull.webp)
+
 The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/components/navbar/) copied from Bootstrap 5 and then customized. 
 
 <img style="margin: 20px;" align="right" width="400px" height="auto" src="assets/images/navcollapse.webp" >
@@ -343,7 +348,7 @@ The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/co
 * The navbar uses 'sticky-top' to keep it visible on even when the page is scrolled down. 
 
 
-### 2. Footer 
+<h3 id="17">2. Footer</h3>
 ![](assets/images/footerfull.webp)
 
 <img style="margin: 20px;" align="right" width="300" height="auto" src="assets/images/footerjs.webp">
@@ -359,13 +364,13 @@ The footer is located at the bottom of every page, and was created from a [boile
 * The final column contains the page navigation links which aid site navigation. 
 * There is space in the final column for a PRIVACY section to contain the privacy policy once this has been created.
 
-## Features - Homepage 
+<h2 id="18">Features - Homepage</h2>
 
 ![](assets/images/carouseloverlaypreview.webp)
 
 The homepage serves a strong, visually impactful set of imagery to intrigue users, with its purpose being to capture their attention and lead them 'deeper' into the website's content. 
 
-### 1. Hero/Carousel
+<h3 id="19">1. Hero/Carousel</h3>
 
 <center>
 <img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero1.webp">
@@ -380,7 +385,7 @@ The Hero imagery on the homepage is the first visual introduction to Kim's artwo
 * The images display in a slideshow format automatically which is aided by JavaScript and automatically switches between the images.
 * The hero images in the carousel span the entire viewport width to serve an impact and give strong visual ques to the user.
 
-### 2. Image Text & Overlay
+<h3 id="20">2. Image Text & Overlay</h3>
 
 ![](assets/images/overlayps.webp)
 
@@ -397,14 +402,13 @@ The image text on the carousel 'teases' more information about the content of th
 * The overlay is permenant on handheld devices to aid the user experience as there is no mouse to hover the users on mobiles will be relying on touch. 
 * The overlay is activated by hovering over the hero images on desktops as the using a mouse allows for this. 
 
-
-## Features - About Page
+<h2 id="21">Features - About Page</h2>
 
 ![](assets/images/aboutpreview.webp)
 
 The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a visually enticing responsive design which forms a single column on mobiles, expanding to two columns on tablets and on larger screens it reveals a hidden third column.
 
-### 1. Images
+<h3 id="22">1. Images</h3>
 
 <img style="margin: 20px" align="left" width="auto" height="600" src="assets/images/abouttext.webp">
 
@@ -432,12 +436,12 @@ The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a vi
 <br>
 <br>
 
-### 2. Paragraphs
+<h3 id="23">2. Paragraphs</h3>
 
 * The first paragraph serves to inform users a little more about Kim's aspirations in becoming a web developer and why her artistic background is a good device for this career change. This paragraph serves the main business objective and is targetted at the key user group.
 * The second paragraph adds a little more in depth information about Kim's artwork, as she does not have a web development portfolio yet it aims to express her strengths and invite users to learn more about her creative skills. It targets other users who are less crucial than potential employers or recruiters. 
 
-### 3. Buttons
+<h3 id="24">3. Buttons</h3>
 
 <center>
 <img style="margin: 20px" width="auto" height="100" src="assets/images/artbuttonprev.webp">
@@ -450,11 +454,11 @@ The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a vi
 * The button at the base of the second paragraph helps guide users to the next page in the navigation 'Gallery' - it says 'View my Artwork' and helps users follow a natural progression - once they have 'got to know' Kim on the about page, they can see a lot more visual information about her in the gallery. 
 * Buttons utilize the darker violet #5f18ea on rollover to maintain WCAG on the white background of the about page. 
 
-## Features - Gallery
+<h2 id="25">Features - Gallery</h2>
 
 ![](assets/images/galleryresponsive.webp)
 
-### 1. Images
+<h3 id="26">1. Images</h3>
 
 Images in the gallery aim to showcase Kim's experiences as an artist, showcasing her dynamic design skills and justifying the stylistic choices made for the web design of her portfolio. The gallery is the anchoring point of the site which acts as a portfolio whilst Kim works on building a web-development project collection which can be added to this site at a later date.
 
@@ -463,16 +467,16 @@ Images in the gallery aim to showcase Kim's experiences as an artist, showcasing
 * Images have been resized to a maximum width of 800 pixels, as there is no way of 'zooming in' on them, they take up the width of an average phone screen whilst assisting in loading times.
 * Nearly all images use 'lady-loading' with the exception of the top two images on the gallery to aid performance.
  
-### 2. Icons
+<h3 id="27">2. Icons</h3>
 
 * A single icon is used on the gallery page - an up arrow, which aims to help users navigate back to the top of the gallery once they reach the bottom. 
 * This arrow is a secondary option to the fixed-top navigation, should the user want to look back through the gallery rather than navigate to a different page. 
 
-## Features - Contact Page
+<h2 id="28">Features - Contact Page</h2>
 
 ![](assets/images/contactpreview.webp)
 
-### 1. Background Image
+<h3 id="29">1. Background Image</h3>
 
 The background image is the final visual 'wow' that aims to ensure website users want to reach out and connect with Kim.
 
@@ -481,7 +485,7 @@ The background image is the final visual 'wow' that aims to ensure website users
 * The image has been selected due to its complimentary tones that work well with the violet hues used for rollovers and buttons.
 * The background image provides more visually exciting content which elevates the simple form layout on the page.
 
-### 2. Form 
+<h3 id="30">2. Form</h3>
 
 * The form has a large scale header in Rumei House font which gives it a design contingency between the other pages.
 * The form uses a semi-transparent, dark background to give synergy between the overlay used on the index page. 
@@ -491,65 +495,95 @@ The background image is the final visual 'wow' that aims to ensure website users
 * JavaScript has been implimented so that on form submission a secondary window appears which includes Kim's direct email should the user want to reach out in more detail.
 * The language used in headers 'Get in touch' and 'Speak Soon' aims to inform users but also maintain the relaxed communication that is used in headers on the about page. 
 
-## Technologies Used - Languages 
+<h2 id="31"></h2> 
+<h2 id="32">Technologies Used - Languages</h2> 
 
-### 1. HTML
+<h3 id="33">1. HTML</h3>
 * This is the page markup language used.
 
-### 2. CSS
+<h3 id="34">2. CSS</h3>
 * This is used for styling the elements.
 
-### 3. JavaScript
+<h3 id="35">3. JavaScript</h3>
 * Simple JS instructions are used on the forms in the footer and on the [contact](contact.html) page.
 
-## Technologies Used - Framework
+<h2 id="36">Technologies Used - Framework</h2>
 
-### 1. Bootstrap 5
+<h3 id="37">1. Bootstrap 5</h3>
 * Bootstrap 5 boilerplate code was implemented throughout the site as a blueprint for many of the elements.
 
-## Technologies Used - Libraries 
+<h2 id="38">Technologies Used - Libraries</h2>
 
-### 1. Google Fonts
+<h3 id="39">1. Google Fonts</h3>
 * Google Fonts was utilized for installing the Montserrat body/secondary font.
 
-### 2. Font Awesome
+<h3 id="40">2. Font Awesome</h3>
 * Font Awesome was utlized for installing icons and also used for hosting custom icons. 
 
-## Technologies Used - Platforms 
+<h2 id="41">Technologies Used - Platforms</h2>
 
-### 1. Github
+<h3 id="42">1. Github</h3>
 * Hosts the deployed version of the site and also stores the code. 
 
-### 2. Gitpod
+<h3 id="43">2. Gitpod</h2>
 * Hosts the IDE used for the project development.
 
-## Technologies Used - Other Tools
+<h2 id="44">Technologies Used - Other Tools</h2>
+
+<h3 id="45"></h3>
 
 ### 1. [Canvy](https://canvy.com)
-* Used to create realistic framed mock-ups and gallery placements of Kim's art to improve the aesthetics of the gallery. 
+* Used to create realistic framed mock-ups and gallery placements of Kim's art to improve the aesthetics of the gallery.
+
+<h3 id="46"></h3>
+
 ### 2. [Remini](https://app.remini.ai)
 * AI image optimization used to improve quality of low resolution pictures in the gallery.
+
+<h3 id="47"></h3>
+
 ### 3. [TinyPNG](https://tinypng.com/)
 * Used to compress images and optimize for web.
+
+<h3 id="48"></h3>
+
 ### 4. [Online-Convert](https://online-convert.com)
 * Used to convert all images to webp format. 
+
+<h3 id="49"></h3>
+
 ### 5. [Vectorizer](https://vectorizer.io) 
 * Used to convert images to vector format for quality.
 * Used to convert logos to SVG format before using figma to aid in design of custom Font Awesome icons.
+
+<h3 id="50"></h3>
+
 ### 6. [Figma](https://figma.com)
 * Used to extract nessacary code from SVG images in order to create custom Font Awesome icons.
+
+<h3 id="51"></h3>
+
 ### 7. [Vecteezy](https://vecteezy.com)
 * Used to download some blank wall imagery for creating mockups.
+
+<h3 id="52"></h3>
+
 ### 8. [Procreate](https://procreate.com)
 * Application used to create PNG's, designed all text images & the border for the profile image on the About page.
+
+<h3 id="53"></h3>
+
 ### 9. [Fotor](https://fotor.com)
 * Used to resize and compress images to aid responsivity of gallery.
+
+<h3 id="54"></h3>
+
 ### 10. [Favicon](https://favicon.io/)
 * Used to change image file to favicon format.
 
-## Testing
+<h2 id="55">Testing</h2>
 
-### 1. About Testing
+<h3 id="56">1. About Testing</h3>
 
 A document including a table with all tests can be found [here](TESTING.md).
 
@@ -563,16 +597,16 @@ A document including a table with all tests can be found [here](TESTING.md).
 
 * Color contrasts have been checked to ensure compliance with WCAG guidlines.
 
-### 2. Validation
+<h3 id="57">2. Validation</h3>
 
-The validation section of the testing document can be found [here]
+The validation section of the testing document can be found [here](TESTING.md#validation).
 
-### 3. Mobile Testing
+<h3 id="58">3. Mobile Testing</h3>
 
-The mobile testing section of the testing document can be found [here]
+The mobile testing section of the testing document can be found [here](TESTING.md#mobiletesting).
 
-### 4. Desktop Testing
+<h3 id="59"> 4. Desktop Testing</h3>
 
-The desktop testing section of the testing document can be found [here]
+The desktop testing section of the testing document can be found [here](TESTING.md#desktoptesting).
 
-### 5. Bugs 
+<h3 id="60"> 5. Bugs</h3>
