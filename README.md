@@ -253,19 +253,19 @@ Further business goals are:
 <details>
 <summary>Mobile Wireframes</summary>
 
-![](assets/images/indexwfdesktop.webp)
-
-![](assets/images/aboutwfdesktop.webp)
-
-![](assets/images/gallerywfdesktop.webp)
-
-![](assets/images/contactwfdesktop.webp)
-
 </details>
 
 <details>
 <summary>Desktop Wireframes</summary>
 
+### 1. Homepage Wireframe
+![](assets/images/indexwfdesktop.webp) 
+### 2. About Page Wireframe
+![](assets/images/aboutwfdesktop.webp) 
+### 3. Gallery Page Wireframe 
+![](assets/images/gallerywfdesktop.webp) 
+### 4. Contact Page Wireframe
+![](assets/images/contactwfdesktop.webp) 
 </details>
 
 <h3 id="9"> 2. Color Palette</h3>
