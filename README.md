@@ -250,6 +250,24 @@ Further business goals are:
 
 <h3 id="8">1. Wireframes</h3>
 
+<details>
+<summary>Mobile Wireframes</summary>
+
+![](assets/images/indexwfdesktop.webp)
+
+![](assets/images/aboutwfdesktop.webp)
+
+![](assets/images/gallerywfdesktop.webp)
+
+![](assets/images/contactwfdesktop.webp)
+
+</details>
+
+<details>
+<summary>Desktop Wireframes</summary>
+
+</details>
+
 <h3 id="9"> 2. Color Palette</h3>
 
 ![](assets/images/colorpalette.webp)
@@ -513,23 +531,33 @@ The background image is the final visual 'wow' that aims to ensure website users
 
 <h2 id="36">Technologies Used - Framework</h2>
 
-<h3 id="37">1. Bootstrap 5</h3>
+<h3 id="37"></h3>
+
+### 1. [Bootstrap 5](https://getbootstrap.com/)
 * Bootstrap 5 boilerplate code was implemented throughout the site as a blueprint for many of the elements.
 
 <h2 id="38">Technologies Used - Libraries</h2>
 
-<h3 id="39">1. Google Fonts</h3>
+<h3 id="39"></h3>
+
+### 1. [Google Fonts](https://fonts.google.com/)
 * Google Fonts was utilized for installing the Montserrat body/secondary font.
 
-<h3 id="40">2. Font Awesome</h3>
+<h3 id="40"></h3>
+
+### 2. [Font Awesome](https://fontawesome.com/)
 * Font Awesome was utlized for installing icons and also used for hosting custom icons. 
 
 <h2 id="41">Technologies Used - Platforms</h2>
 
-<h3 id="42">1. Github</h3>
+<h3 id="42"></h3>
+
+### 1. [Github](https://github.com)
 * Hosts the deployed version of the site and also stores the code. 
 
-<h3 id="43">2. Gitpod</h2>
+<h3 id="43"></h2>
+
+### 2. [Gitpod](https://www.gitpod.io/)
 * Hosts the IDE used for the project development.
 
 <h2 id="44">Technologies Used - Other Tools</h2>
