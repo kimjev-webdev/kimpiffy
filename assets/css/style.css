@@ -136,10 +136,10 @@ body .btn:hover {
 }
 
 /* about page styles */
-main .aboutContainer {
+.aboutContainer {
     display: table;
-    margin-top: 100px;
-    margin: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .aboutMe {
@@ -182,9 +182,8 @@ main .aboutContainer {
 }
 
 .greatImage {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    max-width: 90%;
+    padding-bottom: 25px;
+    max-width: 83%;
 }
 
 .btn.cvButton,
