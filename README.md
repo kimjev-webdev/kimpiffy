@@ -283,7 +283,9 @@ A psychedelic, maximalist, and very stylized font was chosen for headings and bu
 * The box-like letters also allow the text to look aesthetically pleasing when justified. 
 <br>
 <br>
- <img style="margin: 20px" align="left" width="300" src="assets/images/nametext.webp">
+
+ <img style="margin: 20px" align="left" width="400" src="assets/images/nametext.webp">
+
 Graphic images of text elements were used on the carousel overlay text and on the about page to work around alignment complications. CSS text justification properties ('text-justify: justified') is only applicable when text is overspilling onto the next line, and even with several other style adjustments in place the desired outcome was complicated to achieve. 
 
 Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. (See preview left) The images all contain alt-text which matches the writing displayed in the image. 
@@ -310,6 +312,7 @@ Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google
 Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. See preview >
 
 <h3 id="12"> 5. Images </h3>
+
 ![](assets/images/gallerypreview.webp)
 
 The images selected for the site should provide a visual overview of Kim's experience as an artist, as well as a clear idea of her visual language and style. The gallery hosts pictures of Kim's surface pattern designs and creative direction for fashion photography, her textile banners, her mixed-media artwork, art exhibitions and illustration which shows a dynamic approach to creativity.  
@@ -351,7 +354,7 @@ The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/co
 <h3 id="17">2. Footer</h3>
 ![](assets/images/footerfull.webp)
 
-<img style="margin: 20px;" align="right" width="300" height="auto" src="assets/images/footerjs.webp">
+<img style="margin: 20px;" align="right" width="400" height="auto" src="assets/images/footerjs.webp">
 
 The footer is located at the bottom of every page, and was created from a [boilerplate](https://getbootstrap.com/docs/5.3/components/card/#header-and-footer) provided by Bootstrap 5.
 
@@ -422,6 +425,7 @@ The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a vi
 * The images with text use Rumei House, justified to fit into the widths of the container they occupy. Key words are highlighted in the mid purple tone #9256f6 which helps draw the users eyes to the most important words 'Kim & Great' - which gives a positive message about her to potential employers and collaborators. 
 
 <img style="margin: 20px" align="right" width="auto" height="300" src="assets/images/nametext.webp">
+
 <img style="margin: 20px" align="right" width="auto" height="300" src="assets/images/profileimage.webp">
 
 <br>
