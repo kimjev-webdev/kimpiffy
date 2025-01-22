@@ -113,6 +113,7 @@
  8. <a href="#52">Procreate</a>
  9. <a href="#53">Fotor</a>
  10. <a href="#54">Favicon</a>
+ 11. <a href="#54a">Balsamiq</a>
 </details>
 </details>
 
@@ -366,10 +367,11 @@ The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/co
 * The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices. > See preview
 * Bootstrap's navbar toggler icon (hamburger for collapsible responsive menu) has been replaced with a Font Awesome alternative which makes it easier to target with CSS, including adding the purple hover effect.
 * All buttons in the navbar have this purple rollover.
-* The navbar uses 'sticky-top' to keep it visible on even when the page is scrolled down. 
+* The navbar uses 'fixed-top' to keep it visible on even when the page is scrolled down. 
 
 
 <h3 id="17">2. Footer</h3>
+
 ![](assets/images/footerfull.webp)
 
 <img style="margin: 20px;" align="right" width="400" height="auto" src="assets/images/footerjs.webp">
@@ -612,6 +614,11 @@ The background image is the final visual 'wow' that aims to ensure website users
 
 ### 10. [Favicon](https://favicon.io/)
 * Used to change image file to favicon format.
+
+<h3 id="54a"></h3>
+
+### 11. [Balsamiq](https://balsamiq.com)
+* Used to create wireframes.
 
 <h2 id="55">Testing</h2>
 
