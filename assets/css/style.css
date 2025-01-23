@@ -547,6 +547,13 @@ footer .text-light {
     }
 }
 
+@media (max-width: 576px) {
+    .carouselLg {
+       display: none;
+    }
+
+}
+
 /* media query for small screens */
 @media (max-width: 768px) {
     .navbar-brand>i {
@@ -645,10 +652,6 @@ footer .text-light {
         margin: 0;
     }
 
-.carouselLg {
-        display: none;
-    }
-
     .aboutMe .about-text {
         padding: 5px;
     }
@@ -681,7 +684,7 @@ footer .text-light {
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 576px) {
 .carouselSm {
         display: none;
     }
