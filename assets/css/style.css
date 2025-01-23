@@ -242,15 +242,15 @@ body .btn:hover {
     margin-bottom: 3vh;
 }
 
-.i.fa-solid:hover {
-    color: #af80f9;
+.centerArrow:hover, .endArrow:hover {
+    color: #af80f9 !important;
 }
 
 .centerArrow, .endArrow {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /* contact page styles */
