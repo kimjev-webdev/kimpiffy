@@ -406,10 +406,9 @@ The homepage serves a strong, visually impactful set of imagery to intrigue user
 
 <h3 id="19">1. Hero/Carousel</h3>
 
-
-<img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero1.webp">
-<img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero2.webp">
-<img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero3.webp">
+| Hero Image 1 | Hero Image 2 | Hero Image 3 |
+|----------|----------|----------|
+| <img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero1.webp">| <img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero2.webp">| <img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero3.webp">|
 
 
 The Hero imagery on the homepage is the first visual introduction to Kim's artwork on the site. 
