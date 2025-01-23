@@ -75,3 +75,13 @@ Preliminary mobile testing is undertaken with Chrome dev tools Lighthouse. This 
 | contact.html|<img src="assets/images/testing/contactdesktoptest.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 | 404.html |<img src="assets/images/testing/404desktoptesting.jpg" width="400px" height="auto"> | Good scores. No amendments needed. |
 
+<h2 id="accessibility">Accessibility</h2>
+
+More detailed accessibility testing was undertaken using [WAVE](https://wave.webaim.org/) - Web accessibility evaluation tool.
+
+
+| Page      | URL                  | Screenshot           | Notes              |
+|-----------|----------------------|----------------------|--------------------|
+| index.html   | [WAVE](https://wave.webaim.org/) | <img src="assets/images/testing/indexwaveresults.jpeg" height="auto" width="600px"> <img src="assets/images/testing/indexwavealerts.jpeg" height="auto" width="600px">| Redundant link warning ignored - the 'READ MORE' button appears stationary on the page and only ever appears once at a time. It appears redundant as it is found several times in the code in order to button appear consistently over all images in the carousel. Small text ignored - this is for the copyright at the bottom of the footer. Long aria-labels ignored - under 100 characters so still succinct. These appear on the 'piffy logos' which are Kim's own logos and the hyperlinks require more in depth explination to make sense to the user. 
+
+| about.html   | [WAVE](https://wave.webaim.org/) | <img src="assets/images/testing/indexwaveresults.jpeg" height="auto" width="600px"> <img src="assets/images/testing/indexwavealerts.jpeg" height="auto" width="600px">| First paragaph left alone as it is less than 500 characters of justified text. Second paragraph has had break inserted to make the larger block of justified text more ledgible.  Small text ignored - this is for the copyright at the bottom of the footer. Long aria-labels ignored - under 100 characters so still succinct. These appear on the 'piffy logos' which are Kim's own logos and the hyperlinks require more in depth explination to make sense to the user. 
