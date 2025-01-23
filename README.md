@@ -254,6 +254,17 @@ Further business goals are:
 <details>
 <summary>Mobile Wireframes</summary>
 
+### 1. Homepage Wireframe
+![](assets/images/indexwfmobile.webp) 
+### 2. About Page Wireframe
+![](assets/images/aboutwfmobile.webp)
+![](assets/images/aboutwfmobile2.webp)
+### 3. Gallery Page Wireframe 
+![](assets/images/gallerywfmobile.webp) 
+### 4. Contact Page Wireframe
+![](assets/images/contactwfmobile.webp) 
+</details>
+
 </details>
 
 <details>
