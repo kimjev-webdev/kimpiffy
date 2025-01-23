@@ -406,11 +406,11 @@ The homepage serves a strong, visually impactful set of imagery to intrigue user
 
 <h3 id="19">1. Hero/Carousel</h3>
 
-<center>
-<img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero1.webp">
-<img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero2.webp">
-<img style="margin: 5px" width="300" height="auto" src="assets/images/portfoliohero3.webp">
-</center>
+
+<img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero1.webp">
+<img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero2.webp">
+<img style="margin: 5px" width="200" height="auto" src="assets/images/portfoliohero3.webp">
+
 
 The Hero imagery on the homepage is the first visual introduction to Kim's artwork on the site. 
 
@@ -444,8 +444,6 @@ The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a vi
 
 <h3 id="22">1. Images</h3>
 
-<img style="margin: 20px" align="left" width="auto" height="600" src="assets/images/abouttext.webp">
-
 * There are 3 images on the About page - 2 show on devices up to size medium, and 3 showing on larger screens.
 * Two images show text and follow the same format as the justified text seen on the carousel overlay for consistency.
 * For the same reasons images of text were used rather than text (justification issues).
@@ -455,22 +453,6 @@ The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a vi
 * The final image only displays on larger screens and helps the content of the first two columns on the page look more aesthetically pleasing. It says 'its great to meet you' which again, adds personality and friendly tones to the information which could otherwise be quite serious and mundane. 
 * The images with text use Rumei House, justified to fit into the widths of the container they occupy. Key words are highlighted in the mid purple tone #9256f6 which helps draw the users eyes to the most important words 'Kim & Great' - which gives a positive message about her to potential employers and collaborators. 
 
-<img style="margin: 20px" align="right" width="auto" height="300" src="assets/images/nametext.webp">
-
-<img style="margin: 20px" align="right" width="auto" height="300" src="assets/images/profileimage.webp">
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <h3 id="23">2. Paragraphs</h3>
 
 * The first paragraph serves to inform users a little more about Kim's aspirations in becoming a web developer and why her artistic background is a good device for this career change. This paragraph serves the main business objective and is targetted at the key user group.
@@ -479,8 +461,8 @@ The [about](https://kimjev-webdev.github.io/Unit1/about.html) page features a vi
 <h3 id="24">3. Buttons</h3>
 
 <center>
-<img style="margin: 20px" width="auto" height="100" src="assets/images/artbuttonprev.webp">
-<img style="margin: 20px" width="auto" height="100" src="assets/images/cvbuttonprev.webp">
+<img style="margin: 20px" width="300" height="auto" src="assets/images/artbuttonprev.webp">
+<img style="margin: 20px" width="300" height="auto" src="assets/images/cvbuttonprev.webp">
 </center>
 
 * The buttons help assist the user in gaining more relevant information, if the content of the paragraphs is of interest to them.
