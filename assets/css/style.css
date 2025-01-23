@@ -218,6 +218,10 @@ body .btn:hover {
     margin-top: 100px;
 }
 
+.mainGallery a {
+    text-decoration: none;
+}
+
 .gallery img {
     max-width: 100%;
     height: auto;
