@@ -34,9 +34,7 @@ Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
 | Page      | URL                  | Screenshot           | Notes              |
 |-----------|----------------------|----------------------|--------------------|
-| All Pages   | [W3C ](https://validator.w3.org/checklink) | <img src="" height="auto" width="600px"> | 
-
-COMPLETE THIS LINK SECTION AFTER CV HAS BEEN UPLOADED. 
+| All Pages   | [W3C ](https://validator.w3.org/checklink) | <img src="assets/images/testing/linktesting.jpeg" height="auto" width="600px"> | All links tested and valid - instagram and linked in links checked manually as they are blocked by robot.txt - working. 
 
 ### 4. JavaScript 
 
