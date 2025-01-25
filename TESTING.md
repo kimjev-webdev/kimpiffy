@@ -92,7 +92,7 @@ More detailed accessibility testing was undertaken using [WAVE](https://wave.web
 
 <h2 id="manual">Manual Testing</h2>
 
-The site has been tested across a wide variety of devices to offer a detailed snapshot of the User Experience and iron out any final issues. Users were directed to the site and asked to send screenshots of each page. 
+The site has been tested across a wide variety of devices to offer a detailed snapshot of the User Experience and iron out any final issues. Users were directed to the site and asked to send screenshots of each page. The users were also asked to report any issues they had with the site. 
 
 ## 1.Mobile
 
@@ -124,4 +124,4 @@ The site has been tested across a wide variety of devices to offer a detailed sn
 | iMac 2024 - Chrome  | <img src="assets/images/testing/imac24index.png" height="auto" width="200px"> <img src="assets/images/testing/imac24about.png" height="auto" width="200px"> <img src="assets/images/testing/imac24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/imac24contact.png" height="auto" width="200px"> | Image in 3rd column of about page is too large. Adjust responsive sizing. 
 | HP Elitebook - Edge  | <img src="assets/images/testing/hpeliteindex.png" height="auto" width="200px"> <img src="assets/images/testing/hpeliteabout.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitegallery.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitecontact.png" height="auto" width="200px"> | No major issues reported. Slight size issues on about image (3rd column.)
 | MSI Trident 3 - Chrome | <img src="assets/images/testing/msitridentiindex.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentabout.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentgallery.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentcontact.jpg" height="auto" width="200px"> | No issues reported. |
-| MSI GF65 - Opera GX | <img src="assets/images/testing/operagxindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxgallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxcontact.jpeg" height="auto" width="200px"> |No major issues reported. Slight size issues on about image (3rd column.)
+| MSI GF65 - Opera GX | <img src="assets/images/testing/operagxindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operag6gallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxcontact.jpeg" height="auto" width="200px"> |No major issues reported. Slight size issues on about image (3rd column.)

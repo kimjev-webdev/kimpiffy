@@ -124,7 +124,8 @@
 2. <a href="#57">Validation</a>
 3. <a href="#58">Mobile Testing</a>
 4. <a href="#59">Desktop Testing</a>
-5. <a href="#60">Bugs</a>
+5. <a href="#60">Manual Testing</a>
+5. <a href="#61">Bugs</a>
 </details>
 
 <h2 id="1"></h2>
@@ -630,14 +631,20 @@ A document including a table with all tests can be found [here](TESTING.md).
 
 <h3 id="57">2. Validation</h3>
 
-The validation section of the testing document can be found [here](TESTING.md#validation).
+The validation section of the testing document can be found [here](TESTING.md#validation)
 
 <h3 id="58">3. Mobile Testing</h3>
 
-The mobile testing section of the testing document can be found [here](TESTING.md#mobiletesting).
+The mobile testing section of the testing document can be found [here](TESTING.md#mobiletesting)
 
 <h3 id="59"> 4. Desktop Testing</h3>
 
-The desktop testing section of the testing document can be found [here](TESTING.md#desktoptesting).
+The desktop testing section of the testing document can be found [here](TESTING.md#desktoptesting)
 
-<h3 id="60"> 5. Bugs</h3>
+<h3 id="60"> 5. Manual Testing</h3>
+
+The manual testing section of the testing document can be found [here](TESTING.md#manual)
+
+<h3 id="61"> 6. Bugs </h3>
+
+Details of known bugs can be found here [here](TESTING.md#bugs)
