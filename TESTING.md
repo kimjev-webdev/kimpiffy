@@ -77,6 +77,8 @@ Preliminary mobile testing is undertaken with Chrome dev tools Lighthouse. This 
 
 <h2 id="accessibility">Accessibility</h2>
 
+## 1. WAVE
+
 More detailed accessibility testing was undertaken using [WAVE](https://wave.webaim.org/) - Web accessibility evaluation tool.
 
 
@@ -87,3 +89,40 @@ More detailed accessibility testing was undertaken using [WAVE](https://wave.web
 | gallery.html | [WAVE](https://wave.webaim.org/) | <img src="assets/images/testing/gallerywaveresults.jpeg" height="auto" width="600px"> <img src="assets/images/testing/gallerywavedetails.jpeg" height="auto" width="600px"> <img src="assets/images/testing/gallerywavefixed.jpeg"> |ERROR RESOLVED <br><br> Added CSS class display:none to the h1 heading on gallery page to resolve the contrast error. Detailed descriptions of images required on the gallery page as this provides a richer user experience for sighted users. <br><br>Small text ignored - this is for the copyright at the bottom of the footer.|
 | contact.html | [WAVE](https://wave.webaim.org/) | <img src="assets/images/testing/contactwave.jpeg" height="auto" width="600px"> <img src="assets/images/testing/contactwavedetails.jpeg" height="auto" width="600px"> <img src="assets/images/testing/contactwaveafter.jpeg" height="auto" width="600px"> |ERROR RESOLVED <br><br> Hidden text added to social media icons on the form submit window. <br><br> Redundant link ignored: social icons only appear again after form submission and form part of a call to action. <br><br> Small text ignored - this is for the copyright at the bottom of the footer.|
 | 404.html | [WAVE](https://wave.webaim.org/) | <img src="assets/images/testing/404wave.jpeg" height="auto" width="600px"> | No substantial issues |
+
+<h2 id="manual">Manual Testing</h2>
+
+The site has been tested across a wide variety of devices to offer a detailed snapshot of the User Experience and iron out any final issues. Users were directed to the site and asked to send screenshots of each page. 
+
+## 1.Mobile
+
+## IOS
+
+| Device/Browser              | Screenshots           | Notes              |
+|----------------------|----------------------|--------------------|
+| iPhone 11 - Chrome | <img src="assets/images/testing/iphone11index.png" height="auto" width="200px"> <img src="assets/images/testing/iphone11about.png" height="auto" width="200px"> <img src="assets/images/testing/iphone11gallery.png" height="auto" width="200px"> <img src="assets/images/testing/iphone11contact.png" height="auto" width="200px"> | No issues reported. |
+| iPhone SE - Safari | <img src="assets/images/testing/iphoneSEindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphoneSEabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphoneSEgallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphoneSEcontact.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphoneSEabout2.jpeg" height="auto" width="200px">| ERROR RESOLVED (SEE LAST IMAGE IN COLUMN): Alignment issue on about page (misaligned - wider on left and thinner on right.) |
+| iPhone 12 - Safari | <img src="assets/images/testing/iphone12index.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone12about.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone12gallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone12contact.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone12about2.jpeg" height="auto" width="200px"> | ERROR RESOLVED (SEE LAST IMAGE IN COLUMN): Alignment issue on about page (misaligned - wider on left and thinner on right.) |
+| iPhone 13 Pro - Safari | <img src="assets/images/testing/iphone13index.png" height="auto" width="200px"> <img src="assets/images/testing/iphone13about.png" height="auto" width="200px"> <img src="assets/images/testing/iphone13gallery.png" height="auto" width="200px"> <img src="assets/images/testing/iphone13contact.png" height="auto" width="200px"> | No issues reported |
+| iPhone 14 Pro Max - Safari | <img src="assets/images/testing/iphone14index1.png" height="auto" width="200px"> <img src="assets/images/testing/iphone14about1.png" height="auto" width="200px"> <img src="assets/images/testing/iphone14gallery1.png" height="auto" width="200px"> <img src="assets/images/testing/iphone14contact1.png" height="auto" width="200px"> | No issues reported |
+| iPhone 14 Pro Max - Chrome | <img src="assets/images/testing/iphone14index2.png" height="auto" width="200px"> <img src="assets/images/testing/iphone14about2.png" height="auto" width="200px"> <img src="assets/images/testing/iphone14gallery2.png" height="auto" width="200px"> <img src="assets/images/testing/iphone14contact2.png" height="auto" width="200px"> | No issues reported |
+| iPhone 15 - Safari | <img src="assets/images/testing/iphone15index.png" height="auto" width="200px"> <img src="assets/images/testing/iphone15about.png" height="auto" width="200px"> <img src="assets/images/testing/iphone15gallery.png" height="auto" width="200px"> <img src="assets/images/testing/iphone15contact.png" height="auto" width="200px"> | No issues reported
+| iPhone 16 - Safari | <img src="assets/images/testing/iphone16index.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone16about.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone16gallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone16contact.jpeg" height="auto" width="200px"> <img src="assets/images/testing/iphone16about2.jpeg" height="auto" width="200px">| ERROR RESOLVED (SEE LAST IMAGE IN COLUMN): Alignment issue on about page (misaligned - wider on left and thinner on right.) |
+| Samsung S21 | <img src="assets/images/testing/samsungS21index.jpeg" height="auto" width="200px"> <img src="assets/images/testing/samsungS21about.jpeg" height="auto" width="200px"> <img src="assets/images/testing/samsungS21gallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/samsungS21contact.jpeg" height="auto" width="200px"> | No issues reported. |
+| Xiomi Redmi | <img src="assets/images/testing/xiomiredmiindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/xiomiredmiabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/xiomiredmigallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/xiomiredmicontact.jpeg" height="auto" width="200px"> <img src="assets/images/testing/xiomiredmiabout2.jpeg" height="auto" width="200px">| ERROR RESOLVED (SEE LAST IMAGE IN COLUMN): Alignment issue on about page (misaligned - wider on left and thinner on right.) |
+
+## 2. Tablets
+
+| Device/Browser              | Screenshots           | Notes              |
+|----------------------|----------------------|--------------------|
+| iPad Pro 2018 - Safari  | <img src="assets/images/testing/ipadpro24index.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24about.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24contact.png" height="auto" width="200px"> | No issues reported.
+| iPad 2021 - Safari  | <img src="assets/images/testing/ipad2012index.png" height="auto" width="200px"> <img src="assets/images/testing/ipad2012about.png" height="auto" width="200px"> <img src="assets/images/testing/ipad2012gallery.png" height="auto" width="200px"> <img src="assets/images/testing/ipad2012contact.png" height="auto" width="200px"> | No issues reported.
+| iPad Pro 2024 - Safari  | <img src="assets/images/testing/ipadpro24index.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24about.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24contact.png" height="auto" width="200px"> | No issues reported. |
+
+## 3. Laptop/Desktop 
+
+| Device/Browser              | Screenshots           | Notes              |
+|----------------------|----------------------|--------------------|
+| iMac 2024 - Chrome  | <img src="assets/images/testing/imac24index.png" height="auto" width="200px"> <img src="assets/images/testing/imac24about.png" height="auto" width="200px"> <img src="assets/images/testing/imac24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/imac24contact.png" height="auto" width="200px"> | Image in 3rd column of about page is too large. Adjust responsive sizing. 
+| HP Elitebook - Edge  | <img src="assets/images/testing/hpeliteindex.png" height="auto" width="200px"> <img src="assets/images/testing/hpeliteabout.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitegallery.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitecontact.png" height="auto" width="200px"> | No issues reported.
+| MSI Trident 3 - Chrome | <img src="assets/images/testing/ipadpro24index.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24about.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24contact.png" height="auto" width="200px"> | No issues reported. |

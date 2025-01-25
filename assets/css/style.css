@@ -184,7 +184,8 @@ body .btn:hover {
 
 .greatImage {
     padding-bottom: 25px;
-    max-width: 83%;
+    max-width: 26vw;
+   
 }
 
 .btn.cvButton,
@@ -729,7 +730,7 @@ footer .text-light {
     }
 
     .greatImage {
-        max-width: 95%;
+
     }
 }
 
@@ -751,6 +752,6 @@ footer .text-light {
     }
 
     .greatImage {
-        max-width: 95%;
+     
     }
 }
