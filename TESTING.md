@@ -125,3 +125,23 @@ The site has been tested across a wide variety of devices to offer a detailed sn
 | HP Elitebook - Edge  | <img src="assets/images/testing/hpeliteindex.png" height="auto" width="200px"> <img src="assets/images/testing/hpeliteabout.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitegallery.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitecontact.png" height="auto" width="200px"> | No major issues reported. Slight size issues on about image (3rd column.)
 | MSI Trident 3 - Chrome | <img src="assets/images/testing/msitridentiindex.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentabout.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentgallery.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentcontact.jpg" height="auto" width="200px"> | No issues reported. |
 | MSI GF65 - Opera GX | <img src="assets/images/testing/operagxindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operag6gallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxcontact.jpeg" height="auto" width="200px"> |No major issues reported. Slight size issues on about image (3rd column.)
+
+## Bugs
+
+Here I list known issues with the site.
+
+### 1. Horizontal Tablet - About Page
+![](assets/images/testing/horizontaltablet.jpeg)
+There is an obvious gap on the about page when viewing it from a horizontal tablet. In future versions I hope to add a second row on the about page for this breakpoint, and construct a more horizontal version of the that 'greatImage' found in the 3rd column on larger screens to fill the blank space. 
+
+### 2. IOS Carousel 'Glitch'
+![](assets/images/testing/carouselglitch.jpeg)
+A small glitch on the left size of the carousel appears between slides on IOS. I have recieved no reports of this occuring on Windows. On the screen grab below this appears as a white line - when the website is running this 1px white line 'flashes'. As this is a minor issue I have not spent time troubleshooting it for this release. 
+
+### 3. Sizing of the 'Great Image'
+![](assets/images/testing/hpeliteabout.png)
+On larger screens the text image 'It's Great To Meet You' appears on the about page. Great effort has been taken to align this image to be the same width as the other columns responsivley, however there are very slight difference in heights on the columns on certain screens. This has been the most painstaking part of the build and eventually it was settled on it being 'good enough'. It is likely with further knowledge I can fix this to be exact. 
+
+### 4. Small Contact Form
+![](assets/images/testing/operagxcontact.jpeg) <br>
+On some larger screens the contact form doesn't take up much space. This has been retained as it allows for a greater visual experience for the user who gets to see more of the background image which acts as a 'grand finale' after being lead through the site. It makes the form appear simple and easy to fill out encouraging users to spend the time to do so, and it prevents the text and icons becoming far too large as they would be if the form was increased in size. .
