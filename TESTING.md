@@ -124,7 +124,7 @@ The site has been tested across a wide variety of devices to offer a detailed sn
 | MSI Trident 3 - Chrome | <img src="assets/images/testing/msitridentiindex.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentabout.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentgallery.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentcontact.jpg" height="auto" width="200px"> | No issues reported. |
 | MSI GF65 - Opera GX | <img src="assets/images/testing/operagxindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operag6gallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxcontact.jpeg" height="auto" width="200px"> |No major issues reported. Slight size issues on about image (3rd column.)
 
-## Bugs
+<h2 id="bugs">Bugs</h2>
 
 Here I list known issues with the site.
 

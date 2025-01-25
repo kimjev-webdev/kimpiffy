@@ -120,12 +120,26 @@
 <details>
 <summary><a href="#55">Testing</a></summary>
 
-1.<a href="#56">About Testing</a>
+1. <a href="#56">About Testing</a>
 2. <a href="#57">Validation</a>
 3. <a href="#58">Mobile Testing</a>
 4. <a href="#59">Desktop Testing</a>
 5. <a href="#60">Manual Testing</a>
 5. <a href="#61">Bugs</a>
+</details>
+
+<details>
+<summary><a href="#62">Credits</a></summary>
+
+1. <a href="#64">Copyright Notice</a>
+2. <a href="#65">Lisence For Use</a>
+3. <a href="#66">Permitted Uses</a>
+4. <a href="#67">Prohibited Uses</a>
+5. <a href="#68">Trademark</a>
+6. <a href="#69">No Warranty</a>
+</details>
+
+<details><summary><a href="#70">Contact</a></summary>
 </details>
 
 <h2 id="1"></h2>
@@ -620,13 +634,9 @@ The background image is the final visual 'wow' that aims to ensure website users
 A document including a table with all tests can be found [here](TESTING.md).
 
 * The entire site has been tested comprehensivley throughout the build. Further evidence of continuous testing can be seen throughout the [deployment history](https://github.com/kimjev-webdev/Unit1/deployments) on Github. 
-
 * Each time a feature was added, all the pages on the site were tested to see if there was an impact.
-
 * The site was sent to friends, family and contacts on social media  feedback and testing.
-
 * The images in the gallery have been compressed so they are all below 300kb with an average image size of less than 150kb. 
-
 * Color contrasts have been checked to ensure compliance with WCAG guidlines.
 
 <h3 id="57">2. Validation</h3>
@@ -647,4 +657,40 @@ The manual testing section of the testing document can be found [here](TESTING.m
 
 <h3 id="61"> 6. Bugs </h3>
 
-Details of known bugs can be found here [here](TESTING.md#bugs)
+Details of known bugs can be found [here](TESTING.md#bugs)
+
+<h2 id="62">Credits</h2>
+
+<h3 id="64">1. Copyright Notice</h3>
+
+© 2025 Kim Jevon. All rights reserved.
+
+The content on this website, including but not limited to text, images, graphics, designs & logos (with the exception of Instagram & LinkedIn Icon's), are the property of Kim Jevon and are protected by copyright law. Unauthorized use, reproduction, distribution, or modification of any materials from this website without the express written permission is prohibited.
+
+<h3 id="65">2. Licence for Use</h3>
+
+By accessing or using this website, you are granted a limited, non-exclusive, and non-transferable licence to view and use the content solely for personal, non-commercial purposes. You may not reproduce, distribute, transmit, display, or create derivative works based on any content from this website, except as permitted by the copyright owner. 
+
+<h3 id="66">3. Permitted Uses</h3>
+
+* You may view and download content for personal use, provided you do not remove or alter any content.
+* You may share links to pages on the website, provided that proper attribution is given to the original source.
+
+<h3 id="67">4. Prohibited Uses</h3>
+
+* You may not use any content on this website for commercial purposes without prior written consent from Kim Jevon.
+* You may not copy, reproduce, or distribute content in any manner that could infringe on the intellectual property rights of Kim Jevon.
+* You may not use automated tools or bots to scrape, index, or otherwise extract content from this website.
+
+<h3 id="68">5. Trademark</h3>
+
+* The trademark logo displayed on this website are registered and unregistered trademarks of Kim Jevon. Nothing on this website grants any right to use any trademark without the prior written permission of the trademark owner.
+
+<h3 id="69">6. No Warranty</h3>
+
+* While every effort has been made to ensure the accuracy of the information provided on this website, Kim Jevon makes no representations or warranties regarding the accuracy, completeness, or reliability of any content on the site. 
+* The website is provided "as is," and users access it at their own risk.
+
+<h2 id="70">Contact<h2>
+
+For any further information, queries & questions you can contact me directly: kimjevon.web@gmail.com
