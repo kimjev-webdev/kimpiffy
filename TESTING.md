@@ -96,8 +96,6 @@ The site has been tested across a wide variety of devices to offer a detailed sn
 
 ## 1.Mobile
 
-## IOS
-
 | Device/Browser              | Screenshots           | Notes              |
 |----------------------|----------------------|--------------------|
 | iPhone 11 - Chrome | <img src="assets/images/testing/iphone11index.png" height="auto" width="200px"> <img src="assets/images/testing/iphone11about.png" height="auto" width="200px"> <img src="assets/images/testing/iphone11gallery.png" height="auto" width="200px"> <img src="assets/images/testing/iphone11contact.png" height="auto" width="200px"> | No issues reported. |
@@ -125,5 +123,5 @@ The site has been tested across a wide variety of devices to offer a detailed sn
 |----------------------|----------------------|--------------------|
 | iMac 2024 - Chrome  | <img src="assets/images/testing/imac24index.png" height="auto" width="200px"> <img src="assets/images/testing/imac24about.png" height="auto" width="200px"> <img src="assets/images/testing/imac24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/imac24contact.png" height="auto" width="200px"> | Image in 3rd column of about page is too large. Adjust responsive sizing. 
 | HP Elitebook - Edge  | <img src="assets/images/testing/hpeliteindex.png" height="auto" width="200px"> <img src="assets/images/testing/hpeliteabout.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitegallery.png" height="auto" width="200px"> <img src="assets/images/testing/hpelitecontact.png" height="auto" width="200px"> | No major issues reported. Slight size issues on about image (3rd column.)
-| MSI Trident 3 - Chrome | <img src="assets/images/testing/ipadpro24index.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24about.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24gallery.png" height="auto" width="200px"> <img src="assets/images/testing/ipadpro24contact.png" height="auto" width="200px"> | No issues reported. |
+| MSI Trident 3 - Chrome | <img src="assets/images/testing/msitridentiindex.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentabout.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentgallery.jpg" height="auto" width="200px"> <img src="assets/images/testing/msitridentcontact.jpg" height="auto" width="200px"> | No issues reported. |
 | MSI GF65 - Opera GX | <img src="assets/images/testing/operagxindex.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxabout.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxgallery.jpeg" height="auto" width="200px"> <img src="assets/images/testing/operagxcontact.jpeg" height="auto" width="200px"> |No major issues reported. Slight size issues on about image (3rd column.)

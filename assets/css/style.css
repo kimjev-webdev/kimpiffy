@@ -179,12 +179,12 @@ body .btn:hover {
 }
 
 .greatContainer {
-    flex-grow: 1;
+    flex-grow: 1.5;
 }
 
 .greatImage {
     padding-bottom: 25px;
-    max-width: 26vw;
+    max-width: 27vw;
    
 }
 
@@ -711,7 +711,6 @@ footer .text-light {
     }
 }
 
-
 @media (max-width: 1200px) {
     .greatImage {
         display: none;
@@ -727,10 +726,6 @@ footer .text-light {
 @media (min-width: 1400px) {
     .aboutMe .about-text {
         font-size: 1rem;
-    }
-
-    .greatImage {
-
     }
 }
 
@@ -749,9 +744,5 @@ footer .text-light {
 @media (min-width: 2000px) {
     .aboutMe .about-text {
         font-size: 1.5rem;
-    }
-
-    .greatImage {
-     
     }
 }
