@@ -29,7 +29,6 @@ body .btn:hover {
 }
 
 /* navbar styles */
-
 .navbar-brand {
     padding-left: 3px;
 }
@@ -79,7 +78,6 @@ body .btn:hover {
 }
 
 /* home page styles */
-
 .main .flex-grow-1 {
     margin-top: 200px;
 }
@@ -185,7 +183,7 @@ body .btn:hover {
 .greatImage {
     padding-bottom: 25px;
     max-width: 27vw;
-   
+
 }
 
 .btn.cvButton,
@@ -248,11 +246,13 @@ body .btn:hover {
     margin-bottom: 3vh;
 }
 
-.centerArrow:hover, .endArrow:hover {
+.centerArrow:hover,
+.endArrow:hover {
     color: #af80f9 !important;
 }
 
-.centerArrow, .endArrow {
+.centerArrow,
+.endArrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,7 +279,6 @@ main .mainContact {
     padding-left: 3vw;
     padding-right: 3vw;
 }
-
 
 .contactHeader h1 {
     font-size: 2.5rem;
@@ -516,17 +515,17 @@ footer .text-light {
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
-.slogan-button {
+    .slogan-button {
         font-size: clamp(27px, 30px, 32px);
     }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-.carouselSm {
+    .carouselSm {
         width: 300px;
     }
 
-.slogan-button {
+    .slogan-button {
         font-size: clamp(30px, 32px, 35px);
     }
 }
@@ -551,7 +550,7 @@ footer .text-light {
 
 @media (max-width: 576px) {
     .carouselLg {
-       display: none;
+        display: none;
     }
 
 }
@@ -669,7 +668,7 @@ footer .text-light {
         justify-content: space-evenly;
     }
 
-.slogan-button {
+    .slogan-button {
         font-size: clamp(35px, 40px, 45px);
     }
 
@@ -687,7 +686,7 @@ footer .text-light {
 }
 
 @media (min-width: 576px) {
-.carouselSm {
+    .carouselSm {
         display: none;
     }
 }
