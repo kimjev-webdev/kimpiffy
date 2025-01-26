@@ -333,11 +333,11 @@ A psychedelic, maximalist, and very stylized font was chosen for headings and bu
 
 Graphic images of text elements were used on the carousel overlay text and on the about page to work around alignment complications. CSS text justification properties ('text-justify: justified') is only applicable when text is overspilling onto the next line, and even with several other style adjustments in place the desired outcome was complicated to achieve. 
 
-Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. (See preview left) The images all contain alt-text which matches the writing displayed in the image. 
+Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. The images all contain alt-text which matches the writing displayed in the image. 
 
 The user is familiarised with the 'Rumei House' font representing 'clickable content' through its use in the navbar, a conventional element on most websites. After learning through the use of the font in this location, combined with a hover effect on the menu items, it becomes clear that any text in Rumei House font which displays a purple hover color is likely to be a button. This eliminates confusion which could be caused by the lack of outline and background that is a usual style convention of buttons. The 'call to action' placements also solidify that text displayed in Rumei House is usually a button. 
 
-The discerning quality between RumeinHouse being used as headers and as buttons is the size along with the hover color (see preview below) - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
+The discerning quality between RumeinHouse being used as headers and as buttons is the size along with the hover color - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
 
 Rumei House has been capitalized wherever it is used across the site. 
 
@@ -354,7 +354,7 @@ Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google
 * It is offered in a wide range of weights, from thin to bold which makes it easy to style.  
 * It has tall uppercase letters which make it look effective when capitalised.    
 
-Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. See preview >
+Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. 
 
 <h3 id="12"> 5. Images </h3>
 
@@ -383,14 +383,14 @@ Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve th
 
 The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/components/navbar/) copied from Bootstrap 5 and then customized. 
 
-<img style="margin: 20px;" align="right" width="400px" height="auto" src="assets/images/navcollapse.webp" >
+<img style="margin: 20px;" align="right" width="400px" height="auto" src="assets/images/navcollapse.webp">
 
 * The navbar is as simple as possible to aid the UX. 
 * 3 pages with clear and obvious headings make the site easy to navigate.
 * The navbar uses Rumei House font for links.
 * The left hand side of the navbar has the badge version of Kim's logo. This operates as a homepage link to aid navigation.
 * The badge logo has been implemented as a custom icon, created and uploaded to Font Awesome.
-* The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices. > See preview
+* The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices. 
 * Bootstrap's navbar toggler icon (hamburger for collapsible responsive menu) has been replaced with a Font Awesome alternative which makes it easier to target with CSS, including adding the purple hover effect.
 * All buttons in the navbar have this purple rollover.
 * The navbar uses 'fixed-top' to keep it visible on even when the page is scrolled down. 
