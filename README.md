@@ -371,7 +371,7 @@ The images selected for the site should provide a visual overview of Kim's exper
 * With more time and experience the gallery would benefit from other feature such as zoom hover or displaying in larger format when clicked. 
 
 <h3 id="13">Styling</h3>
-Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inlinek, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
+Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inline, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
 
 <h2 id="14"></h2>
 
