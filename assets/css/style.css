@@ -325,6 +325,7 @@ input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 textarea::placeholder {
     font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
     color: black !important;
     font-size: 0.8rem !important;
     font-weight: 500;
