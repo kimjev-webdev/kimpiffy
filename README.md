@@ -675,7 +675,7 @@ Details of known bugs can be found [here](TESTING.md#bugs)
 
 <h2 id="61a"> Deployment </h2>
 
-<h3="61b"> 1. Github Deployment </h3>
+<h3 id="61b"> 1. Github Deployment </h3>
 
 Github Pages works withh repositories that contain static files. 
 
