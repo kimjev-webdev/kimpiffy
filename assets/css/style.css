@@ -260,7 +260,9 @@ body .btn:hover {
 }
 
 /* contact page styles */
-main .mainContact {
+
+/*styles for the main section on contact page*/
+.mainContact {
     max-height: fit-content;
     max-width: 100%;
     display: flex;
@@ -268,18 +270,20 @@ main .mainContact {
     justify-content: center;
 }
 
-.contactForm {
+/*styles for the form on contact page*/
+main section .contactForm {
     background-color: #000000d2;
     width: 90%;
     max-width: 100%;
     margin-top: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding: 20px;
     border-radius: 20px;
     padding-left: 3vw;
     padding-right: 3vw;
 }
 
+/*styles for the header inside the contact form*/
 .contactHeader h1 {
     font-size: 2.5rem;
     width: 100%;
@@ -289,6 +293,7 @@ main .mainContact {
     color: white;
 }
 
+/*styles for the submit button*/
 #contactButton {
     background-color: transparent;
     border: none;
@@ -297,22 +302,14 @@ main .mainContact {
     color: rgb(255, 255, 255);
 }
 
+/*hover styles for the submit button*/
 #contactButton:hover {
     color: #af80f9;
     background-color: transparent;
     outline: none;
 }
 
-input::placeholder,
-textarea::placeholder,
-select::placeholder {
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    color: #000000;
-    font-weight: 500;
-    font-size: 0.8rem;
-}
-
+/*styles for the newsletter checkbox*/
 .form-check-label {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -322,6 +319,7 @@ select::placeholder {
     font-weight: 600;
 }
 
+/*styles for the form entry fields*/
 input[type="select"]::placeholder,
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
@@ -329,19 +327,24 @@ textarea::placeholder {
     font-family: "Montserrat", sans-serif;
     color: black !important;
     font-size: 0.8rem !important;
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
+/* make the checkbox purple to match site*/ 
 input[type="checkbox"]:checked {
     background-color: #af80f9;
     border-color: #af80f9
 }
 
+/*adding the contact page background*/
 .contactBody {
     background-image: url("../images/contactbg.webp");
     background-size: cover;
     background-position: center;
 }
 
+/* styles for the speak soon box*/
 #query {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
