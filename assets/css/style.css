@@ -312,7 +312,7 @@ main section .contactForm {
     width: 90%;
     max-width: 100%;
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     padding: 20px;
     border-radius: 20px;
     padding-left: 3vw;
@@ -321,7 +321,7 @@ main section .contactForm {
 
 /* contact form header */
 .contactHeader h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 100%;
     margin-bottom: 10px;
     padding: 0;
@@ -381,7 +381,7 @@ input[type="checkbox"]:checked {
     background-position: center;
 }
 
-/* speak soon message styling */
+/* drop down selection styling */
 #query {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -405,6 +405,26 @@ input[type="checkbox"]:checked {
     margin: 2px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+#thankYouMessage a:hover {
+    color: #af80f9;
+}
+#thankYouMessage h1 {
+    text-align: center;
+    color: white;
+    font-size: 8vw;
+    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
+    line-height: 0.75;
+    padding-top: 10px;
+}
+
+#thankYouMessage p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 7px;
 }
 
 /* ----------------------------- footer styles ----------------------------- */
@@ -529,7 +549,7 @@ footer .text-light {
 @media (max-width: 320px) {
     /* decrease font size of contact header title */
     .contactHeader h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -558,7 +578,7 @@ footer .text-light {
 @media (min-width: 400px) {
     /* Increase font size of contact header */
     .contactHeader h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 }
 
@@ -566,7 +586,7 @@ footer .text-light {
 @media (min-width: 500px) {
     /* adjust font size of contact header */
     .contactHeader h1 {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 }
 
@@ -574,7 +594,7 @@ footer .text-light {
 @media (min-width: 576px) {
     /* adjust font size of contact header */
     .contactHeader h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -757,7 +777,7 @@ footer .text-light {
 @media (min-width: 969px) {
     /* increase font size of contact header */
     .contactHeader h1 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
 }
 
