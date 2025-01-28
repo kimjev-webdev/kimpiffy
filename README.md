@@ -125,7 +125,14 @@
 3. <a href="#58">Mobile Testing</a>
 4. <a href="#59">Desktop Testing</a>
 5. <a href="#60">Manual Testing</a>
-5. <a href="#61">Bugs</a>
+6. <a href="#60a">User Story Testing</a>
+7. <a href="#61">Bugs</a>
+</details>
+
+<details>
+<summary><a href="#61a">Deployment</a></summary>
+  
+1. <a href="#61b">Github Deployment</a>
 </details>
 
 <details>
@@ -439,6 +446,9 @@ The Hero imagery on the homepage is the first visual introduction to Kim's artwo
 
 The image text on the carousel 'teases' more information about the content of the website and supports the content of the hero imagery in the carousel. 
 
+* The minimum amount of text possible is used on the homepage so that the images remain the point of focus. 
+* The text that is provided "From a world of art into a new digital realm" aims to entice the user and lead them intuitivley through the site to the about page where all the information they need to comprehend the website purpose is found. The slogan 'hooks in' the user and encourages them to spend more time finding out what will happen next.
+* The minimal text also adds to the aesthetic nature of the site. 
 * The image text is in webp image format to help style the text in a justified format with multiple text sizes on each line. 
 * The text is responsive, on mobiles it is in a box shape format to work with the vertical profile, and on larger screens it is in a longer line to give visual appeal the horizontally wider dimensions. 
 * The image text is styles in Rumei House
@@ -522,7 +532,7 @@ The background image is the final visual 'wow' that aims to ensure website users
 * The form uses a semi-transparent, dark background to give synergy between the overlay used on the index page. 
 * The form has curved corners to match with the images in the gallery before it. 
 * The form is designed to help users be specific about their enquiry, so at a later date these inquiries can be answered in order of relevance. (Users can select the nature of the query from a drop down list)
-* The form has some required fields and others that are optional. 
+* The form has some required fields and others that are optional. The basic requirement for the form submission is just name and email - this gives Kim the option to respond to those who have left their contact details without any extra information. This gives the minimum viable information whilst meaning the form can be submitted in the least time consuming manner if the user wishes too. This helps gain leads for employment and collaboration as it is time saving for the user. 
 * JavaScript has been implimented so that on form submission a secondary window appears which includes Kim's direct email should the user want to reach out in more detail.
 * The language used in headers 'Get in touch' and 'Speak Soon' aims to inform users but also maintain the relaxed communication that is used in headers on the about page. 
 
@@ -655,9 +665,32 @@ The desktop testing section of the testing document can be found [here](TESTING.
 
 The manual testing section of the testing document can be found [here](TESTING.md#manual)
 
-<h3 id="61"> 6. Bugs </h3>
+<h3 id="60a"> 6. User Story Testing</h3>
+
+The user story testing section of the testing document can be found [here](TESTING.md#user)
+
+<h3 id="61"> 7. Bugs </h3>
 
 Details of known bugs can be found [here](TESTING.md#bugs)
+
+<h2 id="61a"> Deployment </h2>
+
+<h3="61b">1. Github Deployment </h3>
+
+Github Pages works withh repositories that contain static files. 
+
+The website is publicly accessible via this URL: https://kimjev-webdev.github.io/kimjevon/.
+
+The instructions to deploy the project via Github Pages are as follows:
+
+1. Go to the **Settings** tab in your repository.
+2. Select **Pages** from the sidebar.
+3. In the **Source** dropdown, select the **main** branch.
+4. In the next drop down, keep **/root** as the default option.
+5. Click **Save.**
+6. Wait 2-3 minutes for the project to go live.
+
+*To add a custom domain, purchase one from an external provider and enter it in the box at the bottom of the page.*
 
 <h2 id="62">Credits</h2>
 
