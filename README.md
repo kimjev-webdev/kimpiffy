@@ -125,7 +125,14 @@
 3. <a href="#58">Mobile Testing</a>
 4. <a href="#59">Desktop Testing</a>
 5. <a href="#60">Manual Testing</a>
-5. <a href="#61">Bugs</a>
+6. <a href="#60a">User Story Testing</a>
+7. <a href="#61">Bugs</a>
+</details>
+
+<details>
+<summary><a href="#61a">Deployment</a></summary>
+  
+1. <a href="#61b">Github Deployment</a>
 </details>
 
 <details>
@@ -333,11 +340,11 @@ A psychedelic, maximalist, and very stylized font was chosen for headings and bu
 
 Graphic images of text elements were used on the carousel overlay text and on the about page to work around alignment complications. CSS text justification properties ('text-justify: justified') is only applicable when text is overspilling onto the next line, and even with several other style adjustments in place the desired outcome was complicated to achieve. 
 
-Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. (See preview left) The images all contain alt-text which matches the writing displayed in the image. 
+Due to time constraints and current skill levels it made more sense to apply images in place of the text elements. The images all contain alt-text which matches the writing displayed in the image. 
 
 The user is familiarised with the 'Rumei House' font representing 'clickable content' through its use in the navbar, a conventional element on most websites. After learning through the use of the font in this location, combined with a hover effect on the menu items, it becomes clear that any text in Rumei House font which displays a purple hover color is likely to be a button. This eliminates confusion which could be caused by the lack of outline and background that is a usual style convention of buttons. The 'call to action' placements also solidify that text displayed in Rumei House is usually a button. 
 
-The discerning quality between RumeinHouse being used as headers and as buttons is the size along with the hover color (see preview below) - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
+The discerning quality between RumeinHouse being used as headers and as buttons is the size along with the hover color - a clear size difference between elements displayed on similiar pages notifies users that one aspect is a title, and the other is a button.
 
 Rumei House has been capitalized wherever it is used across the site. 
 
@@ -354,7 +361,7 @@ Montserrat Font was chosen and uploaded from [Google Fonts](https://fonts.google
 * It is offered in a wide range of weights, from thin to bold which makes it easy to style.  
 * It has tall uppercase letters which make it look effective when capitalised.    
 
-Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. See preview >
+Everywhere that Montserrat is used on the website it is styled to be capitalized apart from on the about page where the largest bodies of text are located. This is to ensure that the paragraphs are easy to read.  This keeps the text looking punchy and to the point. Minimal text is used where possible and so Montserrat can really only found in the footer, in placeholders on the contact form and, as mentioned, in the paragraphs on the about page. 
 
 <h3 id="12"> 5. Images </h3>
 
@@ -371,7 +378,7 @@ The images selected for the site should provide a visual overview of Kim's exper
 * With more time and experience the gallery would benefit from other feature such as zoom hover or displaying in larger format when clicked. 
 
 <h3 id="13">Styling</h3>
-Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inlinek, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
+Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve the desired styles. As an absaloute beginner, the methods of achieving style results were largly trial and error and a lot of experimentation. In some cases, styling could have been achieved through Bootstrap inline, which would have saved some time, but for the sake of learning, using the custom CSS to target elements has achieved the same results and added a depth of understanding. 
 
 <h2 id="14"></h2>
 
@@ -383,14 +390,14 @@ Across the site Bootstrap 5 and Custom CSS are used interchangably to achieve th
 
 The navbar was created from a [boilerplate](https://getbootstrap.com/docs/4.0/components/navbar/) copied from Bootstrap 5 and then customized. 
 
-<img style="margin: 20px;" align="right" width="400px" height="auto" src="assets/images/navcollapse.webp" >
+<img style="margin: 20px;" align="right" width="400px" height="auto" src="assets/images/navcollapse.webp">
 
 * The navbar is as simple as possible to aid the UX. 
 * 3 pages with clear and obvious headings make the site easy to navigate.
 * The navbar uses Rumei House font for links.
 * The left hand side of the navbar has the badge version of Kim's logo. This operates as a homepage link to aid navigation.
 * The badge logo has been implemented as a custom icon, created and uploaded to Font Awesome.
-* The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices. > See preview
+* The navbar is responsive and collapsible utilizing the universal 'hamburger' icon on smaller devices. 
 * Bootstrap's navbar toggler icon (hamburger for collapsible responsive menu) has been replaced with a Font Awesome alternative which makes it easier to target with CSS, including adding the purple hover effect.
 * All buttons in the navbar have this purple rollover.
 * The navbar uses 'fixed-top' to keep it visible on even when the page is scrolled down. 
@@ -439,6 +446,9 @@ The Hero imagery on the homepage is the first visual introduction to Kim's artwo
 
 The image text on the carousel 'teases' more information about the content of the website and supports the content of the hero imagery in the carousel. 
 
+* The minimum amount of text possible is used on the homepage so that the images remain the point of focus. 
+* The text that is provided "From a world of art into a new digital realm" aims to entice the user and lead them intuitivley through the site to the about page where all the information they need to comprehend the website purpose is found. The slogan 'hooks in' the user and encourages them to spend more time finding out what will happen next.
+* The minimal text also adds to the aesthetic nature of the site. 
 * The image text is in webp image format to help style the text in a justified format with multiple text sizes on each line. 
 * The text is responsive, on mobiles it is in a box shape format to work with the vertical profile, and on larger screens it is in a longer line to give visual appeal the horizontally wider dimensions. 
 * The image text is styles in Rumei House
@@ -522,7 +532,7 @@ The background image is the final visual 'wow' that aims to ensure website users
 * The form uses a semi-transparent, dark background to give synergy between the overlay used on the index page. 
 * The form has curved corners to match with the images in the gallery before it. 
 * The form is designed to help users be specific about their enquiry, so at a later date these inquiries can be answered in order of relevance. (Users can select the nature of the query from a drop down list)
-* The form has some required fields and others that are optional. 
+* The form has some required fields and others that are optional. The basic requirement for the form submission is just name and email - this gives Kim the option to respond to those who have left their contact details without any extra information. This gives the minimum viable information whilst meaning the form can be submitted in the least time consuming manner if the user wishes too. This helps gain leads for employment and collaboration as it is time saving for the user. 
 * JavaScript has been implimented so that on form submission a secondary window appears which includes Kim's direct email should the user want to reach out in more detail.
 * The language used in headers 'Get in touch' and 'Speak Soon' aims to inform users but also maintain the relaxed communication that is used in headers on the about page. 
 
@@ -655,9 +665,32 @@ The desktop testing section of the testing document can be found [here](TESTING.
 
 The manual testing section of the testing document can be found [here](TESTING.md#manual)
 
-<h3 id="61"> 6. Bugs </h3>
+<h3 id="60a"> 6. User Story Testing</h3>
+
+The user story testing section of the testing document can be found [here](TESTING.md#user)
+
+<h3 id="61"> 7. Bugs </h3>
 
 Details of known bugs can be found [here](TESTING.md#bugs)
+
+<h2 id="61a"> Deployment </h2>
+
+<h3 id="61b"> 1. Github Deployment </h3>
+
+Github Pages works withh repositories that contain static files. 
+
+The website is publicly accessible via this URL: https://kimjev-webdev.github.io/kimjevon/.
+
+The instructions to deploy the project via Github Pages are as follows:
+
+1. Go to the **Settings** tab in your repository.
+2. Select **Pages** from the sidebar.
+3. In the **Source** dropdown, select the **main** branch.
+4. In the next drop down, keep **/root** as the default option.
+5. Click **Save.**
+6. Wait 2-3 minutes for the project to go live.
+
+*To add a custom domain, purchase one from an external provider and enter it in the box at the bottom of the page.*
 
 <h2 id="62">Credits</h2>
 
