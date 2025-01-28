@@ -2,55 +2,64 @@
 <html lang="en">
 
 <head>
+    <!-- character encoding and viewport for responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta tags -->
     <meta name="description"
         content="Explore Kim's portfolio web development project showcasing contemporary art alongside HTML, CSS, JavaScript & Bootstrap skills.">
     <meta name="keywords"
         content="Mixed Media Art, Illustration, Collage, Textiles, U.V Light, Web Development, HTML, CSS, JavaScript, Kim Jevon, Kim Piffy, Web Design">
     <meta name="author" content="Kim Jevon">
     <meta name="robots" content="index, follow">
+
+    <!-- page title for browser tab -->
     <title>About - [Kim Jevon Portfolio]</title>
 
-    <!-- favicon -->
+    <!-- favicon for website -->
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 
-    <!-- bootstrap css link -->
+    <!-- bootstrap css link for styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- font awesome kit-->
+    <!-- font awesome kit for icons -->
     <script src="https://kit.fontawesome.com/40e23bfd7e.js" crossorigin="anonymous"></script>
 
-    <!-- "Montserrat" font -->
+    <!-- google fonts "Montserrat" font for main text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <!-- "RumeiHouse" font -->
+    <!-- custom font "RumeiHouse" -->
     <link rel="stylesheet" type="text/css" href="./assets/fonts/RumeiHouse.css">
 
-    <!-- custom css -->
+    <!-- custom css for styling -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header class="fixed-top">
-        <!-- navigation -->
+        <!-- navigation bar at the top -->
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
+                <!-- logo and home link -->
                 <a class="navbar-brand" href="index.html" aria-label="Go to Homepage">
                     <i class="fa-kit fa-piffy-badge fa-3x" style="color: #ffffff;"></i>
                 </a>
+                <!-- hamburger button for mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Expand page navigation">
-                    <!-- <span class="navbar-toggler-icon"></span> for future ref this can be deleted and replace with icon. -->
+                    <!-- icon for toggle button -->
                     <i class="fa-solid fa-bars"></i>
                 </button>
+                <!-- navigation links (collapsed on mobile) -->
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
+                        <!-- links to different pages -->
                         <a class="nav-link" href="about.html">ABOUT</a>
                         <a class="nav-link" href="gallery.html">GALLERY</a>
                         <a class="nav-link" href="contact.html">CONTACT</a>
@@ -59,63 +68,68 @@
             </div>
         </nav>
     </header>
+
     <main class="container-fluid aboutContainer">
+        <!-- main content area for about page -->
         <article class="row aboutMe d-flex justify-content-center align-items-center">
+            <!-- heading for accessibility -->
             <h1 class="visually-hidden">About Kim Jevon</h1>
+
+            <!-- first section about kim's career aspirations -->
             <section class="col-12 col-sm-6 col-xl-4 about1">
                 <h2 id="aboutHeading" class="visually-hidden">Career Aspirations</h2>
+                <!-- image text introducing kim -->
                 <img src="assets/images/nametext.webp" alt="My name is Kim" class="namePic img-fluid">
                 <p class="about-text">
                     I am a visual artist and aspiring web developer. My creative background allows me to approach
-                    design
-                    projects from a different angle, with a strong focus on making the user experience both
-                    beautiful
-                    and intuitive. I understand the importance of colors, composition, and storytelling from both an
-                    artistic and technical perspective. As I continue to develop my knowledge, I look forward to
-                    collaborating on projects where I can apply my creativity, and problem solving skills.
+                    design projects from a different angle, with a strong focus on making the user experience both
+                    beautiful and intuitive. I understand the importance of colors, composition, and storytelling from both an artistic and technical perspective. As I continue to develop my knowledge, I look forward to collaborating on projects where I can apply my creativity, and problem-solving skills.
+                    <!-- button to download c.v -->
                     <a href="assets/kimjevoncv.pdf" class="btn btn-outline-light cvButton"
                         aria-label="Download Kim Jevon's C.V" download>Download C.V</a>
                 </p>
             </section>
 
+            <!-- second section about kim's art -->
             <section class="col-12 col-sm-6 col-xl-4 mt-3 about2">
                 <h2 id="aboutHeading2" class="visually-hidden">Kim's Art</h2>
                 <p class="about-text">
                     Over the last decade I have been practicing as a contemporary artist, primarily working on
-                    abstract collages and textile banners. I have staged several solo exhibitions under
-                    ultra-violet light, with which I love to entice my audience!
-                    <br>
-                    <br>
-                    My influences include
-                    tattoo culture, graffiti, and folk art, which I blend with more serious interests in technology,
-                    and philosophy. The results are fun, bright, bold, and busy images, with an edifying complexity
-                    to their underlying themes. As well as fine art I often work on illustration, and I also spent a
-                    period of time creating surface patterns for my own alternative, fashion label.
+                    abstract collages and textile banners. I have staged several solo exhibitions under ultra-violet light, with which I love to entice my audience!
+                    <br><br>
+                    My influences include tattoo culture, graffiti, and folk art, which I blend with more serious interests in technology, and philosophy. The results are fun, bright, bold, and busy images, with an edifying complexity to their underlying themes. As well as fine art I often work on illustration, and I also spent a period of time creating surface patterns for my own alternative, fashion label.
+                    <!-- button to view kim's artwork gallery -->
                     <a href="gallery.html" class="btn btn-outline-light galleryButton"
                         aria-label="Go to the gallery page and see Kim's artwork">View my art</a>
-                </p> <img src="./assets/images/profileimage.webp" alt="Portrait image of Kim"
+                </p>
+                <!-- profile image of kim -->
+                <img src="./assets/images/profileimage.webp" alt="Portrait image of Kim"
                     class="img-fluid profileImage">
             </section>
 
+            <!-- aside section with an image which appears on larger screens -->
             <aside class="col-12 col-xl-4 greatContainer">
                 <img src="assets/images/abouttext.webp" alt="It’s great to meet you!" class="greatImage img-fluid">
             </aside>
         </article>
     </main>
 
-    <!-- footer -->
+    <!-- footer section -->
     <footer class="footer">
         <div class="container-fluid px-1">
             <div class="row text-center text-md-left">
-                <!-- footer email sign up -->
+                <!-- footer section for email sign up -->
                 <section class="col-12 col-md-3 mb-0 d-flex flex-column justify-content-center">
                     <h2>EMAIL</h2>
                     <form id="emailForm">
                         <div class="form-group">
+                            <!-- hidden label for screen readers -->
                             <label for="emailInput" class="visually-hidden">Enter your email address</label>
+                            <!-- email input field -->
                             <input type="email" id="emailInput" class="form-control" placeholder="STAY UPDATED..."
                                 required>
                             <div id="submitWrapper">
+                                <!-- submit button (disabled initially) -->
                                 <button type="submit" class="btn btn-outline-light w-100 text-end" id="submitButton"
                                     disabled aria-label="Sign up for email updates" aria-disabled="true">
                                     SIGN UP!
@@ -125,21 +139,24 @@
                     </form>
                 </section>
 
-                <!-- empty column for symmetry -->
+                <!-- empty column for layout symmetry -->
                 <div class="col-12 col-md-1"></div>
 
-                <!-- logo & social icons -->
+                <!-- social media links and icons -->
                 <div
                     class="col-12 col-md-4 d-flex flex-row align-items-center justify-content-center instagram-container">
+                    <!-- linkedin icon and link -->
                     <a href="https://www.linkedin.com/in/kimjev" aria-label="Visit my LinkedIn profile" target="_blank"
                         class="mx-2 my-3 mb-2">
                         <i class="fa-brands fa-linkedin fa-4x"></i>
                     </a>
+                    <!-- custom art website icon and link -->
                     <a href="https://kimpiffy.com"
                         aria-label="Click here to visit Kim's art website where you can read more about her work and see them categorized into collections."
                         target="_blank" class="mx-2 my-3 mb-2">
                         <i class="fa-kit fa-piffy-icon fa-4x"></i>
                     </a>
+                    <!-- instagram icon and link -->
                     <a href="https://www.instagram.com/kimpseudonym" aria-label="Visit Kim's Instagram profile"
                         target="_blank" class="mx-2 my-3 mb-2">
                         <i class="fa-brands fa-instagram fa-4x"></i>
@@ -151,6 +168,7 @@
                     aria-labelledby="footerNavHeading">
                     <h2 id="footerNavHeading" class="visually-hidden">Footer Navigation</h2>
                     <ul class="list-unstyled footer-links">
+                        <!-- links to different pages -->
                         <li><a href="index.html" aria-label="Navigate to Home page">HOME</a></li>
                         <li><a href="about.html" aria-label="Navigate to About page">ABOUT</a></li>
                         <li><a href="gallery.html" aria-label="Navigate to Gallery page">GALLERY</a></li>
@@ -159,22 +177,22 @@
                 </nav>
             </div>
         </div>
-        
+
         <!-- copyright -->
         <div class="row">
             <div class="col-12 text-center">
-                <p class="text-light copyright">&copy; KIM JEVON 2025</p>
+                <p class="text-light copyright">&copy; KIM JEAVON 2025</p>
             </div>
         </div>
 
     </footer>
 
-    <!-- bootstrap java link -->
+    <!-- bootstrap  javascript for functionality -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    <!-- custom java link -->
+    <!-- custom javascript for additional functionality -->
     <script src="./assets/js/main.js"></script>
 </body>
 
