@@ -1,4 +1,6 @@
-/* body styles */
+/* ----------------------------- body styles ----------------------------- */
+
+/* general body and html settings */
 html,
 body {
     font-family: "Montserrat", sans-serif;
@@ -12,6 +14,7 @@ main {
     flex: 1 0 auto;
 }
 
+/* button styles */
 body .btn {
     font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     text-transform: uppercase;
@@ -28,15 +31,19 @@ body .btn:hover {
     outline: none !important;
 }
 
-/* navbar styles */
+/* ----------------------------- navbar styles ----------------------------- */
+
+/* navbar brand padding */
 .navbar-brand {
     padding-left: 3px;
 }
 
+/* navbar brand icon hover effect */
 .navbar-brand>i:hover {
     color: #af80f9 !important;
 }
 
+/* navbar items styling */
 .navbar-nav {
     padding: 2px;
     margin: 5px;
@@ -49,10 +56,12 @@ body .btn:hover {
     color: rgb(255, 255, 255);
 }
 
+/* navbar item hover effect */
 .navbar-nav a:hover {
     color: #af80f9
 }
 
+/* navbar toggler button customization */
 .navbar .navbar-toggler {
     background-color: transparent;
     border: none;
@@ -64,36 +73,39 @@ body .btn:hover {
     height: 3rem;
 }
 
+/* navbar toggler icon hover effect */
 .navbar .navbar-toggler>i:hover {
     color: #af80f9;
 }
 
+/* navbar toggler icon size */
 .navbar-toggler>i {
     color: white;
     font-size: 2.5rem;
 }
 
-.fa-piffy-badge:hover {
-    color: #af80f9;
-}
+/* ----------------------------- homepage styles ----------------------------- */
 
-/* home page styles */
+/* home page content margin */
 .main .flex-grow-1 {
     margin-top: 200px;
 }
 
+/* carousel item styling */
 .carousel-item {
     position: relative;
     height: 100vh;
     overflow: hidden;
 }
 
+/* carousel image styling */
 .carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* overlay effect on carousel items */
 .carousel-overlay {
     position: absolute;
     top: 0;
@@ -110,6 +122,7 @@ body .btn:hover {
     transition: opacity 0.7s ease;
 }
 
+/* slogan container */
 .slogan {
     padding-top: 100px;
     display: flex;
@@ -120,6 +133,7 @@ body .btn:hover {
     color: white;
 }
 
+/* slogan button styling */
 .slogan-button {
     font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     color: white;
@@ -129,17 +143,21 @@ body .btn:hover {
     display: inline-block;
 }
 
+/* slogan button hover effect */
 .slogan a:hover {
     color: #af80f9
 }
 
-/* about page styles */
+/* ----------------------------- about page styles ----------------------------- */
+
+/* about section container */
 .aboutContainer {
     display: table;
     margin: 0 auto;
     max-width: 95vw;
 }
 
+/* about row styling */
 .aboutMe {
     display: table-cell;
     margin: 0 auto;
@@ -148,12 +166,14 @@ body .btn:hover {
     max-width: 95vw;
 }
 
+/* about container column styling */
 .aboutContainer .col-12 {
     display: table-cell;
     table-layout: auto;
     margin: 0 auto;
 }
 
+/* about text formatting */
 .aboutMe .about-text {
     font-size: 13px;
     min-width: 100%;
@@ -164,6 +184,7 @@ body .btn:hover {
     margin-bottom: 0;
 }
 
+/* profile image styling */
 .namePic {
     padding-left: 10px;
     padding-right: 10px;
@@ -171,21 +192,24 @@ body .btn:hover {
     padding-bottom: 10px;
 }
 
+/* profile image container */
 .profileImage {
     padding-right: 10px;
     padding-bottom: 10px;
 }
 
+/* large image in about section container */
 .greatContainer {
     flex-grow: 1.5;
 }
 
+/* large image styling in about section */
 .greatImage {
     padding-bottom: 25px;
     max-width: 27vw;
-
 }
 
+/* button styles for cv and gallery */
 .btn.cvButton,
 .btn.galleryButton {
     color: #000000;
@@ -197,6 +221,7 @@ body .btn:hover {
     justify-content: center;
 }
 
+/* cv and gallery button hover effect */
 .btn.cvButton:hover,
 .btn.galleryButton:hover {
     color: #6810F4;
@@ -204,24 +229,30 @@ body .btn:hover {
     border: transparent;
 }
 
-/* gallery styles */
+/* ----------------------------- gallery styles ----------------------------- */
+
+/* gallery container */
 .gallery {
     width: 100vw;
     min-height: 100vh;
 }
 
+/* gallery header */
 .galleryh1 {
     display: none;
 }
 
+/* main gallery section */
 .mainGallery {
     margin-top: 100px;
 }
 
+/* gallery link styling */
 .mainGallery a {
     text-decoration: none;
 }
 
+/* image sizing in gallery */
 .gallery img {
     max-width: 100%;
     height: auto;
@@ -229,6 +260,7 @@ body .btn:hover {
     border-radius: 20px;
 }
 
+/* gallery column left and right */
 .gallery .col-left img,
 .gallery .col-right img {
     display: flex;
@@ -236,21 +268,25 @@ body .btn:hover {
     aspect-ratio: 4 / 5;
 }
 
+/* gallery middle column */
 .gallery .col-mid img {
     aspect-ratio: 5 / 4;
     width: 100%;
 }
 
+/* gallery image spacing */
 .gallery img {
     margin-top: 5px;
     margin-bottom: 3vh;
 }
 
+/* arrow icon hover effects */
 .centerArrow:hover,
 .endArrow:hover {
     color: #af80f9 !important;
 }
 
+/* responsive center and end arrows */
 .centerArrow,
 .endArrow {
     display: flex;
@@ -259,9 +295,9 @@ body .btn:hover {
     text-decoration: none !important;
 }
 
-/* contact page styles */
+/* ----------------------------- contact page styles ----------------------------- */
 
-/*styles for the main section on contact page*/
+/* contact page container */
 .mainContact {
     max-height: fit-content;
     max-width: 100%;
@@ -270,7 +306,7 @@ body .btn:hover {
     justify-content: center;
 }
 
-/*styles for the form on contact page*/
+/* contact form styling */
 main section .contactForm {
     background-color: #000000d2;
     width: 90%;
@@ -283,7 +319,7 @@ main section .contactForm {
     padding-right: 3vw;
 }
 
-/*styles for the header inside the contact form*/
+/* contact form header */
 .contactHeader h1 {
     font-size: 2.5rem;
     width: 100%;
@@ -293,7 +329,7 @@ main section .contactForm {
     color: white;
 }
 
-/*styles for the submit button*/
+/* contact form submit button */
 #contactButton {
     background-color: transparent;
     border: none;
@@ -302,14 +338,14 @@ main section .contactForm {
     color: rgb(255, 255, 255);
 }
 
-/*hover styles for the submit button*/
+/* submit button hover effect */
 #contactButton:hover {
     color: #af80f9;
     background-color: transparent;
     outline: none;
 }
 
-/*styles for the newsletter checkbox*/
+/* newsletter checkbox label styling */
 .form-check-label {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -319,7 +355,7 @@ main section .contactForm {
     font-weight: 600;
 }
 
-/*styles for the form entry fields*/
+/* placeholder text styling */
 input[type="select"]::placeholder,
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
@@ -332,20 +368,20 @@ textarea::placeholder {
     font-size: 0.8rem;
 }
 
-/* make the checkbox purple to match site*/ 
+/* checkbox checked style */
 input[type="checkbox"]:checked {
     background-color: #af80f9;
     border-color: #af80f9
 }
 
-/*adding the contact page background*/
+/* contact background image */
 .contactBody {
     background-image: url("../images/contactbg.webp");
     background-size: cover;
     background-position: center;
 }
 
-/* styles for the speak soon box*/
+/* speak soon message styling */
 #query {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -354,6 +390,7 @@ input[type="checkbox"]:checked {
     font-weight: 500;
 }
 
+/* speak soon message container */
 #thankYouMessage {
     display: flex;
     flex-direction: column;
@@ -363,54 +400,17 @@ input[type="checkbox"]:checked {
     padding-right: 0;
 }
 
+/* speak soon message link styling */
 #thankYouMessage a {
     margin: 2px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-#thankYouMessage a:hover {
-    color: #af80f9
-}
+/* ----------------------------- footer styles ----------------------------- */
 
-#thankYouMessage h1 {
-    text-align: center;
-    color: white;
-    font-size: 8vw;
-    font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
-    line-height: 0.75;
-    padding-top: 10px;
-}
-
-#thankYouMessage p {
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 7px;
-    color: white;
-}
-
-#socialIcons {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 2px;
-}
-
-#socialIcons a {
-    text-decoration: none;
-    color: white;
-}
-
-#socialIcons a:hover {
-    color: #af80f9
-}
-
-/* footer styles */
-footer {
-    width: 100%;
-    margin-top: auto;
-    bottom: 0;
+/* footer background and text color */
+.footer {
     background-color: black;
     color: white;
     padding-top: 20px;
@@ -419,6 +419,7 @@ footer {
     padding-bottom: 10px;
 }
 
+/* footer header styling */
 footer h2 {
     font-family: "RumeiHouse", Impact, 'Arial Bold', sans-serif;
     font-size: 2rem;
@@ -426,15 +427,18 @@ footer h2 {
     padding: 0;
 }
 
+/* email form container */
 #emailForm {
     max-width: 100%;
-    font-family: "Montserrat", san-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
+/* email input styling */
 #emailInput {
     text-align: center;
 }
 
+/* submit button container */
 #submitWrapper {
     display: flex;
     flex-direction: column;
@@ -443,18 +447,19 @@ footer h2 {
     border: none;
     outline: none;
     color: white;
-    font-family: "Montserrat", san-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 100%;
 }
 
+/* submit button styling */
 #submitButton {
     background-color: transparent;
     border: none;
     outline: none;
     color: white;
-    font-family: "Montserrat", san-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 100%;
@@ -462,12 +467,14 @@ footer h2 {
     margin-top: 5px;
 }
 
+/* submit button hover effect */
 #submitButton:hover {
     background-color: transparent;
     border-color: transparent;
     color: #af80f9
 }
 
+/* submit button active/focus effect */
 #submitButton:focus,
 #submitButton:active {
     background-color: transparent;
@@ -476,6 +483,7 @@ footer h2 {
     color: #af80f9
 }
 
+/* footer link styling */
 .footer a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -488,21 +496,24 @@ footer h2 {
     display: block;
 }
 
+/* footer link hover effect */
 .footer a:hover,
 a:focus {
     color: #af80f9
 }
 
+/* footer light text */
 footer .text-light {
     font-size: xx-small;
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", san-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+/* instagram container in footer */
 .footer .instagram-container {
     display: flex;
     flex-direction: column;
@@ -512,100 +523,126 @@ footer .text-light {
     height: 100%;
 }
 
+/* ----------------------------- media queries ----------------------------- */
+
+/* for very small screens (phones) */
 @media (max-width: 320px) {
+    /* decrease font size of contact header title */
     .contactHeader h1 {
         font-size: 1.7rem;
     }
 }
 
+/* for small screens (phones) between 320px and 576px */
 @media (min-width: 320px) and (max-width: 576px) {
+    /* adjust slogan button font size to be responsive */
     .slogan-button {
         font-size: clamp(27px, 30px, 32px);
     }
 }
 
+/* for screens between 576px and 768px */
 @media (min-width: 576px) and (max-width: 768px) {
+    /* make carousel image text width 300px */
     .carouselSm {
         width: 300px;
     }
 
+    /* increase font size of learn more button */
     .slogan-button {
         font-size: clamp(30px, 32px, 35px);
     }
 }
 
+/* for screens 400px and above */
 @media (min-width: 400px) {
+    /* Increase font size of contact header */
     .contactHeader h1 {
         font-size: 3rem;
     }
 }
 
+/* for screens 500px and above */
 @media (min-width: 500px) {
+    /* adjust font size of contact header */
     .contactHeader h1 {
         font-size: 3.5rem;
     }
 }
 
+/* for screens between 576px and above */
 @media (min-width: 576px) {
+    /* adjust font size of contact header */
     .contactHeader h1 {
         font-size: 4rem;
     }
 }
 
+/* for small screens (below 576px) */
 @media (max-width: 576px) {
+    /* hide larger carousel on small screens */
     .carouselLg {
         display: none;
     }
-
 }
 
-/* media query for small screens */
+/* media query for small screens (phones and small tablets) */
 @media (max-width: 768px) {
+    /* adjust navbar hamburger icon size */
     .navbar-brand>i {
         font-size: 3.5rem !important;
         padding: 5px;
     }
 
+    /* adjust navbar link font size */
     .navbar-nav a {
         font-size: 2rem;
     }
 
+    /* adjust about me page for smaller screens */
     .aboutMe .row {
         font-family: "Montserrat", sans-serif;
         padding: 20px;
         flex-direction: row;
     }
 
+    /* carousel overlay and slogan for smaller screens */
     .carousel-item .carousel-overlay {
-        opacity: 1
+        opacity: 1;
     }
 
     .carousel-item .slogan {
         opacity: 1;
     }
 
+    /* hide the center arrow at bottom of gallery on small screens */
     .centerArrow {
         display: none;
     }
 
+    /* adjust speak soon message size */
     #thankYouMessage p {
         font-size: 0.8rem;
         font-family: "Montserrat", sans-serif;
         margin-bottom: 7px;
     }
 
+    /* adjust social icons on speak soon message size */
     #socialIcons a {
         font-size: 0.8rem;
     }
 
+    /* adjust contact submit button size */
     #contactButton {
         font-size: 2rem;
     }
 
+    /* adjust submit button spacing */
     #submitButton {
         margin: 0.1rem;
     }
 
+    /* adjust footer layout for small screens */
     .footer {
         max-width: 768px;
         align-items: center;
@@ -613,6 +650,7 @@ footer .text-light {
         padding-top: 0;
     }
 
+    /* adjust footer row layout on smaller screens */
     .footer .row {
         display: flex;
         flex-direction: column;
@@ -620,32 +658,27 @@ footer .text-light {
         justify-content: center;
     }
 
+    /* adjust footer link layout */
     .footer .footer-links {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
-        justify-content: center;
     }
 
-    .footer .footer-links a {
-        font-size: 0.8rem;
-    }
-
-    .footer img[src="assets/images/PortfolioFooterLogo.png"] {
-        display: none;
-    }
-
+    /* adjust footer icons size */
     .footer i {
         font-size: 2.5rem;
         text-decoration: none;
     }
 
+    /* adjust instagram container in footer */
     .footer .instagram-container {
         order: -1;
     }
 
+    /* adjust footer column layout */
     .footer .col-12.col-md-3 {
         display: flex;
         flex-direction: column;
@@ -657,50 +690,62 @@ footer .text-light {
         margin: 0;
     }
 
+    /* add padding to about text */
     .aboutMe .about-text {
         padding: 5px;
     }
 }
 
+/* media query for medium screens (tablets) */
 @media (min-width: 768px) {
+    /* hide end arrow in the main gallery on screens 768px and above */
     .mainGallery .endArrow {
         display: none;
     }
 
+    /* adjust about me row layout */
     .aboutMe .row {
         display: flex;
         justify-content: space-evenly;
     }
 
+    /* increase font size for learn more button */
     .slogan-button {
         font-size: clamp(35px, 40px, 45px);
     }
 
+    /* make carousel overlay visible on hover not permenant like small screens */
     .carousel-item:hover .carousel-overlay {
         opacity: 1;
     }
 
+    /* make learn more button visible on hover */
     .carousel-item:hover .slogan {
         opacity: 1;
     }
 
+    /* add padding to about text paragraphs */
     .aboutMe .about-text {
         padding: 15px;
     }
 }
 
+/* media query for small screens (below 576px) */
 @media (min-width: 576px) {
+    /* hide smaller carousel text on larger screens */
     .carouselSm {
         display: none;
     }
 }
 
-/* media query for medium screens */
+/* media query for medium screens (up to 991px, typically tablets) */
 @media (max-width: 991px) {
+    /* align navbar items to the right */
     .navbar-collapse {
         text-align: right;
     }
 
+    /* adjust navbar items font size */
     .navbar-nav a {
         font-size: 1.5rem;
         margin: 0;
@@ -708,43 +753,57 @@ footer .text-light {
     }
 }
 
+/* media query for larger screens (above 969px) */
 @media (min-width: 969px) {
+    /* increase font size of contact header */
     .contactHeader h1 {
         font-size: 5rem;
     }
 }
 
+/* media query for large screens (up to 1200px, e.g desktops) */
 @media (max-width: 1200px) {
+    /* hide the large image on about page on medium to large screens */
     .greatImage {
         display: none;
     }
 }
 
+/* media query for very large screens (above 1300px) */
 @media (min-width: 1300px) {
+    /* decrease font size of about me text */
     .aboutMe .about-text {
         font-size: 0.8rem;
     }
 }
 
+/* media query for large screens (above 1400px) */
 @media (min-width: 1400px) {
+    /* increase font size of about me text */
     .aboutMe .about-text {
         font-size: 1rem;
     }
 }
 
+/* media query for extra-large screens (above 1700px) */
 @media (min-width: 1700px) {
+    /* slightly increase font size of about me text */
     .aboutMe .about-text {
         font-size: 1.1rem;
     }
 }
 
+/* media query for very large screens (above 1800px) */
 @media (min-width: 1800px) {
+    /* increase font size of about me text */
     .aboutMe .about-text {
         font-size: 1.2rem;
     }
 }
 
+/* media query for extremely large screens (above 2000px) */
 @media (min-width: 2000px) {
+    /* increase font size of about me text */
     .aboutMe .about-text {
         font-size: 1.5rem;
     }
