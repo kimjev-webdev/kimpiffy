@@ -157,8 +157,4 @@ On larger screens the text image 'It's Great To Meet You' appears on the about p
 
 ### 4. Small Contact Form
 ![](assets/images/testing/operagxcontact.jpeg) <br>
-On some larger screens the contact form doesn't take up much space. This has been retained as it allows for a greater visual experience for the user who gets to see more of the background image which acts as a 'grand finale' after being lead through the site. It makes the form appear simple and easy to fill out encouraging users to spend the time to do so, and it prevents the text and icons becoming far too large as they would be if the form was increased in size. .
-
-### 5. Confined Gallery Columns
-![](assets/images/testing/operag6gallery.jpeg)
-The gallery columns appear to be confined to a certain diameter on larger screens leaving black space on either side - this maybe due to the resolution and maximum specified sizing of the images. As knowledge increases and blurred placeholders can be implimented to work around loading times, dimensions and resolution of the gallery images can be increased which means the column widths will automatically adjust to fit the entire viewport width.
+On some larger screens the contact form doesn't take up much space. This has been retained as it allows for a greater visual experience for the user who gets to see more of the background image which acts as a 'grand finale' after being lead through the site. It makes the form appear simple and easy to fill out encouraging users to spend the time to do so, and it prevents the text and icons becoming far too large as they would be if the form was increased in size. 
