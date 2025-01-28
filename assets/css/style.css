@@ -410,6 +410,8 @@ input[type="checkbox"]:checked {
 #thankYouMessage a:hover {
     color: #af80f9;
 }
+
+/*speak soon message header styles*/
 #thankYouMessage h1 {
     text-align: center;
     color: white;
@@ -419,6 +421,7 @@ input[type="checkbox"]:checked {
     padding-top: 10px;
 }
 
+/*speak soon message text styles*/
 #thankYouMessage p {
     text-transform: uppercase;
     color: white;
