@@ -679,7 +679,7 @@ Details of known bugs can be found [here](TESTING.md#bugs)
 
 Github Pages works withh repositories that contain static files. 
 
-The website is publicly accessible via this URL: https://kimjev-webdev.github.io/kimPiffy/.
+The website is publicly accessible via this URL: https://piffy.studio .
 
 The instructions to deploy the project via Github Pages are as follows:
 
