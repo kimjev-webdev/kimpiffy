@@ -726,4 +726,4 @@ By accessing or using this website, you are granted a limited, non-exclusive, an
 
 <h2 id="70">Contact<h2>
 
-For any further information, queries & questions you can contact me directly: kimPiffy.web@gmail.com
+For any further information, queries & questions you can contact me directly: piffyinfo@gmail.com
