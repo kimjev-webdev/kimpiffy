@@ -1,8 +1,8 @@
-<h1 align="center"> Welcome to Kim Jevon's Porfolio </h1>
+<h1 align="center"> Welcome to Kim Piffy's Porfolio </h1>
 
 <img src="assets/images/readmetitle.webp" alt="From a world of art into a new digital realm" width="100%"/>
 
-[Kim Jevon](https://kimjev-webdev.github.io/Unit1/index.html) is a visual artist and an aspiring web developer. The purpose of this portfolio site is to combine and demonstrate Kim's creative talents alongside her new front-end technical skills.  The main goal of the website is to help establish an online presence that can help open doors to new professional opportunities. The site blends aesthetic sensibility with technical functionality, showcasing how Kim's former experiences as an artist can be beneficial to her web development projects. The result is a user-friendly, intuitive, visually appealing site with a simple and coherent navigation. The style choices such as the colour palette, images and fonts complement the artwork, which takes centre stage on the responsive gallery page. 
+[Kim Piffy](https://kimjev-webdev.github.io/Unit1/index.html) is a visual artist and an aspiring web developer. The purpose of this portfolio site is to combine and demonstrate Kim's creative talents alongside her new front-end technical skills.  The main goal of the website is to help establish an online presence that can help open doors to new professional opportunities. The site blends aesthetic sensibility with technical functionality, showcasing how Kim's former experiences as an artist can be beneficial to her web development projects. The result is a user-friendly, intuitive, visually appealing site with a simple and coherent navigation. The style choices such as the colour palette, images and fonts complement the artwork, which takes centre stage on the responsive gallery page. 
 
 ## Table of Contents
 
@@ -679,7 +679,7 @@ Details of known bugs can be found [here](TESTING.md#bugs)
 
 Github Pages works withh repositories that contain static files. 
 
-The website is publicly accessible via this URL: https://kimjev-webdev.github.io/kimjevon/.
+The website is publicly accessible via this URL: https://kimjev-webdev.github.io/kimPiffy/.
 
 The instructions to deploy the project via Github Pages are as follows:
 
@@ -696,9 +696,9 @@ The instructions to deploy the project via Github Pages are as follows:
 
 <h3 id="64">1. Copyright Notice</h3>
 
-© 2025 Kim Jevon. All rights reserved.
+© 2025 Kim Piffy. All rights reserved.
 
-The content on this website, including but not limited to text, images, graphics, designs & logos (with the exception of Instagram & LinkedIn Icon's), are the property of Kim Jevon and are protected by copyright law. Unauthorized use, reproduction, distribution, or modification of any materials from this website without the express written permission is prohibited.
+The content on this website, including but not limited to text, images, graphics, designs & logos (with the exception of Instagram & LinkedIn Icon's), are the property of Kim Piffy and are protected by copyright law. Unauthorized use, reproduction, distribution, or modification of any materials from this website without the express written permission is prohibited.
 
 <h3 id="65">2. Licence for Use</h3>
 
@@ -711,19 +711,19 @@ By accessing or using this website, you are granted a limited, non-exclusive, an
 
 <h3 id="67">4. Prohibited Uses</h3>
 
-* You may not use any content on this website for commercial purposes without prior written consent from Kim Jevon.
-* You may not copy, reproduce, or distribute content in any manner that could infringe on the intellectual property rights of Kim Jevon.
+* You may not use any content on this website for commercial purposes without prior written consent from Kim Piffy.
+* You may not copy, reproduce, or distribute content in any manner that could infringe on the intellectual property rights of Kim Piffy.
 * You may not use automated tools or bots to scrape, index, or otherwise extract content from this website.
 
 <h3 id="68">5. Trademark</h3>
 
-* The trademark logo displayed on this website are registered and unregistered trademarks of Kim Jevon. Nothing on this website grants any right to use any trademark without the prior written permission of the trademark owner.
+* The trademark logo displayed on this website are registered and unregistered trademarks of Kim Piffy. Nothing on this website grants any right to use any trademark without the prior written permission of the trademark owner.
 
 <h3 id="69">6. No Warranty</h3>
 
-* While every effort has been made to ensure the accuracy of the information provided on this website, Kim Jevon makes no representations or warranties regarding the accuracy, completeness, or reliability of any content on the site. 
+* While every effort has been made to ensure the accuracy of the information provided on this website, Kim Piffy makes no representations or warranties regarding the accuracy, completeness, or reliability of any content on the site. 
 * The website is provided "as is," and users access it at their own risk.
 
 <h2 id="70">Contact<h2>
 
-For any further information, queries & questions you can contact me directly: kimjevon.web@gmail.com
+For any further information, queries & questions you can contact me directly: kimPiffy.web@gmail.com
