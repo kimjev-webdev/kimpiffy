@@ -73,89 +73,83 @@
   <main class="container-fluid">
     <!-- contact form section -->
     <section class="mainContact d-flex justify-content-center align-items-center">
-      <form class="contactForm">
-        <div id="formFields">
-          <!-- form header with title -->
-          <div class="row contactHeader">
-            <h1 class="display-1 text-nowrap text-center">GET IN TOUCH</h1>
-          </div>
+      <form class="contactForm" action="https://formspree.io/f/mqaqkpbe" method="POST" id="contactForm">
+  <div id="formFields">
+    <!-- form header with title -->
+    <div class="row contactHeader">
+      <h1 class="display-1 text-nowrap text-center">GET IN TOUCH</h1>
+    </div>
 
-          <!-- form fields for name, email, and query type -->
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <!-- full name input field -->
-              <div class="mb-3">
-                <input type="text" class="form-control border-black" placeholder="Full Name" aria-label="Full Name"
-                  required>
-              </div>
-
-              <!-- email input field -->
-              <div class="mb-3">
-                <input type="email" class="form-control border-black" placeholder="Email" id="inputEmail4"
-                  aria-label="Email" required>
-              </div>
-
-              <!-- dropdown for query selection -->
-              <div class="mb-3">
-                <select id="query" class="form-select border-black"
-                  aria-label="Select the item which best describes your query">
-                  <option selected>Query related to...</option>
-                  <option>Web Development</option>
-                  <option>Art & Design</option>
-                  <option>Collaboration</option>
-                  <option>Recruitment</option>
-                  <option>General</option>
-                  <option>Other</option>
-                </select>
-              </div>
-            </div>
-
-            <!-- message area and newsletter checkbox -->
-            <div class="col-12 col-md-6">
-              <div class="mb-2">
-                <textarea class="form-control border-black" placeholder="Message" aria-label="Message"
-                  rows="6"></textarea>
-              </div>
-
-              <!-- checkbox to sign up for newsletter -->
-              <div class="form-check">
-                <input class="form-check-input border-black" type="checkbox" id="gridCheck">
-                <label class="form-check-label border-black" for="gridCheck">
-                  Sign up for my newsletter?
-                </label>
-              </div>
-
-              <!-- submit button -->
-              <div class="col-12 mt-3 d-flex align-items-center justify-content-center">
-                <button type="submit" class="btn btn-outline-light" id="contactButton"
-                  aria-label="Submit button">SUBMIT</button>
-              </div>
-            </div>
-          </div>
+    <!-- form fields for name, email, and query type -->
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <!-- full name input field -->
+        <div class="mb-3">
+          <input type="text" name="name" class="form-control border-black" placeholder="Full Name" aria-label="Full Name" required>
         </div>
 
-        <!-- speak soon message displayed after form submission -->
-        <div id="thankYouMessage" class="d-none d-flex justify-content-center">
-          <h1 class="w-100 text-nowrap text-center">SPEAK SOON!</h1>
-          <p class="text-center mt-2">For urgent inquiries contact me directly at <a
-              href="mailto:piffyinfo@gmail.com">piffyinfo@gmail.com</a></p>
-          <p class="text-center">Add me on social media:</p>
-          <div id="socialIcons" class="d-none">
-            <!-- links to social media profiles (linkedIn, art website, instagram) -->
-            <a href="https://www.linkedin.com/in/kimjev" target="_blank" class="mx-2">
-              <i class="fa-brands fa-linkedin fa-4x"></i><span class="visually-hidden">LinkedIn</span>
-            </a>
-            <a href="https://kimpiffy.com"
-              aria-label="Click here to visit Kim's art website where you can read more about her work and see them categorized into collections."
-              target="_blank" class="mx-2"><i class="fa-kit fa-piffy-icon fa-4x"></i><span class="visually-hidden">Kim
-                Piffy</span>
-            </a>
-            <a href="https://www.instagram.com/kimpseudonym" target="_blank" class="mx-2">
-              <i class="fa-brands fa-instagram fa-4x"></i><span class="visually-hidden">Instagram</span>
-            </a>
-          </div>
+        <!-- email input field -->
+        <div class="mb-3">
+          <input type="email" name="email" class="form-control border-black" placeholder="Email" id="inputEmail4" aria-label="Email" required>
         </div>
-      </form>
+
+        <!-- dropdown for query selection -->
+        <div class="mb-3">
+          <select name="query_type" id="query" class="form-select border-black" aria-label="Select the item which best describes your query">
+            <option selected disabled>Query related to...</option>
+            <option>Web Development</option>
+            <option>Art & Design</option>
+            <option>Collaboration</option>
+            <option>Recruitment</option>
+            <option>General</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- message area and newsletter checkbox -->
+      <div class="col-12 col-md-6">
+        <div class="mb-2">
+          <textarea name="message" class="form-control border-black" placeholder="Message" aria-label="Message" rows="6" required></textarea>
+        </div>
+
+        <!-- checkbox to sign up for newsletter -->
+        <div class="form-check">
+          <input class="form-check-input border-black" type="checkbox" id="gridCheck" name="newsletter" value="yes">
+          <label class="form-check-label border-black" for="gridCheck">
+            Sign up for my newsletter?
+          </label>
+        </div>
+
+        <!-- submit button -->
+        <div class="col-12 mt-3 d-flex align-items-center justify-content-center">
+          <button type="submit" class="btn btn-outline-light" id="contactButton" aria-label="Submit button">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- speak soon message displayed after form submission -->
+  <div id="thankYouMessage" class="d-none d-flex flex-column align-items-center justify-content-center">
+    <h1 class="w-100 text-nowrap text-center">SPEAK SOON!</h1>
+    <p class="text-center mt-2">
+      For urgent inquiries contact me directly at
+      <a href="mailto:piffyinfo@gmail.com">piffyinfo@gmail.com</a>
+    </p>
+    <p class="text-center">Add me on social media:</p>
+    <div id="socialIcons">
+      <a href="https://www.linkedin.com/in/kimjev" target="_blank" class="mx-2">
+        <i class="fa-brands fa-linkedin fa-4x"></i><span class="visually-hidden">LinkedIn</span>
+      </a>
+      <a href="https://kimpiffy.com" target="_blank" class="mx-2">
+        <i class="fa-kit fa-piffy-icon fa-4x"></i><span class="visually-hidden">Kim Piffy</span>
+      </a>
+      <a href="https://www.instagram.com/kimpiffy" target="_blank" class="mx-2">
+        <i class="fa-brands fa-instagram fa-4x"></i><span class="visually-hidden">Instagram</span>
+      </a>
+    </div>
+  </div>
+</form>
     </section>
   </main>
 
@@ -196,7 +190,7 @@
               target="_blank" class="mx-2 my-3 mb-2">
               <i class="fa-kit fa-piffy-icon fa-4x"></i>
             </a>
-            <a href="https://www.instagram.com/kimpseudonym" aria-label="Visit Kim's Instagram profile" target="_blank"
+            <a href="https://www.instagram.com/kimpiffy" aria-label="Visit Kim's Instagram profile" target="_blank"
               class="mx-2 my-3 mb-2">
               <i class="fa-brands fa-instagram fa-4x"></i>
             </a>
